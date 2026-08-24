@@ -198,5 +198,53 @@ export const PLAYBOOKS = [
       { id: "live-event-launch", title: "Launch your first live event", goal: "Server-configured event shipped through staged rollout with kill switch rehearsed.", uses: ["performance-liveops-live-event-pipeline", "gameplay-systems-save-system-design"], guidance: "Rehearse the shutdown path. Live-ops maturity is measured by incident response." },
       { id: "perf-rescue-game", title: "Rescue a frame-rate crisis", goal: "Budgets allocated, profiling cadence installed, top offenders fixed measurably.", uses: ["performance-liveops-frame-budget-profiling", "gameplay-systems-game-feel-tuning"], guidance: "Profile on median player hardware. Fix #1 only, then re-measure." }
     ]
+  },
+  {
+    trackId: "food-beverage",
+    items: [
+      { id: "kitchen-upgrade", title: "Upgrade kitchen consistency this quarter", goal: "Weighted specs, safety logs, and menu engineering running as one system.", uses: ["kitchen-consistency-recipe-standardization", "kitchen-consistency-food-safety-log-discipline", "kitchen-consistency-menu-engineering-cycle"], guidance: "Specs feed costing feeds the menu matrix. Build in that order." },
+      { id: "rush-ready", title: "Become rush-proof", goal: "Forecast-driven prep and recovery roles surviving Friday nights intact.", uses: ["service-flow-rush-prep-mise", "service-flow-allergen-communication"], guidance: "The float role is sacred. Allergen chain-of-custody never compresses." }
+    ]
+  },
+  {
+    trackId: "customer-support",
+    items: [
+      { id: "support-engine", title: "Install a support excellence engine", goal: "Diagnostic trees, KB loop, and QA scorecards compounding quality.", uses: ["ticket-excellence-diagnostic-question-trees", "ticket-excellence-kb-article-loop", "support-ops-support-qa-scorecards"], guidance: "Trees reduce round-trips; the KB loop turns tickets into deflection assets." },
+      { id: "escalation-maturity", title: "Mature your escalation practice", goal: "Severity ladder with warm handoffs engineers actually trust.", uses: ["support-ops-escalation-judgment", "ticket-excellence-empathy-first-responses"], guidance: "Nobody repeats themselves to engineering. Ever." }
+    ]
+  },
+  {
+    trackId: "ecommerce-retail",
+    items: [
+      { id: "conversion-sprint", title: "Run a conversion sprint", goal: "PDP leaks fixed and checkout friction stripped with measured lifts.", uses: ["conversion-merchandising-pdp-conversion-audit", "conversion-merchandising-checkout-friction-strip"], guidance: "Fix worst leak first; one variable per test." },
+      { id: "ops-tighten", title: "Tighten inventory and returns ops", goal: "Hero-SKU stockouts prevented while returns data feeds product fixes.", uses: ["inventory-returns-stockout-prevention-calendar", "inventory-returns-returns-profit-lever"], guidance: "In-stock rate is the north star; returns are free product research." }
+    ]
+  },
+  {
+    trackId: "insurance",
+    items: [
+      { id: "claims-excellence", title: "Level up claims operations", goal: "Fast fair resolutions with fraud screening that stays ethical.", uses: ["claims-handling-fnol-to-resolution", "claims-handling-fraud-indicator-triage"], guidance: "Indicators route work; they never justify delay by themselves." },
+      { id: "underwriting-hygiene", title: "Make underwriting audit-proof", goal: "Complete files and renewal motions that retain the risks you want.", uses: ["underwriting-service-underwriting-file-discipline", "underwriting-service-renewal-retain-win"], guidance: "If it is not in the file, it did not happen." }
+    ]
+  },
+  {
+    trackId: "energy-renewables",
+    items: [
+      { id: "project-screen", title: "Screen a solar project like a developer", goal: "Interconnection-first feasibility with honest P50/P90 models.", uses: ["project-development-solar-site-feasibility", "project-development-production-model-integrity"], guidance: "Grid reality kills more projects than sunshine ever saves." },
+      { id: "fleet-ops", title: "Operate the fleet for revenue", goal: "Revenue-weighted alert triage plus storage dispatch that respects warranties.", uses: ["operations-monitoring-performance-alert-triage", "operations-monitoring-storage-cycling-strategy"], guidance: "Dollars per day orders the dispatch board; warranty cycles are real money too." }
+    ]
+  },
+  {
+    trackId: "public-sector",
+    items: [
+      { id: "service-modernization", title: "Modernize a public service", goal: "Standards-audited journeys with procurement that avoids lock-in.", uses: ["digital-services-service-standard-audit", "digital-services-public-interest-procurement"], guidance: "Audit before buying; specify outcomes and exits." },
+      { id: "transparency-ready", title: "Get transparency-request ready", goal: "Recordkeeping that answers FOI requests in days, not years.", uses: ["digital-services-records-transparency-default"], guidance: "Write everything as if read aloud at a hearing." }
+    ]
+  },
+  {
+    trackId: "hospitality-fnb-wine",
+    items: [
+      { id: "bar-program-build", title: "Build a bar program that survives turnover", goal: "Spec cards, weight-based counts, and responsible service as standard operating system.", uses: ["bar-program-cocktail-spec-cards", "bar-program-bar-inventory-control", "bar-program-responsible-service-flow"], guidance: "Consistency systems protect margin AND licenses simultaneously." }
+    ]
   }
 ];

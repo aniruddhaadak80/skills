@@ -78,4 +78,8 @@ writeFileSync(
   JSON.stringify(skills.map((s) => ({ slug: s.slug, title: s.title, track: s.track, trackIcon: s.trackIcon, tags: s.tags.slice(0, 5), pb: !!s.isPlaybook })))
 );
 
+// Track metadata for README badges
+import { TRACKS as _TRACKS } from "../src/data/tracks/index.mjs";
+writeFileSync(join(root, "src", "data", "tracks-meta.json"), JSON.stringify({ tracks: _TRACKS.length, domains: _TRACKS.reduce((a, t) => a + t.domains.length, 0) }));
+
 console.log(`Done. ${skills.length} SKILL.md files written to ./skills`);

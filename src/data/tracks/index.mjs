@@ -31,6 +31,13 @@ import { track as supplyChainLogistics } from "./supply-chain-logistics.mjs";
 import { track as nonprofitImpact } from "./nonprofit-impact.mjs";
 import { track as sportsPerformance } from "./sports-performance.mjs";
 import { track as mediaProduction } from "./media-production.mjs";
+import { track as foodBeverage } from "./food-beverage.mjs";
+import { track as customerSupport } from "./customer-support.mjs";
+import { track as ecommerceRetail } from "./ecommerce-retail.mjs";
+import { track as insurance } from "./insurance.mjs";
+import { track as energyRenewables } from "./energy-renewables.mjs";
+import { track as publicSector } from "./public-sector.mjs";
+import { track as hospitalityFnbWine } from "./hospitality-fnb-wine.mjs";
 
 export const TRACKS = [
   aiEngineering,
@@ -66,4 +73,11 @@ export const TRACKS = [
   nonprofitImpact,
   sportsPerformance,
   mediaProduction,
+  foodBeverage,
+  customerSupport,
+  ecommerceRetail,
+  insurance,
+  energyRenewables,
+  publicSector,
+  hospitalityFnbWine,
 ];

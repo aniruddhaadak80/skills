@@ -1,6 +1,6 @@
 {
- "count": 317,
- "generatedAt": "2026-08-24T18:03:19.971Z",
+ "count": 358,
+ "generatedAt": "2026-08-24T21:50:30.302Z",
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -4059,6 +4059,498 @@
    ]
   },
   {
+   "slug": "kitchen-consistency-recipe-standardization",
+   "title": "Standardize recipes so dish #1000 equals dish #1",
+   "description": "Weighted specs, plating photos, and prep par levels making quality independent of who cooks.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "kitchen-consistency",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "recipes",
+    "consistency",
+    "kitchen",
+    "food-beverage",
+    "kitchen-consistency"
+   ]
+  },
+  {
+   "slug": "kitchen-consistency-food-safety-log-discipline",
+   "title": "Run food safety logs inspectors respect",
+   "description": "Temperature logs, cooling records, and corrective actions forming an audit-ready HACCP trail.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "kitchen-consistency",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "food-safety",
+    "haccp",
+    "compliance",
+    "food-beverage",
+    "kitchen-consistency"
+   ]
+  },
+  {
+   "slug": "kitchen-consistency-menu-engineering-cycle",
+   "title": "Engineer the menu on data, not vibes",
+   "description": "Popularity × margin matrix driving placement, pricing, and cull decisions each season.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "kitchen-consistency",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "menu",
+    "pricing",
+    "profitability",
+    "food-beverage",
+    "kitchen-consistency"
+   ]
+  },
+  {
+   "slug": "service-flow-rush-prep-mise",
+   "title": "Prepare for rushes with mise discipline",
+   "description": "Forecast-based prep lists, station maps, and recovery roles turning surges into choreography.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "service-flow",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "operations",
+    "prep",
+    "rush",
+    "food-beverage",
+    "service-flow"
+   ]
+  },
+  {
+   "slug": "service-flow-allergen-communication",
+   "title": "Handle allergen requests safely end to end",
+   "description": "Server-kitchen-ticket-expo chain of custody making allergy meals trustworthy.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "service-flow",
+   "level": "advanced",
+   "minutes": 20,
+   "tags": [
+    "allergens",
+    "safety",
+    "service",
+    "food-beverage",
+    "service-flow"
+   ]
+  },
+  {
+   "slug": "ticket-excellence-empathy-first-responses",
+   "title": "Write support replies that de-escalate",
+   "description": "Acknowledge → diagnose → act → verify structure with tone that survives angry Mondays.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "ticket-excellence",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "communication",
+    "de-escalation",
+    "writing",
+    "customer-support",
+    "ticket-excellence"
+   ]
+  },
+  {
+   "slug": "ticket-excellence-diagnostic-question-trees",
+   "title": "Diagnose with question trees, not guesswork",
+   "description": "Branching diagnostics per issue class reaching root cause in minimum round-trips.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "ticket-excellence",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "troubleshooting",
+    "efficiency",
+    "customer-support",
+    "ticket-excellence"
+   ]
+  },
+  {
+   "slug": "kb-article-loop",
+   "title": "Close the loop from tickets to knowledge base",
+   "description": "Every resolved pattern becomes a KB article; every article deflects future tickets measurably.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "ticket-excellence",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "knowledge-base",
+    "deflection",
+    "process",
+    "customer-support",
+    "ticket-excellence"
+   ]
+  },
+  {
+   "slug": "support-ops-escalation-judgment",
+   "title": "Escalate with judgment, not fear",
+   "description": "Clear severity ladder and warm-handoff standards protecting both customers and engineers.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "support-ops",
+   "level": "intermediate",
+   "minutes": 20,
+   "tags": [
+    "escalation",
+    "severity",
+    "handoff",
+    "customer-support",
+    "support-ops"
+   ]
+  },
+  {
+   "slug": "support-ops-support-qa-scorecards",
+   "title": "QA support quality without demoralizing agents",
+   "description": "Calibrated rubric sampling, coaching-first reviews, and trend tracking over gotcha auditing.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "support-ops",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "quality-assurance",
+    "coaching",
+    "metrics",
+    "customer-support",
+    "support-ops"
+   ]
+  },
+  {
+   "slug": "conversion-merchandising-pdp-conversion-audit",
+   "title": "Audit product pages for conversion leaks",
+   "description": "Above-fold promise, objection handling, trust signals, and friction mapping per template.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "conversion-merchandising",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "conversion",
+    "pdp",
+    "audit",
+    "ecommerce-retail",
+    "conversion-merchandising"
+   ]
+  },
+  {
+   "slug": "conversion-merchandising-checkout-friction-strip",
+   "title": "Strip friction from checkout surgically",
+   "description": "Step-by-step abandonment analysis with field-level fixes and measured recovery rates.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "conversion-merchandising",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "checkout",
+    "funnel",
+    "optimization",
+    "ecommerce-retail",
+    "conversion-merchandising"
+   ]
+  },
+  {
+   "slug": "inventory-returns-stockout-prevention-calendar",
+   "title": "Prevent stockouts on heroes with a calendar rhythm",
+   "description": "Velocity-based reorder points plus promo calendar awareness keeping best-sellers in stock.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "inventory-returns",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "inventory",
+    "planning",
+    "stockouts",
+    "ecommerce-retail",
+    "inventory-returns"
+   ]
+  },
+  {
+   "slug": "inventory-returns-returns-profit-lever",
+   "title": "Turn returns from cost center into signal",
+   "description": "Reason-coded return analysis feeding product fixes, PDP content, and policy tuning.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "inventory-returns",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "returns",
+    "analytics",
+    "reverse-logistics",
+    "ecommerce-retail",
+    "inventory-returns"
+   ]
+  },
+  {
+   "slug": "claims-handling-fnol-to-resolution",
+   "title": "Drive claims from FNOL to fair resolution fast",
+   "description": "Structured intake, coverage verification, documentation, and settlement discipline.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "claims-handling",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "claims",
+    "adjusting",
+    "process",
+    "insurance",
+    "claims-handling"
+   ]
+  },
+  {
+   "slug": "claims-handling-fraud-indicator-triage",
+   "title": "Screen claims for fraud indicators fairly",
+   "description": "Objective indicator checklists routing to SIU without profiling or delay-by-suspicion.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "claims-handling",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "fraud",
+    "siu",
+    "ethics",
+    "insurance",
+    "claims-handling"
+   ]
+  },
+  {
+   "slug": "underwriting-service-underwriting-file-discipline",
+   "title": "Underwrite with complete, defensible files",
+   "description": "Risk factors documented, deviations approved, and pricing rationale surviving audits years later.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "underwriting-service",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "underwriting",
+    "risk",
+    "documentation",
+    "insurance",
+    "underwriting-service"
+   ]
+  },
+  {
+   "slug": "underwriting-service-renewal-retain-win",
+   "title": "Run renewals that retain good risks",
+   "description": "Early outreach, transparent change explanation, and save motions for wavering accounts.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "underwriting-service",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "renewals",
+    "retention",
+    "service",
+    "insurance",
+    "underwriting-service"
+   ]
+  },
+  {
+   "slug": "solar-site-feasibility",
+   "title": "Run a solar site feasibility screen",
+   "description": "Resource, interconnection, permitting, and economics screened in order of deal-killer risk.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "project-development",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "solar",
+    "feasibility",
+    "development",
+    "energy-renewables",
+    "project-development"
+   ]
+  },
+  {
+   "slug": "project-development-production-model-integrity",
+   "title": "Keep production models honest",
+   "description": "P50/P90 discipline, loss-tree transparency, and as-built model updates protecting projections.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "project-development",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "modeling",
+    "pvsyst",
+    "finance",
+    "energy-renewables",
+    "project-development"
+   ]
+  },
+  {
+   "slug": "project-development-commissioning-checklist",
+   "title": "Commission systems with sign-off rigor",
+   "description": "Test sequences, punch lists, and turnover documentation preventing day-one surprises.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "project-development",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "commissioning",
+    "quality",
+    "handover",
+    "energy-renewables",
+    "project-development"
+   ]
+  },
+  {
+   "slug": "operations-monitoring-performance-alert-triage",
+   "title": "Triage solar performance alerts by revenue impact",
+   "description": "Alert prioritization from energy-loss math, not alarm noise, with dispatch thresholds.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "operations-monitoring",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "monitoring",
+    "o-and-m",
+    "triage",
+    "energy-renewables",
+    "operations-monitoring"
+   ]
+  },
+  {
+   "slug": "operations-monitoring-storage-cycling-strategy",
+   "title": "Operate storage within warranty and market reality",
+   "description": "Cycle management balancing degradation costs against arbitrage and resilience value.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "operations-monitoring",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "battery",
+    "storage",
+    "optimization",
+    "energy-renewables",
+    "operations-monitoring"
+   ]
+  },
+  {
+   "slug": "digital-services-service-standard-audit",
+   "title": "Audit a government service against digital standards",
+   "description": "User-journey completeness, accessibility, plain language, and assisted-digital pathways.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "digital-services",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "govtech",
+    "service-design",
+    "accessibility",
+    "public-sector",
+    "digital-services"
+   ]
+  },
+  {
+   "slug": "digital-services-public-interest-procurement",
+   "title": "Run technology procurement that avoids lock-in",
+   "description": "Open standards, exit clauses, data portability, and evaluation weighting beyond lowest bid.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "digital-services",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "procurement",
+    "vendor",
+    "lock-in",
+    "public-sector",
+    "digital-services"
+   ]
+  },
+  {
+   "slug": "records-transparency-default",
+   "title": "Build records practices for transparency by default",
+   "description": "Classification, retention, and disclosure-ready recordkeeping meeting FOI obligations calmly.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "digital-services",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "records",
+    "foia",
+    "transparency",
+    "public-sector",
+    "digital-services"
+   ]
+  },
+  {
+   "slug": "bar-program-cocktail-spec-cards",
+   "title": "Build cocktail spec cards that survive staff turnover",
+   "description": "Weighted builds, glassware, garnish, and timing specs keeping drinks identical across bartenders.",
+   "track": "hospitality-fnb-wine",
+   "trackLabel": "Beverage & Bar Program",
+   "domain": "bar-program",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "cocktails",
+    "consistency",
+    "specs",
+    "hospitality-fnb-wine",
+    "bar-program"
+   ]
+  },
+  {
+   "slug": "bar-program-bar-inventory-control",
+   "title": "Control bar inventory against shrinkage honestly",
+   "description": "Counting rhythm, variance thresholds, and systems distinguishing theft from waste from error.",
+   "track": "hospitality-fnb-wine",
+   "trackLabel": "Beverage & Bar Program",
+   "domain": "bar-program",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "inventory",
+    "shrinkage",
+    "control",
+    "hospitality-fnb-wine",
+    "bar-program"
+   ]
+  },
+  {
+   "slug": "bar-program-responsible-service-flow",
+   "title": "Run responsible service without killing hospitality",
+   "description": "Pace monitoring, water/food pacing tactics, and refusal scripts that preserve dignity.",
+   "track": "hospitality-fnb-wine",
+   "trackLabel": "Beverage & Bar Program",
+   "domain": "bar-program",
+   "level": "advanced",
+   "minutes": 20,
+   "tags": [
+    "responsible-service",
+    "safety",
+    "compliance",
+    "hospitality-fnb-wine",
+    "bar-program"
+   ]
+  },
+  {
    "slug": "playbook-ai-engineering-rag-launch",
    "title": "Playbook: Launch a RAG feature end to end",
    "description": "Take retrieval-augmented answers from empty repo to evaluated production feature.",
@@ -5166,6 +5658,186 @@
     "playbook",
     "journey",
     "game-interactive"
+   ]
+  },
+  {
+   "slug": "playbook-food-beverage-kitchen-upgrade",
+   "title": "Playbook: Upgrade kitchen consistency this quarter",
+   "description": "Weighted specs, safety logs, and menu engineering running as one system.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 95,
+   "tags": [
+    "playbook",
+    "journey",
+    "food-beverage"
+   ]
+  },
+  {
+   "slug": "playbook-food-beverage-rush-ready",
+   "title": "Playbook: Become rush-proof",
+   "description": "Forecast-driven prep and recovery roles surviving Friday nights intact.",
+   "track": "food-beverage",
+   "trackLabel": "Food & Beverage Ops",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "food-beverage"
+   ]
+  },
+  {
+   "slug": "playbook-customer-support-support-engine",
+   "title": "Playbook: Install a support excellence engine",
+   "description": "Diagnostic trees, KB loop, and QA scorecards compounding quality.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "customer-support"
+   ]
+  },
+  {
+   "slug": "playbook-customer-support-escalation-maturity",
+   "title": "Playbook: Mature your escalation practice",
+   "description": "Severity ladder with warm handoffs engineers actually trust.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 45,
+   "tags": [
+    "playbook",
+    "journey",
+    "customer-support"
+   ]
+  },
+  {
+   "slug": "playbook-ecommerce-retail-conversion-sprint",
+   "title": "Playbook: Run a conversion sprint",
+   "description": "PDP leaks fixed and checkout friction stripped with measured lifts.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "ecommerce-retail"
+   ]
+  },
+  {
+   "slug": "playbook-ecommerce-retail-ops-tighten",
+   "title": "Playbook: Tighten inventory and returns ops",
+   "description": "Hero-SKU stockouts prevented while returns data feeds product fixes.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "ecommerce-retail"
+   ]
+  },
+  {
+   "slug": "playbook-insurance-claims-excellence",
+   "title": "Playbook: Level up claims operations",
+   "description": "Fast fair resolutions with fraud screening that stays ethical.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "insurance"
+   ]
+  },
+  {
+   "slug": "playbook-insurance-underwriting-hygiene",
+   "title": "Playbook: Make underwriting audit-proof",
+   "description": "Complete files and renewal motions that retain the risks you want.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "insurance"
+   ]
+  },
+  {
+   "slug": "playbook-energy-renewables-project-screen",
+   "title": "Playbook: Screen a solar project like a developer",
+   "description": "Interconnection-first feasibility with honest P50/P90 models.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "energy-renewables"
+   ]
+  },
+  {
+   "slug": "playbook-energy-renewables-fleet-ops",
+   "title": "Playbook: Operate the fleet for revenue",
+   "description": "Revenue-weighted alert triage plus storage dispatch that respects warranties.",
+   "track": "energy-renewables",
+   "trackLabel": "Energy & Renewables",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "energy-renewables"
+   ]
+  },
+  {
+   "slug": "playbook-public-sector-service-modernization",
+   "title": "Playbook: Modernize a public service",
+   "description": "Standards-audited journeys with procurement that avoids lock-in.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "public-sector"
+   ]
+  },
+  {
+   "slug": "playbook-hospitality-fnb-wine-bar-program-build",
+   "title": "Playbook: Build a bar program that survives turnover",
+   "description": "Spec cards, weight-based counts, and responsible service as standard operating system.",
+   "track": "hospitality-fnb-wine",
+   "trackLabel": "Beverage & Bar Program",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 80,
+   "tags": [
+    "playbook",
+    "journey",
+    "hospitality-fnb-wine"
    ]
   }
  ]

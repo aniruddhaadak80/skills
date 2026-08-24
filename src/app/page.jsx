@@ -91,9 +91,7 @@ export default function Home() {
                 <div className={`absolute -top-12 -right-12 w-36 h-36 rounded-full bg-gradient-to-br ${s.g} opacity-[0.13] blur-2xl`} />
                 <div className="flex items-center justify-between">
                   <span className="lift-icon text-3xl">{s.icon}</span>
-                  <span className="font-mono text-xs text-transparent bg-clip-text bg-gradient-to-r font-bold" style={{ backgroundImage: `linear-gradient(90deg, var(--tw-gradient-stops))`, }}>
-                    <span className={`bg-gradient-to-r ${s.g} bg-clip-text text-transparent`}>{s.tag}</span>
-                  </span>
+                  <span className={`text-xs font-mono font-bold bg-gradient-to-r ${s.g} bg-clip-text text-transparent`}>{s.tag}</span>
                 </div>
                 <h3 className="mt-4 font-bold text-lg text-slate-100">{s.t}</h3>
                 <p className="mt-2 text-sm text-slate-500 leading-relaxed">{s.d}</p>
