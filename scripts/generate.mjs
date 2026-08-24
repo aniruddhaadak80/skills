@@ -66,9 +66,9 @@ for (const s of skills) {
   writeFileSync(join(dir, "SKILL.md"), fm + body(s), "utf8");
 }
 
-// Flat index for tooling
+// Flat index for tooling (no timestamps: output must be deterministic for CI sync checks)
 const idx = skills.map(({ slug, title, description, track, trackLabel, domain, level, minutes, tags }) => ({ slug, title, description, track, trackLabel, domain, level, minutes, tags }));
-writeFileSync(join(root, "src", "data", "skills-index.json"), JSON.stringify({ count: idx.length, generatedAt: new Date().toISOString(), skills: idx }, null, 1));
+writeFileSync(join(root, "src", "data", "skills-index.json"), JSON.stringify({ count: idx.length, skills: idx }, null, 1));
 
 // Compact search index served statically (fetched once by the command palette)
 const publicDir = join(root, "public");
