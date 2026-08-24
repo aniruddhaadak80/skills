@@ -154,6 +154,15 @@ The architecture is built to reach six figures of skills without quality collaps
 Every merged PR earns you a place on the auto-updated contributors wall below.
 
 <!-- CONTRIBUTORS:START -->
+## 🌟 Contributors (1)
+
+Thank you to everyone who has helped build the Agent Skills Directory!
+
+| Contributor | Contributions |
+|---|---|
+| [![@aniruddhaadak80](https://avatars.githubusercontent.com/u/127435065?s=60&v=4)](https://github.com/aniruddhaadak80) [@aniruddhaadak80](https://github.com/aniruddhaadak80) | 7 |
+
+
 <!-- CONTRIBUTORS:END -->
 
 MIT © [Aniruddha Adak](https://github.com/aniruddhaadak80) · 350+ merged OSS PRs · [aniruddhaadak80@gmail.com](mailto:aniruddhaadak80@gmail.com)
