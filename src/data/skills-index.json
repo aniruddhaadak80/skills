@@ -1,0 +1,3432 @@
+{
+ "count": 211,
+ "generatedAt": "2026-08-24T14:36:08.922Z",
+ "skills": [
+  {
+   "slug": "rag-pipelines-chunking-strategy",
+   "title": "Design a chunking strategy for retrieval",
+   "description": "Choose chunk sizes, overlaps, and structure-aware splits so retrieved context actually helps the model answer.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "rag",
+    "embeddings",
+    "retrieval",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "rag-pipelines-hybrid-search",
+   "title": "Implement hybrid keyword + vector search",
+   "description": "Combine BM25-style lexical search with dense embeddings and fuse results so both rare terms and paraphrases are found.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "rag",
+    "search",
+    "bm25",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "rag-pipelines-eval-rag-quality",
+   "title": "Evaluate RAG answer quality automatically",
+   "description": "Score groundedness, relevance, and completeness with judge prompts plus deterministic checks wired into CI.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "evals",
+    "quality",
+    "ci",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "agents-tool-design",
+   "title": "Design tools an agent can use reliably",
+   "description": "Shape tool names, parameters, descriptions, and error messages so the agent calls the right tool with valid arguments.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "agents",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "agents",
+    "tools",
+    "function-calling",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "agents-agent-loop-guardrails",
+   "title": "Add guardrails to autonomous agent loops",
+   "description": "Bound agent autonomy with step budgets, spend caps, human gates, and checkpointing so failures stay cheap and debuggable.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "agents",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "agents",
+    "safety",
+    "orchestration",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "agents-multi-agent-handoffs",
+   "title": "Structure multi-agent handoffs",
+   "description": "Split work across specialized agents with typed handoff contracts so context survives delegation without ballooning.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "agents",
+   "level": "advanced",
+   "minutes": 50,
+   "tags": [
+    "agents",
+    "architecture",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "prompt-engineering-system-prompt-arch",
+   "title": "Architect a maintainable system prompt",
+   "description": "Organize identity, rules, tools, and output contracts into sections that evolve without breaking behavior.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "prompt-engineering",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "prompts",
+    "llm",
+    "ai-engineering",
+    "prompt-engineering"
+   ]
+  },
+  {
+   "slug": "prompt-engineering-few-shot-selection-cls",
+   "title": "Select few-shot examples that move accuracy (Classification tasks)",
+   "description": "Choose and order examples covering edge cases so the model generalizes instead of copying surface patterns.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "prompt-engineering",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "prompts",
+    "few-shot",
+    "ai-engineering",
+    "prompt-engineering"
+   ]
+  },
+  {
+   "slug": "prompt-engineering-few-shot-selection-extr",
+   "title": "Select few-shot examples that move accuracy (Extraction tasks)",
+   "description": "Choose and order examples covering edge cases so the model generalizes instead of copying surface patterns.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "prompt-engineering",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "prompts",
+    "few-shot",
+    "ai-engineering",
+    "prompt-engineering"
+   ]
+  },
+  {
+   "slug": "prompt-engineering-structured-output",
+   "title": "Guarantee structured outputs from LLMs",
+   "description": "Get machine-parseable JSON reliably using schema-first prompting, constrained decoding, and repair loops.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "prompt-engineering",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "json",
+    "structured-output",
+    "reliability",
+    "ai-engineering",
+    "prompt-engineering"
+   ]
+  },
+  {
+   "slug": "fine-tuning-adaptation-dataset-prep-sft",
+   "title": "Prepare supervised fine-tuning datasets",
+   "description": "Clean, deduplicate, and balance instruction-response pairs so fine-tuning learns behavior rather than noise.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "fine-tuning-adaptation",
+   "level": "advanced",
+   "minutes": 60,
+   "tags": [
+    "fine-tuning",
+    "datasets",
+    "training",
+    "ai-engineering",
+    "fine-tuning-adaptation"
+   ]
+  },
+  {
+   "slug": "fine-tuning-adaptation-when-not-to-finetune",
+   "title": "Decide between prompting, RAG, and fine-tuning",
+   "description": "Pick the cheapest adaptation layer that solves the problem using a decision ladder.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "fine-tuning-adaptation",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "strategy",
+    "architecture",
+    "cost",
+    "ai-engineering",
+    "fine-tuning-adaptation"
+   ]
+  },
+  {
+   "slug": "inference-mlops-latency-budgeting",
+   "title": "Budget LLM latency end to end",
+   "description": "Allocate milliseconds across retrieval, prompting, generation, and streaming so p95 meets product targets.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "inference-mlops",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "performance",
+    "latency",
+    "streaming",
+    "ai-engineering",
+    "inference-mlops"
+   ]
+  },
+  {
+   "slug": "inference-mlops-llm-cost-controls",
+   "title": "Control LLM spend without killing quality",
+   "description": "Route by task complexity, cache aggressively, and enforce budgets so unit economics hold as usage grows.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "inference-mlops",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "cost",
+    "routing",
+    "caching",
+    "ai-engineering",
+    "inference-mlops"
+   ]
+  },
+  {
+   "slug": "inference-mlops-prompt-injection-defense",
+   "title": "Defend pipelines against prompt injection",
+   "description": "Treat all retrieved content as untrusted input: isolate instructions from data, gate actions, and fuzz continuously.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "inference-mlops",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "security",
+    "agents",
+    "prompt-injection",
+    "ai-engineering",
+    "inference-mlops"
+   ]
+  },
+  {
+   "slug": "react-patterns-server-client-boundary",
+   "title": "Draw the server/client component boundary",
+   "description": "Decide what renders on the server versus client in React Server Components to minimize JavaScript shipped.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "react-patterns",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "react",
+    "nextjs",
+    "rsc",
+    "frontend-engineering",
+    "react-patterns"
+   ]
+  },
+  {
+   "slug": "react-patterns-state-collocation",
+   "title": "Colocate state where it is consumed",
+   "description": "Choose between local state, lifted state, URL state, and stores by asking who needs the data and when.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "react-patterns",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "state",
+    "architecture",
+    "frontend-engineering",
+    "react-patterns"
+   ]
+  },
+  {
+   "slug": "react-patterns-error-loading-states",
+   "title": "Design error, loading, and empty states first",
+   "description": "Treat non-happy paths as features: skeleton loaders, typed errors, retry affordances, useful empties.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "react-patterns",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "ux",
+    "resilience",
+    "frontend-engineering",
+    "react-patterns"
+   ]
+  },
+  {
+   "slug": "css-design-systems-design-tokens-tailwind",
+   "title": "Set up design tokens for color, space, type (Tailwind setup)",
+   "description": "Encode brand decisions as named tokens (CSS variables) consumed by utilities so themes change in one place.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "css-design-systems",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "css",
+    "design-system",
+    "theming",
+    "frontend-engineering",
+    "css-design-systems"
+   ]
+  },
+  {
+   "slug": "css-design-systems-design-tokens-vanilla",
+   "title": "Set up design tokens for color, space, type (Vanilla CSS)",
+   "description": "Encode brand decisions as named tokens (CSS variables) consumed by utilities so themes change in one place.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "css-design-systems",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "css",
+    "design-system",
+    "theming",
+    "frontend-engineering",
+    "css-design-systems"
+   ]
+  },
+  {
+   "slug": "css-design-systems-responsive-layout-system",
+   "title": "Build layouts that survive real content",
+   "description": "Use fluid grids, container queries, and content-driven breakpoints instead of pixel-perfect mockups.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "css-design-systems",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "css",
+    "layout",
+    "responsive",
+    "frontend-engineering",
+    "css-design-systems"
+   ]
+  },
+  {
+   "slug": "css-design-systems-animation-craft",
+   "title": "Add motion that guides attention",
+   "description": "Animate with purpose: entrance choreography, micro-interactions, and reduced-motion respect.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "css-design-systems",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "css",
+    "animation",
+    "ux",
+    "frontend-engineering",
+    "css-design-systems"
+   ]
+  },
+  {
+   "slug": "web-performance-core-web-vitals",
+   "title": "Fix Core Web Vitals regressions systematically",
+   "description": "Diagnose LCP, INP, and CLS from field data and apply targeted fixes per metric rather than guessing.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "web-performance",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "performance",
+    "seo",
+    "vitals",
+    "frontend-engineering",
+    "web-performance"
+   ]
+  },
+  {
+   "slug": "web-performance-image-pipeline",
+   "title": "Ship images that cost almost nothing",
+   "description": "Modern formats, responsive sizes, lazy strategies, and priority hints for above-fold heroes.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "web-performance",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "images",
+    "performance",
+    "frontend-engineering",
+    "web-performance"
+   ]
+  },
+  {
+   "slug": "web-performance-js-bundle-diet",
+   "title": "Put JavaScript bundles on a diet",
+   "description": "Analyze, split, and replace dependencies so routes ship only the code they execute.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "web-performance",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "bundles",
+    "performance",
+    "dependencies",
+    "frontend-engineering",
+    "web-performance"
+   ]
+  },
+  {
+   "slug": "accessibility-a11y-audit-pass",
+   "title": "Run a practical accessibility audit pass",
+   "description": "Combine automated scans with keyboard and screen-reader passes to find issues tools miss.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "accessibility",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "a11y",
+    "wcag",
+    "testing",
+    "frontend-engineering",
+    "accessibility"
+   ]
+  },
+  {
+   "slug": "accessibility-semantic-first-markup",
+   "title": "Write semantic markup before reaching for ARIA",
+   "description": "Native elements carry behavior and semantics for free; ARIA is the fallback, not the default.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "accessibility",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "html",
+    "a11y",
+    "frontend-engineering",
+    "accessibility"
+   ]
+  },
+  {
+   "slug": "api-design-rest-resource-modeling-graphql",
+   "title": "Model REST resources without leaking internals (GraphQL flavor)",
+   "description": "Design stable resource-oriented endpoints with deliberate error contracts and pagination.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "api-design",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "rest",
+    "api",
+    "http",
+    "backend-engineering",
+    "api-design"
+   ]
+  },
+  {
+   "slug": "api-design-rest-resource-modeling-rpc",
+   "title": "Model REST resources without leaking internals (gRPC services)",
+   "description": "Design stable resource-oriented endpoints with deliberate error contracts and pagination.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "api-design",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "rest",
+    "api",
+    "http",
+    "backend-engineering",
+    "api-design"
+   ]
+  },
+  {
+   "slug": "api-design-idempotency-keys",
+   "title": "Make writes safe with idempotency keys",
+   "description": "Accept retried mutations gracefully by keying operations so duplicates return the original result.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "api-design",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "reliability",
+    "payments",
+    "api",
+    "backend-engineering",
+    "api-design"
+   ]
+  },
+  {
+   "slug": "api-design-api-versioning-migration",
+   "title": "Migrate API versions without breaking clients",
+   "description": "Run two versions in parallel, observe usage, and sunset safely with real telemetry.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "api-design",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "versioning",
+    "migration",
+    "backend-engineering",
+    "api-design"
+   ]
+  },
+  {
+   "slug": "databases-schema-design-basics-postgres",
+   "title": "Design schemas for change (PostgreSQL)",
+   "description": "Normalize enough to stay consistent, denormalize deliberately where reads demand it.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "databases",
+   "level": "foundation",
+   "minutes": 35,
+   "tags": [
+    "sql",
+    "schema",
+    "data-modeling",
+    "backend-engineering",
+    "databases"
+   ]
+  },
+  {
+   "slug": "databases-schema-design-basics-mongodb",
+   "title": "Design schemas for change (MongoDB)",
+   "description": "Normalize enough to stay consistent, denormalize deliberately where reads demand it.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "databases",
+   "level": "foundation",
+   "minutes": 35,
+   "tags": [
+    "sql",
+    "schema",
+    "data-modeling",
+    "backend-engineering",
+    "databases"
+   ]
+  },
+  {
+   "slug": "databases-schema-design-basics-mysql",
+   "title": "Design schemas for change (MySQL)",
+   "description": "Normalize enough to stay consistent, denormalize deliberately where reads demand it.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "databases",
+   "level": "foundation",
+   "minutes": 35,
+   "tags": [
+    "sql",
+    "schema",
+    "data-modeling",
+    "backend-engineering",
+    "databases"
+   ]
+  },
+  {
+   "slug": "databases-query-optimization",
+   "title": "Optimize the slow queries actually hurting you",
+   "description": "Find top offenders from real traffic, read plans, add targeted indexes, verify improvements.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "databases",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "sql",
+    "indexes",
+    "backend-engineering",
+    "databases"
+   ]
+  },
+  {
+   "slug": "databases-zero-downtime-migrations",
+   "title": "Run zero-downtime schema migrations",
+   "description": "Expand-contract deployments so schema changes ship without locking tables or breaking running code.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "databases",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "migrations",
+    "deployments",
+    "sql",
+    "backend-engineering",
+    "databases"
+   ]
+  },
+  {
+   "slug": "caching-queues-cache-strategy-layers",
+   "title": "Layer caching with explicit invalidation",
+   "description": "Decide what caches where (CDN, app, Redis) and how entries die so staleness stays bounded.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "caching-queues",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "caching",
+    "redis",
+    "cdn",
+    "backend-engineering",
+    "caching-queues"
+   ]
+  },
+  {
+   "slug": "caching-queues-background-jobs",
+   "title": "Build trustworthy background job processing",
+   "description": "Queue async work with retries, dead-letters, and observability so failures surface instead of vanishing.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "caching-queues",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "queues",
+    "async",
+    "reliability",
+    "backend-engineering",
+    "caching-queues"
+   ]
+  },
+  {
+   "slug": "auth-security-session-auth-hardening",
+   "title": "Harden session authentication",
+   "description": "Cookies, rotation, and revocation done right for server-rendered apps.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "auth-security",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "auth",
+    "sessions",
+    "cookies",
+    "backend-engineering",
+    "auth-security"
+   ]
+  },
+  {
+   "slug": "auth-security-input-validation-zod",
+   "title": "Validate all external input at the boundary",
+   "description": "Parse, don't validate: coerce untrusted input into typed values once at the edge.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "auth-security",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "validation",
+    "security",
+    "backend-engineering",
+    "auth-security"
+   ]
+  },
+  {
+   "slug": "containers-dockerfile-production",
+   "title": "Write production-grade Dockerfiles",
+   "description": "Multi-stage builds, slim bases, layer-order discipline, and non-root runtime for small secure images.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "containers",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "docker",
+    "containers",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "containers-compose-local-env",
+   "title": "Spin up reproducible local environments",
+   "description": "One command brings up app plus dependencies with seeded data and sane defaults.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "containers",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "docker-compose",
+    "dx",
+    "devops-cloud",
+    "containers"
+   ]
+  },
+  {
+   "slug": "ci-cd-pipeline-stages",
+   "title": "Structure a fast, honest CI pipeline",
+   "description": "Stage ordering that fails cheap and fast: lint → unit → build → integration → deploy gates.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "ci-cd",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "ci",
+    "github-actions",
+    "testing",
+    "devops-cloud",
+    "ci-cd"
+   ]
+  },
+  {
+   "slug": "ci-cd-deploy-strategies",
+   "title": "Choose and execute deploy strategies",
+   "description": "Rolling, blue-green, canary: pick per risk profile and wire automated rollback triggers.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "ci-cd",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "deployment",
+    "rollbacks",
+    "canary",
+    "devops-cloud",
+    "ci-cd"
+   ]
+  },
+  {
+   "slug": "infrastructure-as-code-terraform-module-design",
+   "title": "Design Terraform modules people reuse",
+   "description": "Composable modules with typed variables, sensible defaults, and outputs that compose upward.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "infrastructure-as-code",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "terraform",
+    "iac",
+    "devops-cloud",
+    "infrastructure-as-code"
+   ]
+  },
+  {
+   "slug": "infrastructure-as-code-state-management",
+   "title": "Manage IaC state safely as a team",
+   "description": "Remote state with locking, environment isolation, and least-privilege access so nobody corrupts prod.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "infrastructure-as-code",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "terraform",
+    "state",
+    "collaboration",
+    "devops-cloud",
+    "infrastructure-as-code"
+   ]
+  },
+  {
+   "slug": "observability-golden-signals",
+   "title": "Instrument the four golden signals",
+   "description": "Latency, traffic, errors, saturation per service with SLO thresholds that map to user pain.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "observability",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "monitoring",
+    "metrics",
+    "slo",
+    "devops-cloud",
+    "observability"
+   ]
+  },
+  {
+   "slug": "observability-structured-logging",
+   "title": "Adopt structured logging that answers questions",
+   "description": "JSON logs with trace correlation and disciplined fields you can actually query at 3am.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "observability",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "logging",
+    "debugging",
+    "devops-cloud",
+    "observability"
+   ]
+  },
+  {
+   "slug": "incidents-vercel-incident-response-flow",
+   "title": "Run a calm incident response flow",
+   "description": "Roles, comms cadence, and mitigation-first mindset that turns chaos into checklist.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "incidents-vercel",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "incident-response",
+    "sre",
+    "devops-cloud",
+    "incidents-vercel"
+   ]
+  },
+  {
+   "slug": "incidents-vercel-edge-deploy-workflow",
+   "title": "Ship frontends via edge platforms safely",
+   "description": "Preview-per-PR, promotion flows, and env hygiene on platforms like Vercel/Netlify.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "incidents-vercel",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "vercel",
+    "deployment",
+    "frontend",
+    "devops-cloud",
+    "incidents-vercel"
+   ]
+  },
+  {
+   "slug": "vercel-token-deploy",
+   "title": "Deploy to Vercel with token-based CLI auth",
+   "description": "Authenticate Vercel CLI via a stored token instead of browser OAuth — the reliable path when clock drift breaks login flows. Use when deploying, linking projects, or scripting CI-style pushes.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "incidents-vercel",
+   "level": "intermediate",
+   "minutes": 15,
+   "tags": [
+    "vercel",
+    "cli",
+    "deployment",
+    "devops-cloud",
+    "incidents-vercel"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-node",
+   "title": "Hunt bugs systematically (Node.js)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-python",
+   "title": "Hunt bugs systematically (Python)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-go",
+   "title": "Hunt bugs systematically (Go)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-rust",
+   "title": "Hunt bugs systematically (Rust)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-java",
+   "title": "Hunt bugs systematically (Java/JVM)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-dotnet",
+   "title": "Hunt bugs systematically (.NET)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-node",
+   "title": "Debug production without stopping the world (Node.js)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-python",
+   "title": "Debug production without stopping the world (Python)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-go",
+   "title": "Debug production without stopping the world (Go)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-rust",
+   "title": "Debug production without stopping the world (Rust)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-java",
+   "title": "Debug production without stopping the world (Java/JVM)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-dotnet",
+   "title": "Debug production without stopping the world (.NET)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-node",
+   "title": "Review code like a senior engineer (Node.js)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-python",
+   "title": "Review code like a senior engineer (Python)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-go",
+   "title": "Review code like a senior engineer (Go)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-rust",
+   "title": "Review code like a senior engineer (Rust)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-java",
+   "title": "Review code like a senior engineer (Java/JVM)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-dotnet",
+   "title": "Review code like a senior engineer (.NET)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-node",
+   "title": "Refactor without breaking behavior (Node.js)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-python",
+   "title": "Refactor without breaking behavior (Python)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-go",
+   "title": "Refactor without breaking behavior (Go)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-rust",
+   "title": "Refactor without breaking behavior (Rust)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-java",
+   "title": "Refactor without breaking behavior (Java/JVM)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-dotnet",
+   "title": "Refactor without breaking behavior (.NET)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-node",
+   "title": "Profile before optimizing (Node.js)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-python",
+   "title": "Profile before optimizing (Python)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-go",
+   "title": "Profile before optimizing (Go)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-rust",
+   "title": "Profile before optimizing (Rust)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-java",
+   "title": "Profile before optimizing (Java/JVM)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-dotnet",
+   "title": "Profile before optimizing (.NET)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-node",
+   "title": "Practice git discipline teams thank you for (Node.js)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-python",
+   "title": "Practice git discipline teams thank you for (Python)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-go",
+   "title": "Practice git discipline teams thank you for (Go)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-rust",
+   "title": "Practice git discipline teams thank you for (Rust)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-java",
+   "title": "Practice git discipline teams thank you for (Java/JVM)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-dotnet",
+   "title": "Practice git discipline teams thank you for (.NET)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-async-communication",
+   "title": "Communicate asynchronously like a distributed-native",
+   "description": "Written updates, decision records, and meeting hygiene across timezones.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "intermediate",
+   "minutes": 20,
+   "tags": [
+    "communication",
+    "remote",
+    "writing",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "exploratory-analysis-dataset-health-check",
+   "title": "Run a dataset health check before modeling",
+   "description": "Profile distributions, missingness, leakage risks, and unit sanity before trusting any result.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "exploratory-analysis",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "eda",
+    "data-quality",
+    "data-science",
+    "exploratory-analysis"
+   ]
+  },
+  {
+   "slug": "exploratory-analysis-correlation-causation",
+   "title": "Avoid correlation traps in stakeholder analyses",
+   "description": "Stress-test relationships with confounder thinking and simple falsification checks.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "exploratory-analysis",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "statistics",
+    "causal-inference",
+    "data-science",
+    "exploratory-analysis"
+   ]
+  },
+  {
+   "slug": "exploratory-analysis-cohort-funnel-analysis",
+   "title": "Build cohort and funnel analyses that hold up",
+   "description": "Segment users by acquisition period and trace retention/funnels without sampling traps.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "exploratory-analysis",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "analytics",
+    "retention",
+    "product",
+    "data-science",
+    "exploratory-analysis"
+   ]
+  },
+  {
+   "slug": "experimentation-ab-test-design",
+   "title": "Design an A/B test you can trust",
+   "description": "Power the test upfront, guard metrics, and commit to decision rules before peeking.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "experimentation",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "ab-testing",
+    "statistics",
+    "product",
+    "data-science",
+    "experimentation"
+   ]
+  },
+  {
+   "slug": "experimentation-metric-definition-contracts",
+   "title": "Write metric definitions as contracts",
+   "description": "One canonical definition per metric, versioned and documented, killing dashboard wars.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "experimentation",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "metrics",
+    "governance",
+    "analytics-engineering",
+    "data-science",
+    "experimentation"
+   ]
+  },
+  {
+   "slug": "ml-modeling-baseline-first-modeling",
+   "title": "Baseline before you boost",
+   "description": "Ship trivial baselines (mean, logistic, linear) to price complexity honestly.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "ml-modeling",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "ml",
+    "modeling",
+    "baselines",
+    "data-science",
+    "ml-modeling"
+   ]
+  },
+  {
+   "slug": "ml-modeling-leakage-prevention",
+   "title": "Prevent data leakage in ML pipelines",
+   "description": "Split-aware preprocessing, temporal boundaries, and feature provenance keeping offline gains real online.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "ml-modeling",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "ml",
+    "validation",
+    "leakage",
+    "data-science",
+    "ml-modeling"
+   ]
+  },
+  {
+   "slug": "application-security-threat-model-feature",
+   "title": "Threat model a feature before building it",
+   "description": "STRIDE-lite walkthrough producing mitigations wired into tickets before code exists.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "application-security",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "threat-modeling",
+    "appsec",
+    "cybersecurity",
+    "application-security"
+   ]
+  },
+  {
+   "slug": "application-security-secure-code-review",
+   "title": "Security-review code with a repeatable checklist",
+   "description": "Focused pass over authz, injection, secrets, and deserialization on risky diffs.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "application-security",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "code-review",
+    "appsec",
+    "owasp",
+    "cybersecurity",
+    "application-security"
+   ]
+  },
+  {
+   "slug": "application-security-secrets-hygiene",
+   "title": "Enforce secrets hygiene end to end",
+   "description": "Generation, storage, rotation, and leak response for credentials humans inevitably touch.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "application-security",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "secrets",
+    "keys",
+    "rotation",
+    "cybersecurity",
+    "application-security"
+   ]
+  },
+  {
+   "slug": "cloud-hardening-iam-least-privilege",
+   "title": "Right-size IAM to least privilege",
+   "description": "Start scoped-down, expand only with evidence from real denied actions.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "cloud-hardening",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "iam",
+    "cloud",
+    "zero-trust",
+    "cybersecurity",
+    "cloud-hardening"
+   ]
+  },
+  {
+   "slug": "cloud-hardening-patch-cadence",
+   "title": "Run a patch cadence that actually closes windows",
+   "description": "Triage vulnerabilities by exploitability and ship patches within defined SLAs.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "cloud-hardening",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "patching",
+    "vulnerability-management",
+    "cybersecurity",
+    "cloud-hardening"
+   ]
+  },
+  {
+   "slug": "incident-response-security-breach-first-hour-ransomware",
+   "title": "Execute the first hour of a suspected breach (Ransomware scenario)",
+   "description": "Contain, preserve evidence, and communicate without tipping off or destroying forensics.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "incident-response-security",
+   "level": "advanced",
+   "minutes": 30,
+   "tags": [
+    "incident-response",
+    "forensics",
+    "cybersecurity",
+    "incident-response-security"
+   ]
+  },
+  {
+   "slug": "incident-response-security-phishing-defense-program",
+   "title": "Stand up phishing defense beyond training videos",
+   "description": "Technical controls + easy reporting + blameless drills reducing real click-through damage.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "incident-response-security",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "phishing",
+    "social-engineering",
+    "awareness",
+    "cybersecurity",
+    "incident-response-security"
+   ]
+  },
+  {
+   "slug": "discovery-customer-interviews",
+   "title": "Interview customers without leading them",
+   "description": "Past-behavior questions, silence discipline, and synthesis habits that surface real problems.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "discovery",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "discovery",
+    "user-research",
+    "interviews",
+    "product-management"
+   ]
+  },
+  {
+   "slug": "discovery-opportunity-sizing",
+   "title": "Size opportunities honestly",
+   "description": "Bottom-up TAM math with explicit assumptions anyone can audit.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "discovery",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "strategy",
+    "market-sizing",
+    "product-management",
+    "discovery"
+   ]
+  },
+  {
+   "slug": "prioritization-roadmap-roadmap-outcomes",
+   "title": "Build outcome-based roadmaps",
+   "description": "Communicate problems and metrics per quarter, leaving solution space for teams.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "prioritization-roadmap",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "roadmap",
+    "strategy",
+    "okrs",
+    "product-management",
+    "prioritization-roadmap"
+   ]
+  },
+  {
+   "slug": "prioritization-roadmap-prioritization-framework-fit",
+   "title": "Choose a prioritization framework that fits your stage",
+   "description": "RICE vs cost-of-delay vs simple-now-list: pick per team maturity and decision cadence.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "prioritization-roadmap",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "prioritization",
+    "frameworks",
+    "product-management",
+    "prioritization-roadmap"
+   ]
+  },
+  {
+   "slug": "specs-launch-prd-one-page",
+   "title": "Write a one-page PRD engineers love",
+   "description": "Problem, users, success metrics, scope fences, and open questions on one page.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "specs-launch",
+   "level": "foundation",
+   "minutes": 40,
+   "tags": [
+    "prd",
+    "writing",
+    "spec",
+    "product-management",
+    "specs-launch"
+   ]
+  },
+  {
+   "slug": "specs-launch-launch-checklist",
+   "title": "Run launches with a go/no-go checklist",
+   "description": "Coordinated release across support, marketing, legal, and engineering with rollback plans.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "specs-launch",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "launch",
+    "go-to-market",
+    "coordination",
+    "product-management",
+    "specs-launch"
+   ]
+  },
+  {
+   "slug": "people-management-one-on-ones",
+   "title": "Run one-on-ones that build trust",
+   "description": "Weekly direct-report meetings owned by them: growth, blockers, feedback — not status updates.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "people-management",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "management",
+    "1on1",
+    "feedback",
+    "engineering-leadership",
+    "people-management"
+   ]
+  },
+  {
+   "slug": "people-management-performance-calibration",
+   "title": "Calibrate performance reviews fairly",
+   "description": "Evidence-based reviews with bias checks and consistent leveling across teams.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "people-management",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "performance",
+    "reviews",
+    "fairness",
+    "engineering-leadership",
+    "people-management"
+   ]
+  },
+  {
+   "slug": "team-process-sprint-ceremonies-audit",
+   "title": "Audit your agile ceremonies ruthlessly",
+   "description": "Keep rituals that produce decisions; delete the rest or shorten them.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "team-process",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "agile",
+    "process",
+    "meetings",
+    "engineering-leadership",
+    "team-process"
+   ]
+  },
+  {
+   "slug": "team-process-tech-debt-strategy",
+   "title": "Manage tech debt as a portfolio",
+   "description": "Classify debt by interest rate, allocate fixed capacity, and tie paydown to business risk.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "team-process",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "tech-debt",
+    "strategy",
+    "maintenance",
+    "engineering-leadership",
+    "team-process"
+   ]
+  },
+  {
+   "slug": "hiring-structured-interviews",
+   "title": "Run structured interviews with scorecards",
+   "description": "Same questions, rubric scoring, independent write-ups before debrief — predictive and fair.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "hiring",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "hiring",
+    "interviewing",
+    "talent",
+    "engineering-leadership"
+   ]
+  },
+  {
+   "slug": "hiring-candidate-experience",
+   "title": "Design a candidate experience worth talking about",
+   "description": "Fast loops, real communication, respect for time — your employer brand compounds here.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "hiring",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "hiring",
+    "employer-brand",
+    "engineering-leadership"
+   ]
+  },
+  {
+   "slug": "open-source-stewardship-maintainer-triage",
+   "title": "Triage issues like a sustainable maintainer",
+   "description": "Labels, templates, and response SLAs keeping the queue trustworthy without burnout.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "open-source-stewardship",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "open-source",
+    "triage",
+    "community",
+    "engineering-leadership",
+    "open-source-stewardship"
+   ]
+  },
+  {
+   "slug": "oss-pr-landing",
+   "title": "Land merged PRs in large OSS repositories",
+   "description": "A merge-rate-first contribution workflow: issue selection, minimal diffs, review follow-through. Use when contributing to someone else's repo, opening PRs upstream, or reviving stalled pull requests.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "open-source-stewardship",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "open-source",
+    "pull-requests",
+    "contribution",
+    "engineering-leadership",
+    "open-source-stewardship"
+   ]
+  },
+  {
+   "slug": "recruiting-jd-writing-inclusive",
+   "title": "Write job descriptions candidates actually read",
+   "description": "Outcome-focused, inclusive-language JDs that widen rather than shrink funnels.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "recruiting",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "job-description",
+    "inclusive-hiring",
+    "people-hr",
+    "recruiting"
+   ]
+  },
+  {
+   "slug": "recruiting-screening-bias-guards",
+   "title": "Screen resumes with bias guards",
+   "description": "Structured screening rubrics applied blind where feasible, reducing noise-based rejection.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "recruiting",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "screening",
+    "bias",
+    "recruiting",
+    "people-hr"
+   ]
+  },
+  {
+   "slug": "onboarding-offboarding-day-one-onboarding",
+   "title": "Deliver a first week that converts",
+   "description": "Pre-provisioned access, buddy assignment, and a shipped-by-Friday first task.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "onboarding-offboarding",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "onboarding",
+    "retention",
+    "people-hr",
+    "onboarding-offboarding"
+   ]
+  },
+  {
+   "slug": "onboarding-offboarding-graceful-offboarding",
+   "title": "Offboard gracefully and securely",
+   "description": "Knowledge transfer, access revocation, and humane exits protecting everyone involved.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "onboarding-offboarding",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "offboarding",
+    "security",
+    "knowledge-transfer",
+    "people-hr",
+    "onboarding-offboarding"
+   ]
+  },
+  {
+   "slug": "footprint-audit",
+   "title": "Audit an online professional footprint",
+   "description": "Verify claims, detect namesake contamination, and flag privacy leaks across public profiles. Use during background reviews, bio writing, personal-brand cleanups, or pre-publication fact checks.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "policy-engagement",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "research",
+    "verification",
+    "privacy",
+    "background-check",
+    "people-hr",
+    "policy-engagement"
+   ]
+  },
+  {
+   "slug": "policy-engagement-engagement-pulse-loops",
+   "title": "Run engagement pulse loops that change things",
+   "description": "Short surveys, visible actions, closed feedback loops — trust grows from evidence of listening.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "policy-engagement",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "engagement",
+    "surveys",
+    "culture",
+    "people-hr",
+    "policy-engagement"
+   ]
+  },
+  {
+   "slug": "bioinformatics-seq-qc-pipeline",
+   "title": "Quality-control sequencing data before analysis",
+   "description": "Read-level QC, adapter trimming, contamination screens, and reproducible QC reporting.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "bioinformatics",
+   "level": "intermediate",
+   "minutes": 45,
+   "tags": [
+    "sequencing",
+    "qc",
+    "pipelines",
+    "ngs",
+    "biotech-pharma",
+    "bioinformatics"
+   ]
+  },
+  {
+   "slug": "bioinformatics-variant-calling-sop",
+   "title": "Standardize variant calling and annotation",
+   "description": "Consistent callers, filters, and annotation sources so variant lists compare across runs.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "bioinformatics",
+   "level": "advanced",
+   "minutes": 50,
+   "tags": [
+    "variants",
+    "genomics",
+    "sop",
+    "biotech-pharma",
+    "bioinformatics"
+   ]
+  },
+  {
+   "slug": "bioinformatics-sequence-design-checks",
+   "title": "Run design-stage computational checks",
+   "description": "In-silico screening of designed constructs: specificity scoring, off-target checks, and documentation gates — always paired with institutional biosafety approval.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "bioinformatics",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "design",
+    "crispr",
+    "in-silico",
+    "biosafety",
+    "biotech-pharma",
+    "bioinformatics"
+   ]
+  },
+  {
+   "slug": "lab-informatics-eln-sample-lineage",
+   "title": "Track sample lineage end to end",
+   "description": "Aliquots, derivations, and storage positions recorded so any result traces to its origin.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "lab-informatics",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "elN",
+    "lims",
+    "sample-tracking",
+    "biotech-pharma",
+    "lab-informatics"
+   ]
+  },
+  {
+   "slug": "lab-informatics-protocol-versioning",
+   "title": "Version protocols like software",
+   "description": "Controlled protocol documents, change logs, and effective-date discipline for reproducibility and audits.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "lab-informatics",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "protocols",
+    "documentation",
+    "reproducibility",
+    "biotech-pharma",
+    "lab-informatics"
+   ]
+  },
+  {
+   "slug": "regulatory-clinical-gxp-documentation",
+   "title": "Practice GxP-grade documentation habits",
+   "description": "ALCOA+ principles applied daily: attributable, legible, contemporaneous, original, accurate.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "regulatory-clinical",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "gxp",
+    "alcoa",
+    "documentation",
+    "biotech-pharma",
+    "regulatory-clinical"
+   ]
+  },
+  {
+   "slug": "regulatory-clinical-clinical-data-cleanliness",
+   "title": "Keep clinical trial data inspection-ready",
+   "description": "Edit checks, discrepancy management, and lock discipline producing clean analyzable datasets.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "regulatory-clinical",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "clinical-data",
+    "edc",
+    "trials",
+    "biotech-pharma",
+    "regulatory-clinical"
+   ]
+  },
+  {
+   "slug": "study-design-power-analysis-first",
+   "title": "Power studies before collecting a single datapoint",
+   "description": "Effect-size estimates, power targets, and preregistration preventing underpowered regrets.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "study-design",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "statistics",
+    "power",
+    "preregistration",
+    "scientific-research",
+    "study-design"
+   ]
+  },
+  {
+   "slug": "study-design-control-condition-design",
+   "title": "Design controls that actually isolate variables",
+   "description": "Positive/negative controls, randomization, blinding choices matched to bias risks.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "study-design",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "experimental-design",
+    "controls",
+    "bias",
+    "scientific-research",
+    "study-design"
+   ]
+  },
+  {
+   "slug": "reproducibility-computational-reproducibility",
+   "title": "Make computational results reproducible",
+   "description": "Environment pinning, deterministic pipelines, and one-command reruns from raw data.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "reproducibility",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "reproducibility",
+    "pipelines",
+    "research-code",
+    "scientific-research"
+   ]
+  },
+  {
+   "slug": "reproducibility-electronic-lab-notebook",
+   "title": "Keep lab notebooks worth citing",
+   "description": "Daily entries linking intent, method versions, observations, and next actions.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "reproducibility",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "lab-notebook",
+    "documentation",
+    "scientific-research",
+    "reproducibility"
+   ]
+  },
+  {
+   "slug": "publication-grants-paper-writing-order",
+   "title": "Write papers in the order that works",
+   "description": "Figures first, methods while fresh, results mechanically, intro last — reducing revision churn.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "publication-grants",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "writing",
+    "papers",
+    "publication",
+    "scientific-research",
+    "publication-grants"
+   ]
+  },
+  {
+   "slug": "publication-grants-grant-proposal-narrative",
+   "title": "Structure grant proposals reviewers score highly",
+   "description": "Aims aligned to significance, feasibility evidence, and budget logic telling one coherent story.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "publication-grants",
+   "level": "advanced",
+   "minutes": 50,
+   "tags": [
+    "grants",
+    "funding",
+    "writing",
+    "scientific-research",
+    "publication-grants"
+   ]
+  },
+  {
+   "slug": "privacy-data-data-mapping-gdpr",
+   "title": "Map personal data flows for GDPR readiness",
+   "description": "Inventory of what personal data exists, where it flows, on what basis — the foundation of every privacy program.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "privacy-data",
+   "level": "intermediate",
+   "minutes": 45,
+   "tags": [
+    "gdpr",
+    "privacy",
+    "data-mapping",
+    "legal-compliance",
+    "privacy-data"
+   ]
+  },
+  {
+   "slug": "privacy-data-dsar-response-flow",
+   "title": "Answer data subject requests within deadlines",
+   "description": "Intake, verification, retrieval, and response workflow meeting statutory clocks without panic.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "privacy-data",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "dsar",
+    "privacy",
+    "process",
+    "legal-compliance",
+    "privacy-data"
+   ]
+  },
+  {
+   "slug": "privacy-data-privacy-by-design-review",
+   "title": "Run privacy reviews inside feature development",
+   "description": "Shift privacy questions into design docs so answers shape architecture, not patches.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "privacy-data",
+   "level": "advanced",
+   "minutes": 30,
+   "tags": [
+    "privacy-by-design",
+    "dpiat",
+    "product",
+    "legal-compliance",
+    "privacy-data"
+   ]
+  },
+  {
+   "slug": "contracts-ip-msa-redline-triage",
+   "title": "Triage vendor MSA redlines fast",
+   "description": "Deal-breaker checklist separating acceptable edits from escalations in vendor paper.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "contracts-ip",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "contracts",
+    "negotiation",
+    "vendors",
+    "legal-compliance",
+    "contracts-ip"
+   ]
+  },
+  {
+   "slug": "contracts-ip-ip-assignment-hygiene",
+   "title": "Keep IP assignment clean across contributors",
+   "description": "Employer agreements, contractor IP clauses, and open-source license discipline protecting company assets.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "contracts-ip",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "ip",
+    "open-source",
+    "licensing",
+    "legal-compliance",
+    "contracts-ip"
+   ]
+  },
+  {
+   "slug": "test-strategy-test-pyramid-balance",
+   "title": "Balance the test pyramid for your app",
+   "description": "Allocate unit/integration/e2e counts by feedback speed and failure diagnosability.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "test-strategy",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "testing",
+    "pyramid",
+    "strategy",
+    "qa-testing",
+    "test-strategy"
+   ]
+  },
+  {
+   "slug": "test-strategy-risk-based-testing",
+   "title": "Prioritize testing by risk, not habit",
+   "description": "Failure likelihood × impact matrix focusing effort where bugs hurt most.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "test-strategy",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "risk",
+    "prioritization",
+    "qa",
+    "qa-testing",
+    "test-strategy"
+   ]
+  },
+  {
+   "slug": "automation-flaky-test-elimination",
+   "title": "Eliminate flaky tests systematically",
+   "description": "Quarantine, root-cause classes, and stabilization patterns restoring CI trustworthiness.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "automation",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "flaky-tests",
+    "ci",
+    "reliability",
+    "qa-testing",
+    "automation"
+   ]
+  },
+  {
+   "slug": "automation-e2e-maintainable-selectors-pw",
+   "title": "Write E2E tests that survive redesigns (Playwright)",
+   "description": "Selector strategy and structure choices keeping end-to-end suites maintainable through UI churn.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "automation",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "e2e",
+    "maintainability",
+    "qa-testing",
+    "automation"
+   ]
+  },
+  {
+   "slug": "automation-e2e-maintainable-selectors-cypress",
+   "title": "Write E2E tests that survive redesigns (Cypress)",
+   "description": "Selector strategy and structure choices keeping end-to-end suites maintainable through UI churn.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "automation",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "e2e",
+    "maintainability",
+    "qa-testing",
+    "automation"
+   ]
+  },
+  {
+   "slug": "exploratory-release-session-based-exploratory",
+   "title": "Run session-based exploratory testing",
+   "description": "Charter-driven timeboxed sessions producing documented findings, not random clicking.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "exploratory-release",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "exploratory-testing",
+    "sessions",
+    "qa",
+    "qa-testing",
+    "exploratory-release"
+   ]
+  },
+  {
+   "slug": "exploratory-release-release-readiness-review",
+   "title": "Gate releases with a readiness review",
+   "description": "Checklist verdicts across quality signals making go/no-go boring and defensible.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "exploratory-release",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "release",
+    "gates",
+    "process",
+    "qa-testing",
+    "exploratory-release"
+   ]
+  },
+  {
+   "slug": "docs-systems-diataxis-audit",
+   "title": "Sort docs into types readers recognize",
+   "description": "Tutorials vs how-tos vs reference vs explanation — separating modes ends most doc confusion.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "docs-systems",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "diataxis",
+    "information-architecture",
+    "technical-writing",
+    "docs-systems"
+   ]
+  },
+  {
+   "slug": "docs-systems-docs-as-code-workflow",
+   "title": "Run docs through the same pipeline as code",
+   "description": "Versioned markdown, PR reviews, link checks, and preview deploys keeping docs trustworthy.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "docs-systems",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "docs-as-code",
+    "ci",
+    "markdown",
+    "technical-writing",
+    "docs-systems"
+   ]
+  },
+  {
+   "slug": "api-reference-endpoint-doc-pattern",
+   "title": "Document endpoints developers can copy-paste",
+   "description": "Every endpoint documented with working request, realistic response, and error table.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "api-reference",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "api-docs",
+    "openapi",
+    "technical-writing",
+    "api-reference"
+   ]
+  },
+  {
+   "slug": "api-reference-tutorial-craft",
+   "title": "Write tutorials people actually finish",
+   "description": "Fast first win, verifiable checkpoints, and failure exits keeping momentum.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "api-reference",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "tutorials",
+    "onboarding",
+    "dx",
+    "technical-writing",
+    "api-reference"
+   ]
+  },
+  {
+   "slug": "bug-story-post",
+   "title": "Turn a debugging war story into a post",
+   "description": "Structure bug-hunt experiences into engaging technical posts that teach method, not just drama. Use when writing dev blogs, hackathon retrospectives, or 'how I fixed X' content.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "dev-content",
+   "level": "foundation",
+   "minutes": 40,
+   "tags": [
+    "blogging",
+    "storytelling",
+    "devrel",
+    "technical-writing",
+    "dev-content"
+   ]
+  },
+  {
+   "slug": "dev-content-changelog-users-read",
+   "title": "Write changelogs users read",
+   "description": "User-outcome phrasing, migration notes, and consistent categories building release trust.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "dev-content",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "changelog",
+    "release-notes",
+    "technical-writing",
+    "dev-content"
+   ]
+  },
+  {
+   "slug": "validation-mvp-mvp-scope-cutting",
+   "title": "Cut MVP scope without cutting the point",
+   "description": "Identify the single riskiest assumption and build only what tests it.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "validation-mvp",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "mvp",
+    "lean",
+    "scope",
+    "startup-founders",
+    "validation-mvp"
+   ]
+  },
+  {
+   "slug": "validation-mvp-problem-validation-signals",
+   "title": "Read validation signals honestly",
+   "description": "Distinguish politeness from pull using behavior-based criteria.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "validation-mvp",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "validation",
+    "customers",
+    "signals",
+    "startup-founders",
+    "validation-mvp"
+   ]
+  },
+  {
+   "slug": "growth-fundraising-founder-narrative-deck",
+   "title": "Build a founder narrative deck",
+   "description": "12 slides answering investor questions in order: why now, why you, why this market.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "growth-fundraising",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "pitch-deck",
+    "fundraising",
+    "narrative",
+    "startup-founders",
+    "growth-fundraising"
+   ]
+  },
+  {
+   "slug": "growth-fundraising-first-growth-loop",
+   "title": "Find your first repeatable growth loop",
+   "description": "One channel executed deeply beats five dabbling channels; instrument the loop end-to-end.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "growth-fundraising",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "growth",
+    "marketing",
+    "distribution",
+    "startup-founders",
+    "growth-fundraising"
+   ]
+  },
+  {
+   "slug": "winning-clients-proposal-that-closes",
+   "title": "Write proposals that close without discounting",
+   "description": "Outcome-first structure, option pricing, and risk reversal moving decisions forward.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "winning-clients",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "proposals",
+    "sales",
+    "pricing",
+    "freelance-business",
+    "winning-clients"
+   ]
+  },
+  {
+   "slug": "winning-clients-positioning-niche",
+   "title": "Position into a profitable niche",
+   "description": "Specific expertise × audience × outcome claims commanding premium rates.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "winning-clients",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "positioning",
+    "branding",
+    "strategy",
+    "freelance-business",
+    "winning-clients"
+   ]
+  },
+  {
+   "slug": "client-delivery-scope-change-control",
+   "title": "Control scope creep professionally",
+   "description": "Change requests, written confirmations, and tradeoff framing protecting margins and relationships.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "client-delivery",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "scope",
+    "contracts",
+    "communication",
+    "freelance-business",
+    "client-delivery"
+   ]
+  },
+  {
+   "slug": "client-delivery-pricing-for-value",
+   "title": "Price on value with floor discipline",
+   "description": "Rate math from costs + target income, value anchors, and walk-away floors.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "client-delivery",
+   "level": "advanced",
+   "minutes": 30,
+   "tags": [
+    "pricing",
+    "rates",
+    "negotiation",
+    "freelance-business",
+    "client-delivery"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-rag-launch",
+   "title": "Playbook: Launch a RAG feature end to end",
+   "description": "Take retrieval-augmented answers from empty repo to evaluated production feature.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 135,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-agent-safety",
+   "title": "Playbook: Harden an agent before giving it tools",
+   "description": "Ship an autonomous agent whose failure modes are cheap, visible, and reversible.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 125,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-cost-rescue",
+   "title": "Playbook: Cut LLM costs without quality collapse",
+   "description": "Reduce monthly inference spend measurably while keeping answer quality within tolerance.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 95,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-frontend-engineering-perf-rescue",
+   "title": "Playbook: Rescue a slow frontend",
+   "description": "Move a lagging app's Core Web Vitals into green without a rewrite.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 105,
+   "tags": [
+    "playbook",
+    "journey",
+    "frontend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-frontend-engineering-design-system-bootstrap",
+   "title": "Playbook: Bootstrap a design system that sticks",
+   "description": "Stand up tokens, primitives, and docs a team actually adopts.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "frontend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-frontend-engineering-a11y-pass",
+   "title": "Playbook: Make an existing app accessible",
+   "description": "Reach keyboard-complete, screen-reader-navigable flows on core journeys.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "frontend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-backend-engineering-api-v2",
+   "title": "Playbook: Ship an API v2 safely",
+   "description": "Introduce breaking API improvements while every existing client keeps working.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 80,
+   "tags": [
+    "playbook",
+    "journey",
+    "backend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-backend-engineering-db-perf",
+   "title": "Playbook: Fix database performance under load",
+   "description": "Cut p95 query times on a growing table set before the next traffic spike.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "backend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-backend-engineering-payments-safe",
+   "title": "Playbook: Take payments without duplicates",
+   "description": "Process money mutations with idempotency guarantees and clean audit trails.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 90,
+   "tags": [
+    "playbook",
+    "journey",
+    "backend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-ci-from-zero",
+   "title": "Playbook: Stand up CI/CD from zero",
+   "description": "Every PR tested, every merge deployable, every deploy reversible — in week one.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 100,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-observability-boot",
+   "title": "Playbook: Get observability before you need it",
+   "description": "Golden signals, structured logs, and alerting wired before the first 3am page.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 90,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-iac-adoption",
+   "title": "Playbook: Adopt infrastructure-as-code incrementally",
+   "description": "Bring existing cloud infra under versioned, reviewed management without downtime.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "playbook-cybersecurity-appsec-baseline",
+   "title": "Playbook: Establish an AppSec baseline",
+   "description": "From nothing to systematic threat modeling, secrets hygiene, and review gates.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 100,
+   "tags": [
+    "playbook",
+    "journey",
+    "cybersecurity"
+   ]
+  },
+  {
+   "slug": "playbook-cybersecurity-cloud-hardening-sprint",
+   "title": "Playbook: Harden cloud accounts in a sprint",
+   "description": "Close the common cloud misconfiguration classes auditors and attackers both look for.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "cybersecurity"
+   ]
+  },
+  {
+   "slug": "playbook-cybersecurity-ir-readiness",
+   "title": "Playbook: Get incident-response ready",
+   "description": "A team that has rehearsed breach first-hour steps and communication templates.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 30,
+   "tags": [
+    "playbook",
+    "journey",
+    "cybersecurity"
+   ]
+  },
+  {
+   "slug": "playbook-data-science-analysis-trust",
+   "title": "Playbook: Produce an analysis stakeholders trust",
+   "description": "From raw tables to defensible findings with documented caveats.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-science"
+   ]
+  },
+  {
+   "slug": "playbook-data-science-first-ab-test",
+   "title": "Playbook: Run your first trustworthy A/B test",
+   "description": "A correctly powered experiment with pre-committed decision rules.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-science"
+   ]
+  },
+  {
+   "slug": "playbook-data-science-ml-to-prod",
+   "title": "Playbook: Take a model from notebook to production",
+   "description": "Leakage-free validation and deployment-ready artifacts.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-science"
+   ]
+  },
+  {
+   "slug": "playbook-product-management-zero-to-spec",
+   "title": "Playbook: From idea to engineering-ready spec",
+   "description": "Validated problem turned into a one-page PRD engineers respect.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "product-management"
+   ]
+  },
+  {
+   "slug": "playbook-product-management-launch-week",
+   "title": "Playbook: Execute a coordinated launch week",
+   "description": "Cross-functional release with support readiness, analytics verified, and rollback armed.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "product-management"
+   ]
+  },
+  {
+   "slug": "playbook-product-management-roadmap-reset",
+   "title": "Playbook: Reset a stale roadmap",
+   "description": "Quarterly outcome-based roadmap replacing the feature promise list.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "product-management"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-leadership-new-em-first90",
+   "title": "Playbook: New engineering manager: first 90 days",
+   "description": "Trust built, cadences running, one visible improvement shipped per month.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 90,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-leadership"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-leadership-hire-loop-build",
+   "title": "Playbook: Build a hiring loop that predicts success",
+   "description": "Structured interviews with scorecards producing consistent, defensible signals.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-leadership"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-leadership-oss-project-open",
+   "title": "Playbook: Open-source an internal project well",
+   "description": "A repository strangers can adopt: governance, docs, and triage from day one.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 30,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-leadership"
+   ]
+  },
+  {
+   "slug": "playbook-people-hr-role-hire",
+   "title": "Playbook: Fill a role with quality and speed",
+   "description": "Inclusive JD → bias-guarded screening → structured loop → great candidate experience.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "people-hr"
+   ]
+  },
+  {
+   "slug": "playbook-people-hr-joiner-leaver",
+   "title": "Playbook: Own the full joiner-to-leaver lifecycle",
+   "description": "Day-one productivity and secure, humane exits with zero orphaned access.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 50,
+   "tags": [
+    "playbook",
+    "journey",
+    "people-hr"
+   ]
+  },
+  {
+   "slug": "playbook-people-hr-trust-loops",
+   "title": "Playbook: Rebuild employee trust after rough patches",
+   "description": "Visible listening → committed action → closed loops restoring survey participation.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 25,
+   "tags": [
+    "playbook",
+    "journey",
+    "people-hr"
+   ]
+  },
+  {
+   "slug": "playbook-biotech-pharma-ngs-analysis",
+   "title": "Playbook: Deliver an NGS analysis package",
+   "description": "QC-passed, versioned, inspection-ready sequencing results with provenance.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 120,
+   "tags": [
+    "playbook",
+    "journey",
+    "biotech-pharma"
+   ]
+  },
+  {
+   "slug": "playbook-biotech-pharma-sample-lineage",
+   "title": "Playbook: Achieve full sample traceability",
+   "description": "Any result traces to origin sample through every derivation event.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "biotech-pharma"
+   ]
+  },
+  {
+   "slug": "playbook-biotech-pharma-inspection-prep",
+   "title": "Playbook: Prepare for a GxP inspection",
+   "description": "Documentation, audit trails, and staff narratives inspection-day ready.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "biotech-pharma"
+   ]
+  },
+  {
+   "slug": "playbook-legal-compliance-privacy-program",
+   "title": "Playbook: Stand up a privacy program baseline",
+   "description": "Data map, DSAR flow, and privacy-by-design triggers operating within one quarter.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 110,
+   "tags": [
+    "playbook",
+    "journey",
+    "legal-compliance"
+   ]
+  },
+  {
+   "slug": "playbook-legal-compliance-vendor-paper",
+   "title": "Playbook: Triage vendor contracts at scale",
+   "description": "Playbook-driven redline handling keeping legal review fast and consistent.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "legal-compliance"
+   ]
+  },
+  {
+   "slug": "playbook-legal-compliance-oss-compliance",
+   "title": "Playbook: Get open-source compliance straight",
+   "description": "License inventory and CI gates preventing copyleft surprises in proprietary code.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 25,
+   "tags": [
+    "playbook",
+    "journey",
+    "legal-compliance"
+   ]
+  },
+  {
+   "slug": "playbook-scientific-research-study-lifecycle",
+   "title": "Playbook: Run a study from design to archive",
+   "description": "Powered design → controlled execution → reproducible analysis → citable record.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 125,
+   "tags": [
+    "playbook",
+    "journey",
+    "scientific-research"
+   ]
+  },
+  {
+   "slug": "playbook-scientific-research-paper-submission",
+   "title": "Playbook: Take results to submission",
+   "description": "Figure-led manuscript drafted efficiently and internally reviewed.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 80,
+   "tags": [
+    "playbook",
+    "journey",
+    "scientific-research"
+   ]
+  },
+  {
+   "slug": "playbook-scientific-research-grant-cycle",
+   "title": "Playbook: Survive a grant cycle",
+   "description": "Reviewed proposal narrative aligned aims-to-budget submitted stress-free.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "scientific-research"
+   ]
+  },
+  {
+   "slug": "playbook-startup-founders-idea-to-mvp",
+   "title": "Playbook: Idea to tested MVP in six weeks",
+   "description": "Riskiest assumption isolated, smallest build shipped, honest signal collected.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 50,
+   "tags": [
+    "playbook",
+    "journey",
+    "startup-founders"
+   ]
+  },
+  {
+   "slug": "playbook-startup-founders-seed-ready",
+   "title": "Playbook: Become seed-round ready",
+   "description": "Narrative deck, traction metrics, and growth loop story investors probe cleanly.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "startup-founders"
+   ]
+  },
+  {
+   "slug": "playbook-qa-testing-automation-from-zero",
+   "title": "Playbook: Start test automation that lasts",
+   "description": "Pyramid-balanced suite with stable selectors gating deploys reliably.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "qa-testing"
+   ]
+  },
+  {
+   "slug": "playbook-qa-testing-flake-cleanup",
+   "title": "Playbook: Clean up a flaky test swamp",
+   "description": "CI trusted again: quarantine live, root causes classed, red means broken.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "qa-testing"
+   ]
+  },
+  {
+   "slug": "playbook-qa-testing-release-confidence",
+   "title": "Playbook: Build release confidence rituals",
+   "description": "Exploratory sessions and readiness gates making go/no-go boring.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "qa-testing"
+   ]
+  },
+  {
+   "slug": "playbook-freelance-business-client-acquisition",
+   "title": "Playbook: Land better clients this quarter",
+   "description": "Niche positioning feeding proposals that close at healthy rates.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 95,
+   "tags": [
+    "playbook",
+    "journey",
+    "freelance-business"
+   ]
+  },
+  {
+   "slug": "playbook-freelance-business-delivery-machine",
+   "title": "Playbook: Deliver projects without margin bleed",
+   "description": "Scope control and communication rhythms protecting profit and relationships.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 55,
+   "tags": [
+    "playbook",
+    "journey",
+    "freelance-business"
+   ]
+  },
+  {
+   "slug": "playbook-freelance-business-rate-raise",
+   "title": "Playbook: Raise rates sustainably",
+   "description": "Floor math, value anchors, and migration scripts moving existing clients up.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "freelance-business"
+   ]
+  },
+  {
+   "slug": "playbook-technical-writing-docs-overhaul",
+   "title": "Playbook: Overhaul a neglected docs site",
+   "description": "Sorted page types, working pipelines, and freshness signals readers trust again.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 80,
+   "tags": [
+    "playbook",
+    "journey",
+    "technical-writing"
+   ]
+  },
+  {
+   "slug": "playbook-technical-writing-api-docs-ship",
+   "title": "Playbook: Ship API documentation developers praise",
+   "description": "Copy-paste-working references with tested examples and honest errors sections.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "technical-writing"
+   ]
+  },
+  {
+   "slug": "playbook-technical-writing-content-engine",
+   "title": "Playbook: Run a developer-content engine",
+   "description": "Story-driven posts and changelogs compounding into audience and trust.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 20,
+   "tags": [
+    "playbook",
+    "journey",
+    "technical-writing"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-essentials-legacy-onboarding",
+   "title": "Playbook: Onboard onto a legacy codebase fast",
+   "description": "Mental model built through safe probes, tests, and first merged fix within two weeks.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 90,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-essentials"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-essentials-quality-sprint",
+   "title": "Playbook: Run a quality improvement sprint",
+   "description": "Measurable code health gains: coverage gaps, hot spots, and review debt addressed.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 100,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-essentials"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-essentials-incident-learning",
+   "title": "Playbook: Learn from production incidents properly",
+   "description": "Blameless retro turning each incident into systemic fixes, not scar tissue.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-essentials"
+   ]
+  }
+ ]
+}

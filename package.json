@@ -1,0 +1,22 @@
+{
+  "name": "agent-skills-directory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The open directory of AI agent skills for every profession — installable via npx skills add aniruddhaadak80/skills",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gen": "node scripts/generate.mjs"
+  },
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}

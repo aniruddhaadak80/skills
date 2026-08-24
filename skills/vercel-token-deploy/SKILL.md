@@ -1,66 +1,56 @@
 ---
 name: vercel-token-deploy
-description: Deploys projects to Vercel using a pre-authenticated token file instead of browser OAuth login. Use when deploying to Vercel, linking a project, or when `vercel login` fails or hangs — especially on machines with clock drift that breaks the OAuth browser flow.
+description: "Authenticate Vercel CLI via a stored token instead of browser OAuth — the reliable path when clock drift breaks login flows. Use when deploying, linking projects, or scripting CI-style pushes."
 ---
+# Deploy to Vercel with token-based CLI auth
 
-# Vercel Token-Based Deploy
+> Authenticate Vercel CLI via a stored token instead of browser OAuth — the reliable path when clock drift breaks login flows. Use when deploying, linking projects, or scripting CI-style pushes.
 
-Deploy to Vercel without interactive login by reading a non-expiring token from a local file at runtime.
+**Track:** ☁️ DevOps & Cloud · **Domain:** Incidents & Edge Deploys · **Level:** intermediate · **~15 min**
+
+**Who this is for:** DevOps Engineers, SREs, Cloud Architects, Platform Engineers
 
 ## When to Use This Skill
 
-- Deploying any project to Vercel from the CLI
-- `vercel login` opens a browser but auth never completes (common on PCs with fast-drifting clocks — the token exchange expires before it lands)
-- CI-style, non-interactive deploys where prompts would hang
-
-## Security Rules (non-negotiable)
-
-1. NEVER print the token to stdout, logs, or terminal output.
-2. NEVER write it into any repo file, config file, `.env` committed to git, or documentation.
-3. NEVER commit anything containing it. Read it only at runtime into a shell variable.
+Authenticate Vercel CLI via a stored token instead of browser OAuth — the reliable path when clock drift breaks login flows. Use when deploying, linking projects, or scripting CI-style pushes.
+Use it whenever a matching task appears in conversation — the agent loads these instructions on demand.
 
 ## Steps
 
-### 1. Locate the token
+1. Read the token from local storage at runtime into a shell variable only
+2. Never echo, log, commit, or write the token into any file
+3. Link once per project with vercel link --yes --project <name> --token $tok
+4. Ship production with vercel deploy --prod --yes --token $tok
+5. Prefer git push auto-deploys for repos already linked to GitHub integration
+6. Scope team with --scope when the token spans multiple teams
 
-The convention is a plain-text file whose **last line** is the token:
+## Common Pitfalls
 
-```powershell
-$tok = (Get-Content "$env:USERPROFILE\.vercel\agent-token.txt" | Select-Object -Last 1).Trim()
+- Browser login loops caused by PC clock skew — use tokens exclusively
+- Tokens pasted into terminal history via inline export
+
+## Commands
+
+**Install with skills CLI**
+```bash
+npx skills add aniruddhaadak80/skills --skill vercel-token-deploy
 ```
 
-Adjust the path if the token lives elsewhere. Never echo `$tok`.
-
-### 2. Link the project (once per project)
-
-```powershell
-vercel link --yes --project <project-name> --token $tok
+**Install globally**
+```bash
+npx skills add aniruddhaadak80/skills --skill vercel-token-deploy -g
 ```
 
-This writes `.vercel/project.json` locally. Ensure `.vercel/` is gitignored.
-
-### 3. Deploy to production
-
-```powershell
-vercel deploy --prod --yes --token $tok
+**Link project**
+```bash
+vercel link --yes --project <name> --token $VERCEL_TOKEN
 ```
 
-For preview deploys, drop `--prod`.
+**Production deploy**
+```bash
+vercel deploy --prod --yes --token $VERCEL_TOKEN
+```
 
-### 4. Alternative: push-to-deploy
+---
 
-If the repo is already linked through the GitHub integration, a plain `git push` auto-deploys and no token is needed at all.
-
-## Troubleshooting
-
-| Symptom | Fix |
-|---|---|
-| `Error: Invalid token` | Re-read the file; check the last line is the token with no trailing whitespace |
-| Login page spins forever | Clock drift — do not retry browser login; use this token method exclusively |
-| "No existing credentials found" | You forgot `--token $tok` on that specific command |
-| Wrong team deployed | Pass `--scope <team-scope>` alongside `--token` |
-
-## Notes
-
-- CLI v59+ supports `--token` on every subcommand (`link`, `deploy`, `ls`, `logs`, `env`).
-- Prefer `git push` for repos already wired to the GitHub integration; reserve explicit `--token` deploys for new projects and one-off previews.
+Part of [aniruddhaadak80/skills](https://github.com/aniruddhaadak80/skills) · Browse all at https://skills.sh/aniruddhaadak80/skills
