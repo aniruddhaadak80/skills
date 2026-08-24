@@ -18,7 +18,7 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Onboard volunteers into retained contributors: start with "Match screening depth to actual role risk; consistent per tier"
-2. How it fits together: Volunteers stay where they feel useful and seen � engineer both.
+2. How it fits together: Volunteers stay where they feel useful and seen — engineer both.
 
 ### Referenced Skills
 
