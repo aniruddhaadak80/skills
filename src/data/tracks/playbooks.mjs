@@ -134,5 +134,69 @@ export const PLAYBOOKS = [
       { id: "quality-sprint", title: "Run a quality improvement sprint", goal: "Measurable code health gains: coverage gaps, hot spots, and review debt addressed.", uses: ["code-quality-code-review-checklist-rust", "code-quality-performance-profiling-java", "debug-craft-production-debugging-dotnet"], guidance: "Choose targets by risk × churn. One theme per sprint; quality sprints fail by diffusion." },
       { id: "incident-learning", title: "Learn from production incidents properly", goal: "Blameless retro turning each incident into systemic fixes, not scar tissue.", uses: ["debug-craft-production-debugging-python", "collab-workflow-async-communication-node"], guidance: "Timeline from evidence, actions with owners, and a follow-up review date." }
     ]
+  },
+  {
+    trackId: "healthcare-clinical",
+    items: [
+      { id: "safe-transitions", title: "Make care transitions bulletproof", goal: "Handoffs, medication reconciliation, and escalation thresholds operating as one system.", uses: ["clinical-workflow-shift-handoff-isbar", "clinical-workflow-med-rec-reconciliation", "clinical-workflow-deterioration-escalation"], guidance: "Most preventable harm concentrates at transitions — standardize all three together." },
+      { id: "quality-project", title: "Lead your first quality improvement project", goal: "A measurable process change sustained beyond the pilot window.", uses: ["quality-informatics-quality-improvement-cycle", "quality-informatics-cdss-alert-review"], guidance: "Baseline data before change; run-chart after. Sustainment is the real finish line." },
+      { id: "patient-edu", title: "Upgrade patient education outcomes", goal: "Teach-back embedded in routine discharge and education flows.", uses: ["quality-informatics-patient-teach-back", "clinical-workflow-med-rec-reconciliation"], guidance: "Pair teach-back with reconciled med lists at discharge — readmission prevention compounds." }
+    ]
+  },
+  {
+    trackId: "finance-fintech",
+    items: [
+      { id: "payments-launch", title: "Launch money movement safely", goal: "Double-entry ledger, reliable webhooks, and daily reconciliation live before scale.", uses: ["payments-engineering-ledger-design-double-entry", "payments-engineering-webhook-reliability-payments", "payments-engineering-reconciliation-flow"], guidance: "Ledger correctness is non-negotiable day one; everything else can iterate around it." },
+      { id: "risk-baseline", title: "Stand up a fraud defense baseline", goal: "Rules for non-negotiables, scored model, review queue, and feedback loop running.", uses: ["risk-modeling-fraud-rules-vs-model", "finance-fintech-unit-economics-tracking"], guidance: "Measure friction cost alongside fraud loss or you'll optimize into blocking good customers." },
+      { id: "model-audit-ready", title: "Get models audit-ready", goal: "Assumptions traceable and unit economics defensible under diligence.", uses: ["risk-modeling-financial-model-hygiene", "risk-modeling-unit-economics-tracking"], guidance: "Auditors follow references, not vibes. One assumption cell per driver." }
+    ]
+  },
+  {
+    trackId: "education-learning",
+    items: [
+      { id: "course-launch", title: "Ship an online course that gets finished", goal: "Objective-aligned modules produced, accountability mechanics live, completion measured.", uses: ["instructional-design-learning-objectives-measurable", "instructional-design-course-production-online", "classroom-assessment-rubric-construction"], guidance: "Objectives gate assessments gate modules. Build backwards from the transformation promised." },
+      { id: "lesson-system", title: "Build a repeatable lesson system", goal: "Every lesson planned on attention rhythms with misconception responses ready.", uses: ["instructional-design-lesson-plan-craft", "classroom-assessment-behavior-system-design"], guidance: "Prevent management problems through engagement design, not willpower." },
+      { id: "fair-assessment", title: "Grade fairly at scale", goal: "Rubrics calibrated, blind scoring practiced, distributions analyzed each cycle.", uses: ["classroom-assessment-rubric-construction", "instructional-design-learning-objectives-measurable"], guidance: "If a criterion never differentiates, delete it — rubrics are measurement instruments." }
+    ]
+  },
+  {
+    trackId: "ux-research",
+    items: [
+      { id: "discovery-sprint", title: "Run a two-week discovery sprint", goal: "Usability findings plus survey baseline synthesized into ranked recommendations.", uses: ["research-methods-usability-test-script", "research-methods-survey-instrument-quality", "research-methods-synthesis-affinity"], guidance: "Sequence matters: tests reveal behavior, surveys quantify prevalence, synthesis ties them." },
+      { id: "evidence-culture", title: "Build an evidence-driven design culture", goal: "Critique rituals and journey maps grounding decisions in user reality.", uses: ["design-practice-design-review-run", "design-practice-journey-mapping-service"], guidance: "Reviews cite evidence; maps get revisited. Rituals beat posters." },
+      { id: "research-ops-light", title: "Set up lightweight research ops", goal: "Reusable scripts, participant pools, and insight repositories compounding across studies.", uses: ["research-methods-usability-test-script", "research-methods-synthesis-affinity"], guidance: "Templates + tagged repository = institutional memory most teams never build." }
+    ]
+  },
+  {
+    trackId: "sales-success",
+    items: [
+      { id: "founder-selling", title: "Founder-led selling playbook", goal: "Discovery discipline and honest pipeline from first customer conversations.", uses: ["discovery-deal-discovery-call-framework", "discovery-deal-pipeline-hygiene-review", "discovery-deal-objection-reframe"], guidance: "Founders over-demo. Discovery ratios and exit criteria keep deals real." },
+      { id: "pipeline-rescue", title: "Rescue a stalled pipeline", goal: "Honest re-qualification, slippage reviews, and rebuilt forecast credibility.", uses: ["discovery-deal-pipeline-hygiene-review", "retention-expansion-qbr-that-expands"], guidance: "Delete zombie deals first. Clean pipe reveals the true problem." },
+      { id: "retention-engine", title: "Install a retention engine", goal: "Health signals firing interventions months before renewal dates.", uses: ["retention-expansion-churn-risk-signal-system", "retention-expansion-qbr-that-expands"], guidance: "Signals need playbooks need owners. All three or nothing fires." }
+    ]
+  },
+  {
+    trackId: "data-engineering",
+    items: [
+      { id: "warehouse-zero", title: "Warehouse from zero to trusted", goal: "Contracted schemas, tested tables, dimensional models analysts rely on.", uses: ["pipelines-batch-schema-evolution-contracts", "pipelines-batch-dq-tests-warehouse-snowflake", "streaming-modeling-dimensional-modeling-refresh"], guidance: "Pick the DQ variant matching your platform. Contracts precede consumers." },
+      { id: "pipeline-reliability", title: "Make pipelines boring again", goal: "Rerunnable stages, freshness SLAs, and alert fatigue eliminated.", uses: ["pipelines-batch-pipeline-idempotency", "pipelines-batch-dq-tests-warehouse-bigquery"], guidance: "Idempotency converts failures from incidents into retries." },
+      { id: "streaming-hardening", title: "Harden a streaming platform", goal: "Correct event-time semantics with bounded state and monitored watermarks.", uses: ["streaming-modeling-stream-processing-windows", "pipelines-batch-pipeline-idempotency"], guidance: "Watermark lag tells the truth; dashboards lag it." }
+    ]
+  },
+  {
+    trackId: "marketing-growth",
+    items: [
+      { id: "messaging-reset", title: "Reset positioning from customer truth", goal: "Verbatim-mined hierarchy live across site, decks, and ads within a month.", uses: ["positioning-content-messaging-hierarchy", "lifecycle-campaigns-campaign-measurement-plan"], guidance: "Steal the words customers already use; test comprehension cold." },
+      { id: "content-flywheel", title: "Spin up the content flywheel", goal: "Cluster strategy shipping weekly with distribution loops and refresh cycles.", uses: ["positioning-content-content-engine-compounding", "lifecycle-campaigns-lifecycle-email-flows"], guidance: "Sustainable cadence beats viral sprints. Refreshes outperform novelties." },
+      { id: "lifecycle-overhaul", title: "Overhaul lifecycle marketing", goal: "Behavior-triggered flows replacing calendar blasts, deliverability protected.", uses: ["lifecycle-campaigns-lifecycle-email-flows", "lifecycle-campaigns-campaign-measurement-plan"], guidance: "Sunset aggressively. Deliverability is the asset; every send spends it." }
+    ]
+  },
+  {
+    trackId: "game-interactive",
+    items: [
+      { id: "vertical-slice", title: "Nail the vertical slice", goal: "One minute of gameplay proving fun, budget, and pipeline before full production.", uses: ["gameplay-systems-game-feel-tuning", "performance-liveops-frame-budget-profiling"], guidance: "Slice proves the core loop on min-spec hardware. Everything else follows." },
+      { id: "live-event-launch", title: "Launch your first live event", goal: "Server-configured event shipped through staged rollout with kill switch rehearsed.", uses: ["performance-liveops-live-event-pipeline", "gameplay-systems-save-system-design"], guidance: "Rehearse the shutdown path. Live-ops maturity is measured by incident response." },
+      { id: "perf-rescue-game", title: "Rescue a frame-rate crisis", goal: "Budgets allocated, profiling cadence installed, top offenders fixed measurably.", uses: ["performance-liveops-frame-budget-profiling", "gameplay-systems-game-feel-tuning"], guidance: "Profile on median player hardware. Fix #1 only, then re-measure." }
+    ]
   }
 ];

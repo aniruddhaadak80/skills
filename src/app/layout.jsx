@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ScrollProgress } from "@/components/Motion";
 
 export const metadata = {
   metadataBase: new URL("https://aniruddha-skills-directory.vercel.app"),
@@ -34,6 +35,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-sans antialiased min-h-screen flex flex-col">
+        <ScrollProgress />
+        <div className="noise-overlay" aria-hidden />
         <div className="fixed inset-0 -z-10 grid-bg" aria-hidden />
         <Header />
         <main className="flex-1">{children}</main>

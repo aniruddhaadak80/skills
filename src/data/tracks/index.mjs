@@ -15,23 +15,39 @@ import { track as startupFounders } from "./startup-founders.mjs";
 import { track as qaTesting } from "./qa-testing.mjs";
 import { track as freelanceBusiness } from "./freelance-business.mjs";
 import { track as engineeringEssentials } from "./engineering-essentials.mjs";
+import { track as healthcareClinical } from "./healthcare-clinical.mjs";
+import { track as financeFintech } from "./finance-fintech.mjs";
+import { track as educationLearning } from "./education-learning.mjs";
+import { track as uxResearch } from "./ux-research.mjs";
+import { track as salesSuccess } from "./sales-success.mjs";
+import { track as dataEngineering } from "./data-engineering.mjs";
+import { track as marketingGrowth } from "./marketing-growth.mjs";
+import { track as gameInteractive } from "./game-interactive.mjs";
 
 export const TRACKS = [
   aiEngineering,
   frontendEngineering,
   backendEngineering,
+  dataEngineering,
   devopsCloud,
   engineeringEssentials,
-  dataScience,
   cybersecurity,
+  dataScience,
   productManagement,
+  uxResearch,
   engineeringLeadership,
   peopleHr,
+  healthcareClinical,
   biotechPharma,
   scientificResearch,
+  financeFintech,
   legalCompliance,
   qaTesting,
   technicalWriting,
+  marketingGrowth,
   startupFounders,
+  salesSuccess,
   freelanceBusiness,
+  educationLearning,
+  gameInteractive,
 ];

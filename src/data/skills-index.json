@@ -1,6 +1,6 @@
 {
- "count": 211,
- "generatedAt": "2026-08-24T14:36:08.922Z",
+ "count": 277,
+ "generatedAt": "2026-08-24T15:38:30.372Z",
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -667,6 +667,122 @@
     "security",
     "backend-engineering",
     "auth-security"
+   ]
+  },
+  {
+   "slug": "pipelines-batch-pipeline-idempotency",
+   "title": "Make batch pipelines rerunnable by design",
+   "description": "Idempotent stages, partitioned writes, and backfill strategies so failures heal instead of corrupt.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "pipelines-batch",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "etl",
+    "idempotency",
+    "orchestration",
+    "data-engineering",
+    "pipelines-batch"
+   ]
+  },
+  {
+   "slug": "pipelines-batch-schema-evolution-contracts",
+   "title": "Evolve schemas without breaking consumers",
+   "description": "Schema contracts, compatibility modes, and deprecation flows across pipeline boundaries.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "pipelines-batch",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "schema",
+    "contracts",
+    "governance",
+    "data-engineering",
+    "pipelines-batch"
+   ]
+  },
+  {
+   "slug": "data-quality-tests-warehouse-snowflake",
+   "title": "Test warehouse data like software (Snowflake)",
+   "description": "Layered data quality tests that block bad data from reaching downstream consumers.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "pipelines-batch",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "data-quality",
+    "testing",
+    "data-engineering",
+    "pipelines-batch"
+   ]
+  },
+  {
+   "slug": "data-quality-tests-warehouse-bigquery",
+   "title": "Test warehouse data like software (BigQuery)",
+   "description": "Layered data quality tests that block bad data from reaching downstream consumers.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "pipelines-batch",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "data-quality",
+    "testing",
+    "data-engineering",
+    "pipelines-batch"
+   ]
+  },
+  {
+   "slug": "data-quality-tests-warehouse-databricks",
+   "title": "Test warehouse data like software (Databricks/Delta)",
+   "description": "Layered data quality tests that block bad data from reaching downstream consumers.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "pipelines-batch",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "data-quality",
+    "testing",
+    "data-engineering",
+    "pipelines-batch"
+   ]
+  },
+  {
+   "slug": "streaming-modeling-stream-processing-windows",
+   "title": "Choose windowing and watermarks correctly",
+   "description": "Event-time vs processing-time decisions, late-data handling, and exactly-once semantics.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "streaming-modeling",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "streaming",
+    "kafka",
+    "flink",
+    "data-engineering",
+    "streaming-modeling"
+   ]
+  },
+  {
+   "slug": "streaming-modeling-dimensional-modeling-refresh",
+   "title": "Apply dimensional modeling pragmatically",
+   "description": "Facts, dimensions, SCD strategy, and grain declarations serving analytics for years.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "streaming-modeling",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "modeling",
+    "kimball",
+    "analytics",
+    "data-engineering",
+    "streaming-modeling"
    ]
   },
   {
@@ -1456,6 +1572,122 @@
    ]
   },
   {
+   "slug": "application-security-threat-model-feature",
+   "title": "Threat model a feature before building it",
+   "description": "STRIDE-lite walkthrough producing mitigations wired into tickets before code exists.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "application-security",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "threat-modeling",
+    "appsec",
+    "cybersecurity",
+    "application-security"
+   ]
+  },
+  {
+   "slug": "application-security-secure-code-review",
+   "title": "Security-review code with a repeatable checklist",
+   "description": "Focused pass over authz, injection, secrets, and deserialization on risky diffs.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "application-security",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "code-review",
+    "appsec",
+    "owasp",
+    "cybersecurity",
+    "application-security"
+   ]
+  },
+  {
+   "slug": "application-security-secrets-hygiene",
+   "title": "Enforce secrets hygiene end to end",
+   "description": "Generation, storage, rotation, and leak response for credentials humans inevitably touch.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "application-security",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "secrets",
+    "keys",
+    "rotation",
+    "cybersecurity",
+    "application-security"
+   ]
+  },
+  {
+   "slug": "cloud-hardening-iam-least-privilege",
+   "title": "Right-size IAM to least privilege",
+   "description": "Start scoped-down, expand only with evidence from real denied actions.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "cloud-hardening",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "iam",
+    "cloud",
+    "zero-trust",
+    "cybersecurity",
+    "cloud-hardening"
+   ]
+  },
+  {
+   "slug": "cloud-hardening-patch-cadence",
+   "title": "Run a patch cadence that actually closes windows",
+   "description": "Triage vulnerabilities by exploitability and ship patches within defined SLAs.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "cloud-hardening",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "patching",
+    "vulnerability-management",
+    "cybersecurity",
+    "cloud-hardening"
+   ]
+  },
+  {
+   "slug": "incident-response-security-breach-first-hour-ransomware",
+   "title": "Execute the first hour of a suspected breach (Ransomware scenario)",
+   "description": "Contain, preserve evidence, and communicate without tipping off or destroying forensics.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "incident-response-security",
+   "level": "advanced",
+   "minutes": 30,
+   "tags": [
+    "incident-response",
+    "forensics",
+    "cybersecurity",
+    "incident-response-security"
+   ]
+  },
+  {
+   "slug": "incident-response-security-phishing-defense-program",
+   "title": "Stand up phishing defense beyond training videos",
+   "description": "Technical controls + easy reporting + blameless drills reducing real click-through damage.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "incident-response-security",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "phishing",
+    "social-engineering",
+    "awareness",
+    "cybersecurity",
+    "incident-response-security"
+   ]
+  },
+  {
    "slug": "exploratory-analysis-dataset-health-check",
    "title": "Run a dataset health check before modeling",
    "description": "Profile distributions, missingness, leakage risks, and unit sanity before trusting any result.",
@@ -1573,122 +1805,6 @@
    ]
   },
   {
-   "slug": "application-security-threat-model-feature",
-   "title": "Threat model a feature before building it",
-   "description": "STRIDE-lite walkthrough producing mitigations wired into tickets before code exists.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "application-security",
-   "level": "intermediate",
-   "minutes": 40,
-   "tags": [
-    "threat-modeling",
-    "appsec",
-    "cybersecurity",
-    "application-security"
-   ]
-  },
-  {
-   "slug": "application-security-secure-code-review",
-   "title": "Security-review code with a repeatable checklist",
-   "description": "Focused pass over authz, injection, secrets, and deserialization on risky diffs.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "application-security",
-   "level": "intermediate",
-   "minutes": 35,
-   "tags": [
-    "code-review",
-    "appsec",
-    "owasp",
-    "cybersecurity",
-    "application-security"
-   ]
-  },
-  {
-   "slug": "application-security-secrets-hygiene",
-   "title": "Enforce secrets hygiene end to end",
-   "description": "Generation, storage, rotation, and leak response for credentials humans inevitably touch.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "application-security",
-   "level": "foundation",
-   "minutes": 25,
-   "tags": [
-    "secrets",
-    "keys",
-    "rotation",
-    "cybersecurity",
-    "application-security"
-   ]
-  },
-  {
-   "slug": "cloud-hardening-iam-least-privilege",
-   "title": "Right-size IAM to least privilege",
-   "description": "Start scoped-down, expand only with evidence from real denied actions.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "cloud-hardening",
-   "level": "advanced",
-   "minutes": 45,
-   "tags": [
-    "iam",
-    "cloud",
-    "zero-trust",
-    "cybersecurity",
-    "cloud-hardening"
-   ]
-  },
-  {
-   "slug": "cloud-hardening-patch-cadence",
-   "title": "Run a patch cadence that actually closes windows",
-   "description": "Triage vulnerabilities by exploitability and ship patches within defined SLAs.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "cloud-hardening",
-   "level": "intermediate",
-   "minutes": 30,
-   "tags": [
-    "patching",
-    "vulnerability-management",
-    "cybersecurity",
-    "cloud-hardening"
-   ]
-  },
-  {
-   "slug": "incident-response-security-breach-first-hour-ransomware",
-   "title": "Execute the first hour of a suspected breach (Ransomware scenario)",
-   "description": "Contain, preserve evidence, and communicate without tipping off or destroying forensics.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "incident-response-security",
-   "level": "advanced",
-   "minutes": 30,
-   "tags": [
-    "incident-response",
-    "forensics",
-    "cybersecurity",
-    "incident-response-security"
-   ]
-  },
-  {
-   "slug": "incident-response-security-phishing-defense-program",
-   "title": "Stand up phishing defense beyond training videos",
-   "description": "Technical controls + easy reporting + blameless drills reducing real click-through damage.",
-   "track": "cybersecurity",
-   "trackLabel": "Cybersecurity",
-   "domain": "incident-response-security",
-   "level": "intermediate",
-   "minutes": 30,
-   "tags": [
-    "phishing",
-    "social-engineering",
-    "awareness",
-    "cybersecurity",
-    "incident-response-security"
-   ]
-  },
-  {
    "slug": "discovery-customer-interviews",
    "title": "Interview customers without leading them",
    "description": "Past-behavior questions, silence discipline, and synthesis habits that surface real problems.",
@@ -1785,6 +1901,88 @@
     "coordination",
     "product-management",
     "specs-launch"
+   ]
+  },
+  {
+   "slug": "research-methods-usability-test-script",
+   "title": "Run usability tests that reveal truth",
+   "description": "Task-based sessions with neutral scripting, think-aloud discipline, and severity-rated findings.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "research-methods",
+   "level": "foundation",
+   "minutes": 35,
+   "tags": [
+    "usability-testing",
+    "user-research",
+    "ux-research",
+    "research-methods"
+   ]
+  },
+  {
+   "slug": "research-methods-survey-instrument-quality",
+   "title": "Write surveys without garbage-in",
+   "description": "Question construction, ordering effects, and response-scale discipline producing analyzable data.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "research-methods",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "surveys",
+    "quantitative-research",
+    "ux-research",
+    "research-methods"
+   ]
+  },
+  {
+   "slug": "research-methods-synthesis-affinity",
+   "title": "Synthesize research without bias collapse",
+   "description": "Affinity mapping with evidence tagging separating observation from interpretation.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "research-methods",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "synthesis",
+    "analysis",
+    "workshop",
+    "ux-research",
+    "research-methods"
+   ]
+  },
+  {
+   "slug": "design-practice-design-review-run",
+   "title": "Run design reviews that improve work",
+   "description": "Structured critique rituals: intent first, questions before solutions, owner decides.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "design-practice",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "critique",
+    "collaboration",
+    "design-process",
+    "ux-research",
+    "design-practice"
+   ]
+  },
+  {
+   "slug": "design-practice-journey-mapping-service",
+   "title": "Map journeys across service touchpoints",
+   "description": "Current-state journey maps exposing emotional lows and operational handoff failures.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "design-practice",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "journey-mapping",
+    "service-design",
+    "ux-research",
+    "design-practice"
    ]
   },
   {
@@ -2021,6 +2219,108 @@
    ]
   },
   {
+   "slug": "clinical-workflow-shift-handoff-isbar",
+   "title": "Run structured shift handoffs with ISBAR",
+   "description": "Transfer patient care using Identify-Situation-Background-Assessment-Recommendation so nothing critical drops between shifts.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "clinical-workflow",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "handoff",
+    "safety",
+    "communication",
+    "healthcare-clinical",
+    "clinical-workflow"
+   ]
+  },
+  {
+   "slug": "clinical-workflow-med-rec-reconciliation",
+   "title": "Reconcile medications across transitions of care",
+   "description": "Build one verified medication list at every admission, transfer, and discharge.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "clinical-workflow",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "medications",
+    "transitions",
+    "safety",
+    "healthcare-clinical",
+    "clinical-workflow"
+   ]
+  },
+  {
+   "slug": "clinical-workflow-deterioration-escalation",
+   "title": "Escalate deterioration early with objective triggers",
+   "description": "Use early-warning scores and defined thresholds so concern becomes action without hesitation cost.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "clinical-workflow",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "deterioration",
+    "escalation",
+    "ews",
+    "healthcare-clinical",
+    "clinical-workflow"
+   ]
+  },
+  {
+   "slug": "quality-informatics-quality-improvement-cycle",
+   "title": "Lead a PDSA quality improvement cycle",
+   "description": "Small tested changes over big launches: plan-do-study-act cycles with measurable process metrics.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "quality-informatics",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "quality-improvement",
+    "pdsa",
+    "process",
+    "healthcare-clinical",
+    "quality-informatics"
+   ]
+  },
+  {
+   "slug": "quality-informatics-cdss-alert-review",
+   "title": "Tune clinical decision support alerts responsibly",
+   "description": "Reduce alert fatigue by measuring override reasons and retiring low-value interrupts.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "quality-informatics",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "cdss",
+    "alerts",
+    "informatics",
+    "healthcare-clinical",
+    "quality-informatics"
+   ]
+  },
+  {
+   "slug": "quality-informatics-patient-teach-back",
+   "title": "Teach-back patient education that lands",
+   "description": "Confirm understanding by asking patients to explain back — without making it a quiz.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "quality-informatics",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "education",
+    "communication",
+    "health-literacy",
+    "healthcare-clinical",
+    "quality-informatics"
+   ]
+  },
+  {
    "slug": "bioinformatics-seq-qc-pipeline",
    "title": "Quality-control sequencing data before analysis",
    "description": "Read-level QC, adapter trimming, contamination screens, and reproducible QC reporting.",
@@ -2239,6 +2539,107 @@
     "writing",
     "scientific-research",
     "publication-grants"
+   ]
+  },
+  {
+   "slug": "payments-engineering-ledger-design-double-entry",
+   "title": "Design a double-entry ledger that balances forever",
+   "description": "Immutable journal entries, balanced postings, and derived balances keeping money math provable.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "payments-engineering",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "ledger",
+    "payments",
+    "accounting",
+    "finance-fintech",
+    "payments-engineering"
+   ]
+  },
+  {
+   "slug": "payments-engineering-webhook-reliability-payments",
+   "title": "Process payment webhooks reliably",
+   "description": "Idempotent handlers, signature checks, and replay safety for provider callbacks.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "payments-engineering",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "webhooks",
+    "payments",
+    "reliability",
+    "finance-fintech",
+    "payments-engineering"
+   ]
+  },
+  {
+   "slug": "payments-engineering-reconciliation-flow",
+   "title": "Build daily reconciliation that catches drift",
+   "description": "Three-way match between internal ledger, processor settlement, and bank statements.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "payments-engineering",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "reconciliation",
+    "finance-ops",
+    "finance-fintech",
+    "payments-engineering"
+   ]
+  },
+  {
+   "slug": "risk-modeling-fraud-rules-vs-model",
+   "title": "Layer fraud rules under an ML model sensibly",
+   "description": "Deterministic guardrails plus scored models with human review queues tuned by loss vs friction.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "risk-modeling",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "fraud",
+    "risk",
+    "ml",
+    "finance-fintech",
+    "risk-modeling"
+   ]
+  },
+  {
+   "slug": "risk-modeling-financial-model-hygiene",
+   "title": "Keep financial models auditable",
+   "description": "Structure assumptions, flows, and outputs so anyone can trace every number.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "risk-modeling",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "modeling",
+    "excel",
+    "analysis",
+    "finance-fintech",
+    "risk-modeling"
+   ]
+  },
+  {
+   "slug": "risk-modeling-unit-economics-tracking",
+   "title": "Instrument unit economics honestly",
+   "description": "Per-order/per-user contribution margin including hidden costs investors will find anyway.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "risk-modeling",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "unit-economics",
+    "metrics",
+    "finance",
+    "finance-fintech",
+    "risk-modeling"
    ]
   },
   {
@@ -2543,6 +2944,74 @@
    ]
   },
   {
+   "slug": "positioning-content-messaging-hierarchy",
+   "title": "Build a messaging hierarchy from customer language",
+   "description": "One-liner → proof pillars → objection handling, mined verbatim from real buyer words.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "positioning-content",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "messaging",
+    "positioning",
+    "copywriting",
+    "marketing-growth",
+    "positioning-content"
+   ]
+  },
+  {
+   "slug": "positioning-content-content-engine-compounding",
+   "title": "Run a content engine that compounds",
+   "description": "Topic clusters, refresh cycles, and distribution loops turning articles into an asset base.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "positioning-content",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "content-marketing",
+    "seo",
+    "distribution",
+    "marketing-growth",
+    "positioning-content"
+   ]
+  },
+  {
+   "slug": "lifecycle-campaigns-lifecycle-email-flows",
+   "title": "Architect lifecycle email flows that respect inboxes",
+   "description": "Onboarding, activation, retention, win-back sequences triggered by behavior not calendars alone.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "lifecycle-campaigns",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "email",
+    "lifecycle",
+    "automation",
+    "marketing-growth",
+    "lifecycle-campaigns"
+   ]
+  },
+  {
+   "slug": "lifecycle-campaigns-campaign-measurement-plan",
+   "title": "Design campaign measurement before launching",
+   "description": "Hypothesis, KPI tree, tracking implementation, and readout date committed upfront.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "lifecycle-campaigns",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "analytics",
+    "campaigns",
+    "attribution",
+    "marketing-growth",
+    "lifecycle-campaigns"
+   ]
+  },
+  {
    "slug": "validation-mvp-mvp-scope-cutting",
    "title": "Cut MVP scope without cutting the point",
    "description": "Identify the single riskiest assumption and build only what tests it.",
@@ -2611,6 +3080,91 @@
    ]
   },
   {
+   "slug": "discovery-deal-discovery-call-framework",
+   "title": "Run discovery that surfaces real buying motives",
+   "description": "Question ladders from situation to impact to cost-of-inaction, with talk-ratio discipline.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "discovery-deal",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "sales",
+    "discovery",
+    "qualification",
+    "sales-success",
+    "discovery-deal"
+   ]
+  },
+  {
+   "slug": "discovery-deal-pipeline-hygiene-review",
+   "title": "Review pipeline with honest hygiene standards",
+   "description": "Stage-exit criteria, next-step currency, and slippage detection keeping forecasts real.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "discovery-deal",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "pipeline",
+    "forecast",
+    "process",
+    "sales-success",
+    "discovery-deal"
+   ]
+  },
+  {
+   "slug": "discovery-deal-objection-reframe",
+   "title": "Handle objections without groveling or dodging",
+   "description": "Acknowledge → clarify → reframe to the underlying concern → evidence → confirm resolution.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "discovery-deal",
+   "level": "intermediate",
+   "minutes": 20,
+   "tags": [
+    "objections",
+    "negotiation",
+    "communication",
+    "sales-success",
+    "discovery-deal"
+   ]
+  },
+  {
+   "slug": "retention-expansion-churn-risk-signal-system",
+   "title": "Build a churn-risk signal system",
+   "description": "Leading indicators, health scores, and intervention triggers acting before renewal panic.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "retention-expansion",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "churn",
+    "customer-success",
+    "retention",
+    "sales-success",
+    "retention-expansion"
+   ]
+  },
+  {
+   "slug": "retention-expansion-qbr-that-expands",
+   "title": "Run business reviews that expand accounts",
+   "description": "Value-delivery narratives with customer metrics turning renewals into growth conversations.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "retention-expansion",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "qbr",
+    "expansion",
+    "account-management",
+    "sales-success",
+    "retention-expansion"
+   ]
+  },
+  {
    "slug": "winning-clients-proposal-that-closes",
    "title": "Write proposals that close without discounting",
    "description": "Outcome-first structure, option pricing, and risk reversal moving decisions forward.",
@@ -2676,6 +3230,156 @@
     "negotiation",
     "freelance-business",
     "client-delivery"
+   ]
+  },
+  {
+   "slug": "instructional-design-learning-objectives-measurable",
+   "title": "Write learning objectives you can actually assess",
+   "description": "Observable-verb objectives aligned to assessments so teaching, testing, and claims match.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "instructional-design",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "objectives",
+    "curriculum",
+    "assessment",
+    "education-learning",
+    "instructional-design"
+   ]
+  },
+  {
+   "slug": "instructional-design-lesson-plan-craft",
+   "title": "Design lessons around attention rhythms",
+   "description": "Open with curiosity, alternate instruction with active practice, close with retrieval.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "instructional-design",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "lesson-planning",
+    "pedagogy",
+    "education-learning",
+    "instructional-design"
+   ]
+  },
+  {
+   "slug": "instructional-design-course-production-online",
+   "title": "Produce an online course people finish",
+   "description": "Structure, pacing, and accountability mechanics fighting the 90% non-completion norm.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "instructional-design",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "course-design",
+    "online-learning",
+    "education-learning",
+    "instructional-design"
+   ]
+  },
+  {
+   "slug": "classroom-assessment-rubric-construction",
+   "title": "Build rubrics that grade fairly and fast",
+   "description": "Analytic rubrics with observable descriptors turning subjective grading into calibrated judgment.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "classroom-assessment",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "rubrics",
+    "grading",
+    "fairness",
+    "education-learning",
+    "classroom-assessment"
+   ]
+  },
+  {
+   "slug": "classroom-assessment-behavior-system-design",
+   "title": "Design a classroom behavior system that prevents",
+   "description": "Clear expectations, positive ratios, and least-invasive corrections keeping instruction flowing.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "classroom-assessment",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "classroom-management",
+    "culture",
+    "education-learning",
+    "classroom-assessment"
+   ]
+  },
+  {
+   "slug": "gameplay-systems-game-feel-tuning",
+   "title": "Tune game feel with parameter discipline",
+   "description": "Juice systems — input buffering, coyote time, screen feedback — tuned via live-adjustable parameters.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "gameplay-systems",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "game-feel",
+    "juice",
+    "tuning",
+    "game-interactive",
+    "gameplay-systems"
+   ]
+  },
+  {
+   "slug": "gameplay-systems-save-system-design",
+   "title": "Design save systems that survive updates",
+   "description": "Versioned, forward-compatible saves with migration paths protecting player progress.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "gameplay-systems",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "save-data",
+    "architecture",
+    "live-ops",
+    "game-interactive",
+    "gameplay-systems"
+   ]
+  },
+  {
+   "slug": "performance-liveops-frame-budget-profiling",
+   "title": "Hold frame budgets under real content load",
+   "description": "Per-system millisecond budgets enforced from prototype through ship on target hardware.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "performance-liveops",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "performance",
+    "profiling",
+    "optimization",
+    "game-interactive",
+    "performance-liveops"
+   ]
+  },
+  {
+   "slug": "performance-liveops-live-event-pipeline",
+   "title": "Ship live-ops events without client patches",
+   "description": "Server-driven event configuration, remote flags, and staged rollouts keeping content fresh safely.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "performance-liveops",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "live-ops",
+    "remote-config",
+    "operations",
+    "game-interactive",
+    "performance-liveops"
    ]
   },
   {
@@ -3426,6 +4130,366 @@
     "playbook",
     "journey",
     "engineering-essentials"
+   ]
+  },
+  {
+   "slug": "playbook-healthcare-clinical-safe-transitions",
+   "title": "Playbook: Make care transitions bulletproof",
+   "description": "Handoffs, medication reconciliation, and escalation thresholds operating as one system.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "healthcare-clinical"
+   ]
+  },
+  {
+   "slug": "playbook-healthcare-clinical-quality-project",
+   "title": "Playbook: Lead your first quality improvement project",
+   "description": "A measurable process change sustained beyond the pilot window.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 80,
+   "tags": [
+    "playbook",
+    "journey",
+    "healthcare-clinical"
+   ]
+  },
+  {
+   "slug": "playbook-healthcare-clinical-patient-edu",
+   "title": "Playbook: Upgrade patient education outcomes",
+   "description": "Teach-back embedded in routine discharge and education flows.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 50,
+   "tags": [
+    "playbook",
+    "journey",
+    "healthcare-clinical"
+   ]
+  },
+  {
+   "slug": "playbook-finance-fintech-payments-launch",
+   "title": "Playbook: Launch money movement safely",
+   "description": "Double-entry ledger, reliable webhooks, and daily reconciliation live before scale.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 115,
+   "tags": [
+    "playbook",
+    "journey",
+    "finance-fintech"
+   ]
+  },
+  {
+   "slug": "playbook-finance-fintech-risk-baseline",
+   "title": "Playbook: Stand up a fraud defense baseline",
+   "description": "Rules for non-negotiables, scored model, review queue, and feedback loop running.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "finance-fintech"
+   ]
+  },
+  {
+   "slug": "playbook-finance-fintech-model-audit-ready",
+   "title": "Playbook: Get models audit-ready",
+   "description": "Assumptions traceable and unit economics defensible under diligence.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "finance-fintech"
+   ]
+  },
+  {
+   "slug": "playbook-education-learning-course-launch",
+   "title": "Playbook: Ship an online course that gets finished",
+   "description": "Objective-aligned modules produced, accountability mechanics live, completion measured.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 100,
+   "tags": [
+    "playbook",
+    "journey",
+    "education-learning"
+   ]
+  },
+  {
+   "slug": "playbook-education-learning-lesson-system",
+   "title": "Playbook: Build a repeatable lesson system",
+   "description": "Every lesson planned on attention rhythms with misconception responses ready.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 60,
+   "tags": [
+    "playbook",
+    "journey",
+    "education-learning"
+   ]
+  },
+  {
+   "slug": "playbook-education-learning-fair-assessment",
+   "title": "Playbook: Grade fairly at scale",
+   "description": "Rubrics calibrated, blind scoring practiced, distributions analyzed each cycle.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 55,
+   "tags": [
+    "playbook",
+    "journey",
+    "education-learning"
+   ]
+  },
+  {
+   "slug": "playbook-ux-research-discovery-sprint",
+   "title": "Playbook: Run a two-week discovery sprint",
+   "description": "Usability findings plus survey baseline synthesized into ranked recommendations.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 105,
+   "tags": [
+    "playbook",
+    "journey",
+    "ux-research"
+   ]
+  },
+  {
+   "slug": "playbook-ux-research-evidence-culture",
+   "title": "Playbook: Build an evidence-driven design culture",
+   "description": "Critique rituals and journey maps grounding decisions in user reality.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "ux-research"
+   ]
+  },
+  {
+   "slug": "playbook-ux-research-research-ops-light",
+   "title": "Playbook: Set up lightweight research ops",
+   "description": "Reusable scripts, participant pools, and insight repositories compounding across studies.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "ux-research"
+   ]
+  },
+  {
+   "slug": "playbook-sales-success-founder-selling",
+   "title": "Playbook: Founder-led selling playbook",
+   "description": "Discovery discipline and honest pipeline from first customer conversations.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "sales-success"
+   ]
+  },
+  {
+   "slug": "playbook-sales-success-pipeline-rescue",
+   "title": "Playbook: Rescue a stalled pipeline",
+   "description": "Honest re-qualification, slippage reviews, and rebuilt forecast credibility.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 55,
+   "tags": [
+    "playbook",
+    "journey",
+    "sales-success"
+   ]
+  },
+  {
+   "slug": "playbook-sales-success-retention-engine",
+   "title": "Playbook: Install a retention engine",
+   "description": "Health signals firing interventions months before renewal dates.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "sales-success"
+   ]
+  },
+  {
+   "slug": "playbook-data-engineering-warehouse-zero",
+   "title": "Playbook: Warehouse from zero to trusted",
+   "description": "Contracted schemas, tested tables, dimensional models analysts rely on.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-data-engineering-pipeline-reliability",
+   "title": "Playbook: Make pipelines boring again",
+   "description": "Rerunnable stages, freshness SLAs, and alert fatigue eliminated.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-data-engineering-streaming-hardening",
+   "title": "Playbook: Harden a streaming platform",
+   "description": "Correct event-time semantics with bounded state and monitored watermarks.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-marketing-growth-messaging-reset",
+   "title": "Playbook: Reset positioning from customer truth",
+   "description": "Verbatim-mined hierarchy live across site, decks, and ads within a month.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "marketing-growth"
+   ]
+  },
+  {
+   "slug": "playbook-marketing-growth-content-flywheel",
+   "title": "Playbook: Spin up the content flywheel",
+   "description": "Cluster strategy shipping weekly with distribution loops and refresh cycles.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "marketing-growth"
+   ]
+  },
+  {
+   "slug": "playbook-marketing-growth-lifecycle-overhaul",
+   "title": "Playbook: Overhaul lifecycle marketing",
+   "description": "Behavior-triggered flows replacing calendar blasts, deliverability protected.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "marketing-growth"
+   ]
+  },
+  {
+   "slug": "playbook-game-interactive-vertical-slice",
+   "title": "Playbook: Nail the vertical slice",
+   "description": "One minute of gameplay proving fun, budget, and pipeline before full production.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "game-interactive"
+   ]
+  },
+  {
+   "slug": "playbook-game-interactive-live-event-launch",
+   "title": "Playbook: Launch your first live event",
+   "description": "Server-configured event shipped through staged rollout with kill switch rehearsed.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "game-interactive"
+   ]
+  },
+  {
+   "slug": "playbook-game-interactive-perf-rescue-game",
+   "title": "Playbook: Rescue a frame-rate crisis",
+   "description": "Budgets allocated, profiling cadence installed, top offenders fixed measurably.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "game-interactive"
    ]
   }
  ]
