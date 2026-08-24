@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CommandPalette from "@/components/CommandPalette";
 import { ScrollProgress } from "@/components/Motion";
 
 export const metadata = {
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
         <ScrollProgress />
         <div className="noise-overlay" aria-hidden />
         <div className="fixed inset-0 -z-10 grid-bg" aria-hidden />
+        <CommandPalette />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

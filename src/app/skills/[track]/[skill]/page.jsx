@@ -32,6 +32,10 @@ export default function SkillDetail({ params }) {
   const all = getAllSkills();
   const s = all.find((x) => x.track === params.track && x.slug === params.skill);
   if (!s) notFound();
+  const trackSkills = all.filter((x) => x.track === s.track);
+  const idx = trackSkills.findIndex((x) => x.slug === s.slug);
+  const prev = idx > 0 ? trackSkills[idx - 1] : null;
+  const next = idx < trackSkills.length - 1 ? trackSkills[idx + 1] : null;
   const related = all
     .filter((x) => x.slug !== s.slug && (x.domain === s.domain || (s.isPlaybook && x.isPlaybook && x.track === s.track)))
     .slice(0, 3);
@@ -156,8 +160,25 @@ export default function SkillDetail({ params }) {
         </aside>
       </div>
 
+      {(prev || next) && (
+        <nav className="mt-16 grid sm:grid-cols-2 gap-3">
+          {prev ? (
+            <Link href={`/skills/${prev.track}/${prev.slug}`} className="card-hover group rounded-xl border border-white/[0.07] bg-panel/70 p-4">
+              <span className="text-[10px] uppercase tracking-widest text-slate-600">← Previous</span>
+              <p className="mt-1 text-sm font-semibold text-slate-300 group-hover:text-cyan-300 transition-colors truncate">{prev.title}</p>
+            </Link>
+          ) : <span />}
+          {next && (
+            <Link href={`/skills/${next.track}/${next.slug}`} className="card-hover group rounded-xl border border-white/[0.07] bg-panel/70 p-4 text-right">
+              <span className="text-[10px] uppercase tracking-widest text-slate-600">Next →</span>
+              <p className="mt-1 text-sm font-semibold text-slate-300 group-hover:text-cyan-300 transition-colors truncate">{next.title}</p>
+            </Link>
+          )}
+        </nav>
+      )}
+
       {related.length > 0 && (
-        <section className="mt-20 pb-8">
+        <section className="mt-14 pb-8">
           <h2 className="text-xl font-bold mb-5">Related skills</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {related.map((r, i) => <SkillCard key={r.slug} skill={r} index={i} />)}

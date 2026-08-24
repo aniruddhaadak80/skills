@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Agent Skills Directory — new skills</title>
+<link>https://aniruddha-skills-directory.vercel.app</link>
+<description>The open directory of installable AI agent skills for every profession.</description>
+<language>en</language>
+<item>
+<title>Write proposals that close without discounting</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/freelance-business/winning-clients-proposal-that-closes</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/freelance-business/winning-clients-proposal-that-closes</guid>
+<description>Outcome-first structure, option pricing, and risk reversal moving decisions forward.</description>
+<category>Freelance &amp; Business</category>
+</item>
+<item>
+<title>Position into a profitable niche</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/freelance-business/winning-clients-positioning-niche</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/freelance-business/winning-clients-positioning-niche</guid>
+<description>Specific expertise × audience × outcome claims commanding premium rates.</description>
+<category>Freelance &amp; Business</category>
+</item>
+<item>
+<title>Put JavaScript bundles on a diet</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/web-performance-js-bundle-diet</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/web-performance-js-bundle-diet</guid>
+<description>Analyze, split, and replace dependencies so routes ship only the code they execute.</description>
+<category>Frontend Engineering</category>
+</item>
+<item>
+<title>Ship images that cost almost nothing</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/web-performance-image-pipeline</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/web-performance-image-pipeline</guid>
+<description>Modern formats, responsive sizes, lazy strategies, and priority hints for above-fold heroes.</description>
+<category>Frontend Engineering</category>
+</item>
+<item>
+<title>Fix Core Web Vitals regressions systematically</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/web-performance-core-web-vitals</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/web-performance-core-web-vitals</guid>
+<description>Diagnose LCP, INP, and CLS from field data and apply targeted fixes per metric rather than guessing.</description>
+<category>Frontend Engineering</category>
+</item>
+<item>
+<title>Deploy to Vercel with token-based CLI auth</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/devops-cloud/vercel-token-deploy</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/devops-cloud/vercel-token-deploy</guid>
+<description>Authenticate Vercel CLI via a stored token instead of browser OAuth — the reliable path when clock drift breaks login flows. Use when deploying, linking project</description>
+<category>DevOps &amp; Cloud</category>
+</item>
+<item>
+<title>Read validation signals honestly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/startup-founders/validation-mvp-problem-validation-signals</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/startup-founders/validation-mvp-problem-validation-signals</guid>
+<description>Distinguish politeness from pull using behavior-based criteria.</description>
+<category>Startup &amp; Founders</category>
+</item>
+<item>
+<title>Cut MVP scope without cutting the point</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/startup-founders/validation-mvp-mvp-scope-cutting</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/startup-founders/validation-mvp-mvp-scope-cutting</guid>
+<description>Identify the single riskiest assumption and build only what tests it.</description>
+<category>Startup &amp; Founders</category>
+</item>
+<item>
+<title>Progress return-to-play by criteria, not calendars</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/sports-performance/training-design-return-to-play-progression</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/sports-performance/training-design-return-to-play-progression</guid>
+<description>Stage gates with objective tests protecting athletes from rush-back reinjury.</description>
+<category>Sports &amp; Performance</category>
+</item>
+<item>
+<title>Periodize training around real competition calendars</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/sports-performance/training-design-periodization-basics</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/sports-performance/training-design-periodization-basics</guid>
+<description>Macro-to-micro planning balancing stress and adaptation with planned recovery weeks.</description>
+<category>Sports &amp; Performance</category>
+</item>
+<item>
+<title>Monitor training load without gadget worship</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/sports-performance/training-design-load-monitoring-practical</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/sports-performance/training-design-load-monitoring-practical</guid>
+<description>Simple consistent measures — sRPE, duration, wellness — trended per athlete over time.</description>
+<category>Sports &amp; Performance</category>
+</item>
+<item>
+<title>Balance the test pyramid for your app</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/qa-testing/test-strategy-test-pyramid-balance</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/qa-testing/test-strategy-test-pyramid-balance</guid>
+<description>Allocate unit/integration/e2e counts by feedback speed and failure diagnosability.</description>
+<category>QA &amp; Testing</category>
+</item>
+<item>
+<title>Prioritize testing by risk, not habit</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/qa-testing/test-strategy-risk-based-testing</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/qa-testing/test-strategy-risk-based-testing</guid>
+<description>Failure likelihood × impact matrix focusing effort where bugs hurt most.</description>
+<category>QA &amp; Testing</category>
+</item>
+<item>
+<title>Manage tech debt as a portfolio</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/engineering-leadership/team-process-tech-debt-strategy</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/engineering-leadership/team-process-tech-debt-strategy</guid>
+<description>Classify debt by interest rate, allocate fixed capacity, and tie paydown to business risk.</description>
+<category>Engineering Leadership</category>
+</item>
+<item>
+<title>Audit your agile ceremonies ruthlessly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/engineering-leadership/team-process-sprint-ceremonies-audit</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/engineering-leadership/team-process-sprint-ceremonies-audit</guid>
+<description>Keep rituals that produce decisions; delete the rest or shorten them.</description>
+<category>Engineering Leadership</category>
+</item>
+<item>
+<title>Manage suppliers with balanced scorecards</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/supply-chain-logistics/suppliers-freight-supplier-scorecards</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/supply-chain-logistics/suppliers-freight-supplier-scorecards</guid>
+<description>OTIF, quality, responsiveness, and cost trends driving development or exit decisions.</description>
+<category>Supply Chain &amp; Logistics</category>
+</item>
+<item>
+<title>Audit freight costs beyond invoice approval</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/supply-chain-logistics/suppliers-freight-freight-cost-audit</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/supply-chain-logistics/suppliers-freight-freight-cost-audit</guid>
+<description>Accessorial charges, mode mix, and lane benchmarking recovering recurring overspend.</description>
+<category>Supply Chain &amp; Logistics</category>
+</item>
+<item>
+<title>Power studies before collecting a single datapoint</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/scientific-research/study-design-power-analysis-first</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/scientific-research/study-design-power-analysis-first</guid>
+<description>Effect-size estimates, power targets, and preregistration preventing underpowered regrets.</description>
+<category>Scientific Research</category>
+</item>
+<item>
+<title>Design controls that actually isolate variables</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/scientific-research/study-design-control-condition-design</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/scientific-research/study-design-control-condition-design</guid>
+<description>Positive/negative controls, randomization, blinding choices matched to bias risks.</description>
+<category>Scientific Research</category>
+</item>
+<item>
+<title>Choose windowing and watermarks correctly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/data-engineering/streaming-modeling-stream-processing-windows</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/data-engineering/streaming-modeling-stream-processing-windows</guid>
+<description>Event-time vs processing-time decisions, late-data handling, and exactly-once semantics.</description>
+<category>Data Engineering</category>
+</item>
+<item>
+<title>Apply dimensional modeling pragmatically</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/data-engineering/streaming-modeling-dimensional-modeling-refresh</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/data-engineering/streaming-modeling-dimensional-modeling-refresh</guid>
+<description>Facts, dimensions, SCD strategy, and grain declarations serving analytics for years.</description>
+<category>Data Engineering</category>
+</item>
+<item>
+<title>Map a theory of change stakeholders believe</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/nonprofit-impact/strategy-measurement-theory-of-change-map</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/nonprofit-impact/strategy-measurement-theory-of-change-map</guid>
+<description>Inputs to long-term outcomes with assumptions surfaced and testable, not poster decoration.</description>
+<category>Nonprofit &amp; Impact</category>
+</item>
+<item>
+<title>Measure impact without drowning programs</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/nonprofit-impact/strategy-measurement-impact-measurement-framework</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/nonprofit-impact/strategy-measurement-impact-measurement-framework</guid>
+<description>Lightweight data collection embedded in delivery producing credible outcome claims.</description>
+<category>Nonprofit &amp; Impact</category>
+</item>
+<item>
+<title>Write a one-page PRD engineers love</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/product-management/specs-launch-prd-one-page</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/product-management/specs-launch-prd-one-page</guid>
+<description>Problem, users, success metrics, scope fences, and open questions on one page.</description>
+<category>Product Management</category>
+</item>
+<item>
+<title>Run launches with a go/no-go checklist</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/product-management/specs-launch-launch-checklist</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/product-management/specs-launch-launch-checklist</guid>
+<description>Coordinated release across support, marketing, legal, and engineering with rollback plans.</description>
+<category>Product Management</category>
+</item>
+<item>
+<title>Map log source coverage to attack surface</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/cyber-defense-ops/soc-operations-log-source-coverage</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/cyber-defense-ops/soc-operations-log-source-coverage</guid>
+<description>Inventory what you can see versus what attacks require, closing blind spots deliberately.</description>
+<category>Cyber Defense &amp; SOC</category>
+</item>
+<item>
+<title>Hunt threats with falsifiable hypotheses</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/cyber-defense-ops/soc-operations-hunt-hypothesis</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/cyber-defense-ops/soc-operations-hunt-hypothesis</guid>
+<description>Structured hunts starting from TTP intelligence, producing detections or documented negatives.</description>
+<category>Cyber Defense &amp; SOC</category>
+</item>
+<item>
+<title>Triage alerts with consistent depth</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/cyber-defense-ops/soc-operations-alert-triage-discipline</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/cyber-defense-ops/soc-operations-alert-triage-discipline</guid>
+<description>Enrichment order, true/false-positive calls with evidence, and escalation criteria applied identically every shift.</description>
+<category>Cyber Defense &amp; SOC</category>
+</item>
+<item>
+<title>Instrument unit economics honestly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/finance-fintech/risk-modeling-unit-economics-tracking</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/finance-fintech/risk-modeling-unit-economics-tracking</guid>
+<description>Per-order/per-user contribution margin including hidden costs investors will find anyway.</description>
+<category>Finance &amp; Fintech</category>
+</item>
+<item>
+<title>Layer fraud rules under an ML model sensibly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/finance-fintech/risk-modeling-fraud-rules-vs-model</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/finance-fintech/risk-modeling-fraud-rules-vs-model</guid>
+<description>Deterministic guardrails plus scored models with human review queues tuned by loss vs friction.</description>
+<category>Finance &amp; Fintech</category>
+</item>
+<item>
+<title>Keep financial models auditable</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/finance-fintech/risk-modeling-financial-model-hygiene</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/finance-fintech/risk-modeling-financial-model-hygiene</guid>
+<description>Structure assumptions, flows, and outputs so anyone can trace every number.</description>
+<category>Finance &amp; Fintech</category>
+</item>
+<item>
+<title>Run shift briefings that actually prepare teams</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/hospitality-travel/revenue-operations-shift-briefing-ritual</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/hospitality-travel/revenue-operations-shift-briefing-ritual</guid>
+<description>Five-minute structured briefings covering arrivals, VIPs, issues, and focus metric.</description>
+<category>Hospitality &amp; Travel</category>
+</item>
+<item>
+<title>Apply revenue management without alienating guests</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/hospitality-travel/revenue-operations-dynamic-pricing-basics</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/hospitality-travel/revenue-operations-dynamic-pricing-basics</guid>
+<description>Demand-based pricing with fences, monitoring, and fairness optics protecting brand.</description>
+<category>Hospitality &amp; Travel</category>
+</item>
+<item>
+<title>Run business reviews that expand accounts</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/sales-success/retention-expansion-qbr-that-expands</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/sales-success/retention-expansion-qbr-that-expands</guid>
+<description>Value-delivery narratives with customer metrics turning renewals into growth conversations.</description>
+<category>Sales &amp; Customer Success</category>
+</item>
+<item>
+<title>Build a churn-risk signal system</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/sales-success/retention-expansion-churn-risk-signal-system</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/sales-success/retention-expansion-churn-risk-signal-system</guid>
+<description>Leading indicators, health scores, and intervention triggers acting before renewal panic.</description>
+<category>Sales &amp; Customer Success</category>
+</item>
+<item>
+<title>Run usability tests that reveal truth</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ux-research/research-methods-usability-test-script</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ux-research/research-methods-usability-test-script</guid>
+<description>Task-based sessions with neutral scripting, think-aloud discipline, and severity-rated findings.</description>
+<category>UX Research &amp; Design</category>
+</item>
+<item>
+<title>Synthesize research without bias collapse</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ux-research/research-methods-synthesis-affinity</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ux-research/research-methods-synthesis-affinity</guid>
+<description>Affinity mapping with evidence tagging separating observation from interpretation.</description>
+<category>UX Research &amp; Design</category>
+</item>
+<item>
+<title>Write surveys without garbage-in</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ux-research/research-methods-survey-instrument-quality</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ux-research/research-methods-survey-instrument-quality</guid>
+<description>Question construction, ordering effects, and response-scale discipline producing analyzable data.</description>
+<category>UX Research &amp; Design</category>
+</item>
+<item>
+<title>Keep lab notebooks worth citing</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/scientific-research/reproducibility-electronic-lab-notebook</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/scientific-research/reproducibility-electronic-lab-notebook</guid>
+<description>Daily entries linking intent, method versions, observations, and next actions.</description>
+<category>Scientific Research</category>
+</item>
+<item>
+<title>Make computational results reproducible</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/scientific-research/reproducibility-computational-reproducibility</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/scientific-research/reproducibility-computational-reproducibility</guid>
+<description>Environment pinning, deterministic pipelines, and one-command reruns from raw data.</description>
+<category>Scientific Research</category>
+</item>
+<item>
+<title>Triage renovations by ROI before spending</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/real-estate/renovation-roi-triage</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/real-estate/renovation-roi-triage</guid>
+<description>Cost-vs-value ranking separating value-adding work from personal-preference spending.</description>
+<category>Real Estate</category>
+</item>
+<item>
+<title>Practice GxP-grade documentation habits</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/biotech-pharma/regulatory-clinical-gxp-documentation</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/biotech-pharma/regulatory-clinical-gxp-documentation</guid>
+<description>ALCOA+ principles applied daily: attributable, legible, contemporaneous, original, accurate.</description>
+<category>Biotech &amp; Pharma</category>
+</item>
+<item>
+<title>Keep clinical trial data inspection-ready</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/biotech-pharma/regulatory-clinical-clinical-data-cleanliness</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/biotech-pharma/regulatory-clinical-clinical-data-cleanliness</guid>
+<description>Edit checks, discrepancy management, and lock discipline producing clean analyzable datasets.</description>
+<category>Biotech &amp; Pharma</category>
+</item>
+<item>
+<title>Screen resumes with bias guards</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/people-hr/recruiting-screening-bias-guards</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/people-hr/recruiting-screening-bias-guards</guid>
+<description>Structured screening rubrics applied blind where feasible, reducing noise-based rejection.</description>
+<category>People &amp; HR</category>
+</item>
+<item>
+<title>Write job descriptions candidates actually read</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/people-hr/recruiting-jd-writing-inclusive</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/people-hr/recruiting-jd-writing-inclusive</guid>
+<description>Outcome-focused, inclusive-language JDs that widen rather than shrink funnels.</description>
+<category>People &amp; HR</category>
+</item>
+<item>
+<title>Colocate state where it is consumed</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/react-patterns-state-collocation</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/react-patterns-state-collocation</guid>
+<description>Choose between local state, lifted state, URL state, and stores by asking who needs the data and when.</description>
+<category>Frontend Engineering</category>
+</item>
+<item>
+<title>Draw the server/client component boundary</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/react-patterns-server-client-boundary</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/react-patterns-server-client-boundary</guid>
+<description>Decide what renders on the server versus client in React Server Components to minimize JavaScript shipped.</description>
+<category>Frontend Engineering</category>
+</item>
+<item>
+<title>Design error, loading, and empty states first</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/react-patterns-error-loading-states</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/frontend-engineering/react-patterns-error-loading-states</guid>
+<description>Treat non-happy paths as features: skeleton loaders, typed errors, retry affordances, useful empties.</description>
+<category>Frontend Engineering</category>
+</item>
+<item>
+<title>Implement hybrid keyword + vector search</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/rag-pipelines-hybrid-search</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/rag-pipelines-hybrid-search</guid>
+<description>Combine BM25-style lexical search with dense embeddings and fuse results so both rare terms and paraphrases are found.</description>
+<category>AI Engineering</category>
+</item>
+<item>
+<title>Evaluate RAG answer quality automatically</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/rag-pipelines-eval-rag-quality</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/rag-pipelines-eval-rag-quality</guid>
+<description>Score groundedness, relevance, and completeness with judge prompts plus deterministic checks wired into CI.</description>
+<category>AI Engineering</category>
+</item>
+<item>
+<title>Design a chunking strategy for retrieval</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/rag-pipelines-chunking-strategy</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/rag-pipelines-chunking-strategy</guid>
+<description>Choose chunk sizes, overlaps, and structure-aware splits so retrieved context actually helps the model answer.</description>
+<category>AI Engineering</category>
+</item>
+<item>
+<title>Lead a PDSA quality improvement cycle</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/healthcare-clinical/quality-informatics-quality-improvement-cycle</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/healthcare-clinical/quality-informatics-quality-improvement-cycle</guid>
+<description>Small tested changes over big launches: plan-do-study-act cycles with measurable process metrics.</description>
+<category>Healthcare &amp; Clinical</category>
+</item>
+<item>
+<title>Teach-back patient education that lands</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/healthcare-clinical/quality-informatics-patient-teach-back</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/healthcare-clinical/quality-informatics-patient-teach-back</guid>
+<description>Confirm understanding by asking patients to explain back — without making it a quiz.</description>
+<category>Healthcare &amp; Clinical</category>
+</item>
+<item>
+<title>Tune clinical decision support alerts responsibly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/healthcare-clinical/quality-informatics-cdss-alert-review</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/healthcare-clinical/quality-informatics-cdss-alert-review</guid>
+<description>Reduce alert fatigue by measuring override reasons and retiring low-value interrupts.</description>
+<category>Healthcare &amp; Clinical</category>
+</item>
+<item>
+<title>Write papers in the order that works</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/scientific-research/publication-grants-paper-writing-order</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/scientific-research/publication-grants-paper-writing-order</guid>
+<description>Figures first, methods while fresh, results mechanically, intro last — reducing revision churn.</description>
+<category>Scientific Research</category>
+</item>
+<item>
+<title>Structure grant proposals reviewers score highly</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/scientific-research/publication-grants-grant-proposal-narrative</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/scientific-research/publication-grants-grant-proposal-narrative</guid>
+<description>Aims aligned to significance, feasibility evidence, and budget logic telling one coherent story.</description>
+<category>Scientific Research</category>
+</item>
+<item>
+<title>Architect a maintainable system prompt</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-system-prompt-arch</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-system-prompt-arch</guid>
+<description>Organize identity, rules, tools, and output contracts into sections that evolve without breaking behavior.</description>
+<category>AI Engineering</category>
+</item>
+<item>
+<title>Guarantee structured outputs from LLMs</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-structured-output</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-structured-output</guid>
+<description>Get machine-parseable JSON reliably using schema-first prompting, constrained decoding, and repair loops.</description>
+<category>AI Engineering</category>
+</item>
+<item>
+<title>Select few-shot examples that move accuracy (Extraction tasks)</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-few-shot-selection-extr</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-few-shot-selection-extr</guid>
+<description>Choose and order examples covering edge cases so the model generalizes instead of copying surface patterns.</description>
+<category>AI Engineering</category>
+</item>
+<item>
+<title>Select few-shot examples that move accuracy (Classification tasks)</title>
+<link>https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-few-shot-selection-cls</link>
+<guid isPermaLink="true">https://aniruddha-skills-directory.vercel.app/skills/ai-engineering/prompt-engineering-few-shot-selection-cls</guid>
+<description>Choose and order examples covering edge cases so the model generalizes instead of copying surface patterns.</description>
+<category>AI Engineering</category>
+</item>
+</channel></rss>

@@ -1,6 +1,6 @@
 {
- "count": 277,
- "generatedAt": "2026-08-24T15:38:30.372Z",
+ "count": 317,
+ "generatedAt": "2026-08-24T18:03:19.971Z",
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -1688,6 +1688,123 @@
    ]
   },
   {
+   "slug": "soc-operations-alert-triage-discipline",
+   "title": "Triage alerts with consistent depth",
+   "description": "Enrichment order, true/false-positive calls with evidence, and escalation criteria applied identically every shift.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "soc-operations",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "triage",
+    "soc",
+    "enrichment",
+    "cyber-defense-ops",
+    "soc-operations"
+   ]
+  },
+  {
+   "slug": "soc-operations-hunt-hypothesis",
+   "title": "Hunt threats with falsifiable hypotheses",
+   "description": "Structured hunts starting from TTP intelligence, producing detections or documented negatives.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "soc-operations",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "threat-hunting",
+    "mitre",
+    "proactivity",
+    "cyber-defense-ops",
+    "soc-operations"
+   ]
+  },
+  {
+   "slug": "soc-operations-log-source-coverage",
+   "title": "Map log source coverage to attack surface",
+   "description": "Inventory what you can see versus what attacks require, closing blind spots deliberately.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "soc-operations",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "visibility",
+    "logging",
+    "coverage",
+    "cyber-defense-ops",
+    "soc-operations"
+   ]
+  },
+  {
+   "slug": "detection-purple-detection-rule-lifecycle-splunk",
+   "title": "Engineer detections through a full lifecycle (Splunk)",
+   "description": "Ship detection rules like code: versioned, tested, tuned, and retired deliberately.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "detection-purple",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "detection-engineering",
+    "as-code",
+    "cyber-defense-ops",
+    "detection-purple"
+   ]
+  },
+  {
+   "slug": "detection-purple-detection-rule-lifecycle-sentinel",
+   "title": "Engineer detections through a full lifecycle (Microsoft Sentinel)",
+   "description": "Ship detection rules like code: versioned, tested, tuned, and retired deliberately.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "detection-purple",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "detection-engineering",
+    "as-code",
+    "cyber-defense-ops",
+    "detection-purple"
+   ]
+  },
+  {
+   "slug": "detection-purple-purple-validation",
+   "title": "Validate detections with purple-team exercises",
+   "description": "Safe technique emulation proving alerts fire end-to-end, producing concrete coverage evidence.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "detection-purple",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "purple-team",
+    "validation",
+    "atomic",
+    "cyber-defense-ops",
+    "detection-purple"
+   ]
+  },
+  {
+   "slug": "detection-purple-tabletop-facilitation",
+   "title": "Facilitate ransomware tabletops that find truth",
+   "description": "Scenario injects probing decision boundaries, revealing plan gaps without blame theater.",
+   "track": "cyber-defense-ops",
+   "trackLabel": "Cyber Defense & SOC",
+   "domain": "detection-purple",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "tabletop",
+    "incident-response",
+    "exercises",
+    "cyber-defense-ops",
+    "detection-purple"
+   ]
+  },
+  {
    "slug": "exploratory-analysis-dataset-health-check",
    "title": "Run a dataset health check before modeling",
    "description": "Profile distributions, missingness, leakage risks, and unit sanity before trusting any result.",
@@ -1802,6 +1919,90 @@
     "leakage",
     "data-science",
     "ml-modeling"
+   ]
+  },
+  {
+   "slug": "experimentation-rigor-paper-reproduction-protocol",
+   "title": "Reproduce papers without drowning",
+   "description": "Staged reproduction from inference-first to full retrain with deviation journals.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "experimentation-rigor",
+   "level": "advanced",
+   "minutes": 50,
+   "tags": [
+    "reproduction",
+    "papers",
+    "methodology",
+    "ml-research",
+    "experimentation-rigor"
+   ]
+  },
+  {
+   "slug": "experimentation-rigor-ablation-design",
+   "title": "Design ablations that isolate contributions",
+   "description": "One-factor-at-a-time with matched budgets separating real gains from tuning luck.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "experimentation-rigor",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "ablations",
+    "experimental-design",
+    "ml-research",
+    "experimentation-rigor"
+   ]
+  },
+  {
+   "slug": "experimentation-rigor-experiment-tracking-hygiene",
+   "title": "Keep experiment tracking trustworthy",
+   "description": "Every run reproducible from logged config + code version + data snapshot reference.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "experimentation-rigor",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "tracking",
+    "mlops",
+    "reproducibility",
+    "ml-research",
+    "experimentation-rigor"
+   ]
+  },
+  {
+   "slug": "evaluation-integrity-benchmark-selection-honesty",
+   "title": "Choose benchmarks that mean something",
+   "description": "Benchmark suites matched to target capabilities with contamination checks and honest scopes.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "evaluation-integrity",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "benchmarks",
+    "evaluation",
+    "integrity",
+    "ml-research",
+    "evaluation-integrity"
+   ]
+  },
+  {
+   "slug": "evaluation-integrity-datasheet-documentation",
+   "title": "Document datasets with datasheets",
+   "description": "Provenance, composition, collection process, and limitations recorded before modeling begins.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "evaluation-integrity",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "datasets",
+    "documentation",
+    "responsible-ai",
+    "ml-research",
+    "evaluation-integrity"
    ]
   },
   {
@@ -2643,6 +2844,91 @@
    ]
   },
   {
+   "slug": "deal-analysis-property-underwriting-checklist",
+   "title": "Underwrite a rental property in one pass",
+   "description": "Income, expense reality, financing, and downside cases producing a defensible go/no-go.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "deal-analysis",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "underwriting",
+    "rentals",
+    "analysis",
+    "real-estate",
+    "deal-analysis"
+   ]
+  },
+  {
+   "slug": "deal-analysis-comps-analysis-rigorous",
+   "title": "Pull comps that actually justify price",
+   "description": "Comparable selection by similarity and recency, adjusted transparently.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "deal-analysis",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "comps",
+    "valuation",
+    "market",
+    "real-estate",
+    "deal-analysis"
+   ]
+  },
+  {
+   "slug": "renovation-roi-triage",
+   "title": "Triage renovations by ROI before spending",
+   "description": "Cost-vs-value ranking separating value-adding work from personal-preference spending.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "deal-analysis",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "renovation",
+    "roi",
+    "flipping",
+    "real-estate",
+    "deal-analysis"
+   ]
+  },
+  {
+   "slug": "clients-listings-listing-copy-that-sells",
+   "title": "Write listings buyers actually click",
+   "description": "Lead with lifestyle outcome, structure scannable facts, and never oversell the flaws away.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "clients-listings",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "copywriting",
+    "listings",
+    "marketing",
+    "real-estate",
+    "clients-listings"
+   ]
+  },
+  {
+   "slug": "clients-listings-buyer-representation-discipline",
+   "title": "Represent buyers with fiduciary discipline",
+   "description": "Needs discovery, honest property assessments, and negotiation advocacy documented properly.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "clients-listings",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "buyers",
+    "ethics",
+    "negotiation",
+    "real-estate",
+    "clients-listings"
+   ]
+  },
+  {
    "slug": "privacy-data-data-mapping-gdpr",
    "title": "Map personal data flows for GDPR readiness",
    "description": "Inventory of what personal data exists, where it flows, on what basis — the foundation of every privacy program.",
@@ -3380,6 +3666,396 @@
     "operations",
     "game-interactive",
     "performance-liveops"
+   ]
+  },
+  {
+   "slug": "guest-experience-service-recovery-flow",
+   "title": "Turn service failures into loyalty",
+   "description": "Fast acknowledgment, empowered staff, proportionate recovery, and follow-up converting complaints.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "guest-experience",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "service-recovery",
+    "complaints",
+    "loyalty",
+    "hospitality-travel",
+    "guest-experience"
+   ]
+  },
+  {
+   "slug": "guest-experience-itinerary-design-craft",
+   "title": "Design itineraries that feel effortless",
+   "description": "Energy pacing, transfer buffers, and one anchor per day building trips travelers rave about.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "guest-experience",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "itineraries",
+    "travel-design",
+    "planning",
+    "hospitality-travel",
+    "guest-experience"
+   ]
+  },
+  {
+   "slug": "guest-experience-review-response-system",
+   "title": "Respond to reviews strategically",
+   "description": "Templates + genuine specifics turning public reviews into trust assets.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "guest-experience",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "reviews",
+    "reputation",
+    "communication",
+    "hospitality-travel",
+    "guest-experience"
+   ]
+  },
+  {
+   "slug": "revenue-operations-dynamic-pricing-basics",
+   "title": "Apply revenue management without alienating guests",
+   "description": "Demand-based pricing with fences, monitoring, and fairness optics protecting brand.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "revenue-operations",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "pricing",
+    "revenue-management",
+    "hotels",
+    "hospitality-travel",
+    "revenue-operations"
+   ]
+  },
+  {
+   "slug": "revenue-operations-shift-briefing-ritual",
+   "title": "Run shift briefings that actually prepare teams",
+   "description": "Five-minute structured briefings covering arrivals, VIPs, issues, and focus metric.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "revenue-operations",
+   "level": "foundation",
+   "minutes": 15,
+   "tags": [
+    "operations",
+    "briefings",
+    "teams",
+    "hospitality-travel",
+    "revenue-operations"
+   ]
+  },
+  {
+   "slug": "planning-inventory-demand-baseline-forecast",
+   "title": "Build a demand baseline you can beat",
+   "description": "Cleanse history, segment by variability, and benchmark naive forecasts before fancy models.",
+   "track": "supply-chain-logistics",
+   "trackLabel": "Supply Chain & Logistics",
+   "domain": "planning-inventory",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "forecasting",
+    "demand-planning",
+    "supply-chain-logistics",
+    "planning-inventory"
+   ]
+  },
+  {
+   "slug": "planning-inventory-safety-stock-policy",
+   "title": "Set safety stock from service targets and real variability",
+   "description": "Statistical buffers per SKU-class matching stated service levels and lead-time truth.",
+   "track": "supply-chain-logistics",
+   "trackLabel": "Supply Chain & Logistics",
+   "domain": "planning-inventory",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "inventory",
+    "safety-stock",
+    "service-level",
+    "supply-chain-logistics",
+    "planning-inventory"
+   ]
+  },
+  {
+   "slug": "planning-inventory-disruption-playbook",
+   "title": "Write a disruption playbook before you need it",
+   "description": "Pre-ranked responses to supplier/port/demand shocks with decision authority mapped.",
+   "track": "supply-chain-logistics",
+   "trackLabel": "Supply Chain & Logistics",
+   "domain": "planning-inventory",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "resilience",
+    "risk",
+    "continuity",
+    "supply-chain-logistics",
+    "planning-inventory"
+   ]
+  },
+  {
+   "slug": "suppliers-freight-supplier-scorecards",
+   "title": "Manage suppliers with balanced scorecards",
+   "description": "OTIF, quality, responsiveness, and cost trends driving development or exit decisions.",
+   "track": "supply-chain-logistics",
+   "trackLabel": "Supply Chain & Logistics",
+   "domain": "suppliers-freight",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "supplier-management",
+    "procurement",
+    "scorecards",
+    "supply-chain-logistics",
+    "suppliers-freight"
+   ]
+  },
+  {
+   "slug": "suppliers-freight-freight-cost-audit",
+   "title": "Audit freight costs beyond invoice approval",
+   "description": "Accessorial charges, mode mix, and lane benchmarking recovering recurring overspend.",
+   "track": "supply-chain-logistics",
+   "trackLabel": "Supply Chain & Logistics",
+   "domain": "suppliers-freight",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "freight",
+    "logistics",
+    "cost-reduction",
+    "supply-chain-logistics",
+    "suppliers-freight"
+   ]
+  },
+  {
+   "slug": "strategy-measurement-theory-of-change-map",
+   "title": "Map a theory of change stakeholders believe",
+   "description": "Inputs to long-term outcomes with assumptions surfaced and testable, not poster decoration.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "strategy-measurement",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "theory-of-change",
+    "strategy",
+    "impact",
+    "nonprofit-impact",
+    "strategy-measurement"
+   ]
+  },
+  {
+   "slug": "strategy-measurement-impact-measurement-framework",
+   "title": "Measure impact without drowning programs",
+   "description": "Lightweight data collection embedded in delivery producing credible outcome claims.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "strategy-measurement",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "measurement",
+    "m-and-e",
+    "outcomes",
+    "nonprofit-impact",
+    "strategy-measurement"
+   ]
+  },
+  {
+   "slug": "fundraising-governance-donor-stewardship-tiers",
+   "title": "Steward donors by relationship tier",
+   "description": "Segmented thank-you speed, reporting rhythm, and upgrade paths treating donors as partners.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "fundraising-governance",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "donors",
+    "stewardship",
+    "fundraising",
+    "nonprofit-impact",
+    "fundraising-governance"
+   ]
+  },
+  {
+   "slug": "fundraising-governance-board-effectiveness-audit",
+   "title": "Audit board effectiveness honestly",
+   "description": "Roles, composition, meeting design, and give/get expectations aligned to actual strategy needs.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "fundraising-governance",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "governance",
+    "boards",
+    "leadership",
+    "nonprofit-impact",
+    "fundraising-governance"
+   ]
+  },
+  {
+   "slug": "training-design-periodization-basics",
+   "title": "Periodize training around real competition calendars",
+   "description": "Macro-to-micro planning balancing stress and adaptation with planned recovery weeks.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "training-design",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "periodization",
+    "planning",
+    "coaching",
+    "sports-performance",
+    "training-design"
+   ]
+  },
+  {
+   "slug": "training-design-load-monitoring-practical",
+   "title": "Monitor training load without gadget worship",
+   "description": "Simple consistent measures — sRPE, duration, wellness — trended per athlete over time.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "training-design",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "load-management",
+    "monitoring",
+    "safety",
+    "sports-performance",
+    "training-design"
+   ]
+  },
+  {
+   "slug": "training-design-return-to-play-progression",
+   "title": "Progress return-to-play by criteria, not calendars",
+   "description": "Stage gates with objective tests protecting athletes from rush-back reinjury.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "training-design",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "rehabilitation",
+    "return-to-play",
+    "safety",
+    "sports-performance",
+    "training-design"
+   ]
+  },
+  {
+   "slug": "coaching-craft-effective-cueing",
+   "title": "Cue movements so they actually change",
+   "description": "External-focus cues, one fix at a time, and demonstration pairing accelerating skill acquisition.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "coaching-craft",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "coaching",
+    "motor-learning",
+    "communication",
+    "sports-performance",
+    "coaching-craft"
+   ]
+  },
+  {
+   "slug": "coaching-craft-warmup-that-prepares",
+   "title": "Design warm-ups that prepare, not tire",
+   "description": "Progressive raise-activate-mobilize structure specific to the session's demands.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "coaching-craft",
+   "level": "foundation",
+   "minutes": 15,
+   "tags": [
+    "warm-up",
+    "preparation",
+    "injury-prevention",
+    "sports-performance",
+    "coaching-craft"
+   ]
+  },
+  {
+   "slug": "preproduction-prepro-checklist",
+   "title": "Pre-produce shoots that don't improvise",
+   "description": "Shot lists, location scouts, gear checks, and contingency plans making shoot days boring.",
+   "track": "media-production",
+   "trackLabel": "Media & Video Production",
+   "domain": "preproduction",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "pre-production",
+    "planning",
+    "video",
+    "media-production",
+    "preproduction"
+   ]
+  },
+  {
+   "slug": "preproduction-interview-setup-craft",
+   "title": "Set up interviews that produce usable answers",
+   "description": "Question design, comfort engineering, and listening technique yielding complete soundbites.",
+   "track": "media-production",
+   "trackLabel": "Media & Video Production",
+   "domain": "preproduction",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "interviews",
+    "documentary",
+    "storytelling",
+    "media-production",
+    "preproduction"
+   ]
+  },
+  {
+   "slug": "post-publish-edit-pacing-discipline",
+   "title": "Edit with ruthless pacing discipline",
+   "description": "Structure-first assembly, kill-your-darlings trims, and audio polish before visual candy.",
+   "track": "media-production",
+   "trackLabel": "Media & Video Production",
+   "domain": "post-publish",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "editing",
+    "pacing",
+    "post-production",
+    "media-production",
+    "post-publish"
+   ]
+  },
+  {
+   "slug": "post-publish-publish-packaging",
+   "title": "Package publishes for discovery",
+   "description": "Titles, thumbnails, descriptions, and chapters engineered as a system per platform.",
+   "track": "media-production",
+   "trackLabel": "Media & Video Production",
+   "domain": "post-publish",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "packaging",
+    "youtube",
+    "distribution",
+    "media-production",
+    "post-publish"
    ]
   },
   {

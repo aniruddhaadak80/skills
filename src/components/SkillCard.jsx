@@ -1,8 +1,5 @@
-"use client";
-
 import Link from "next/link";
 import CopyButton from "./CopyButton";
-import { useSpotlight } from "./Motion";
 
 const LEVEL_STYLES = {
   foundation: "bg-emerald-500/10 text-emerald-300 border-emerald-500/25",
@@ -12,11 +9,9 @@ const LEVEL_STYLES = {
 };
 
 export default function SkillCard({ skill, index = 0 }) {
-  const ref = useSpotlight();
   return (
     <div
-      ref={ref}
-      className="spotlight card-hover group relative rounded-2xl border border-white/[0.07] bg-panel/80 p-5 flex flex-col"
+      className="card-hover group relative rounded-2xl border border-white/[0.07] bg-panel/80 p-5 flex flex-col"
       style={{ transitionDelay: `${(index % 12) * 30}ms` }}
     >
       <div className={`absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r ${skill.gradient} opacity-50 group-hover:opacity-100 transition-opacity duration-500`} />

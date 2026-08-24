@@ -70,4 +70,12 @@ for (const s of skills) {
 const idx = skills.map(({ slug, title, description, track, trackLabel, domain, level, minutes, tags }) => ({ slug, title, description, track, trackLabel, domain, level, minutes, tags }));
 writeFileSync(join(root, "src", "data", "skills-index.json"), JSON.stringify({ count: idx.length, generatedAt: new Date().toISOString(), skills: idx }, null, 1));
 
+// Compact search index served statically (fetched once by the command palette)
+const publicDir = join(root, "public");
+mkdirSync(publicDir, { recursive: true });
+writeFileSync(
+  join(publicDir, "search-index.json"),
+  JSON.stringify(skills.map((s) => ({ slug: s.slug, title: s.title, track: s.track, trackIcon: s.trackIcon, tags: s.tags.slice(0, 5), pb: !!s.isPlaybook })))
+);
+
 console.log(`Done. ${skills.length} SKILL.md files written to ./skills`);

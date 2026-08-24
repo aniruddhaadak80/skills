@@ -23,6 +23,14 @@ import { track as salesSuccess } from "./sales-success.mjs";
 import { track as dataEngineering } from "./data-engineering.mjs";
 import { track as marketingGrowth } from "./marketing-growth.mjs";
 import { track as gameInteractive } from "./game-interactive.mjs";
+import { track as cyberDefenseOps } from "./cyber-defense-ops.mjs";
+import { track as mlResearch } from "./ml-research.mjs";
+import { track as realEstate } from "./real-estate.mjs";
+import { track as hospitalityTravel } from "./hospitality-travel.mjs";
+import { track as supplyChainLogistics } from "./supply-chain-logistics.mjs";
+import { track as nonprofitImpact } from "./nonprofit-impact.mjs";
+import { track as sportsPerformance } from "./sports-performance.mjs";
+import { track as mediaProduction } from "./media-production.mjs";
 
 export const TRACKS = [
   aiEngineering,
@@ -32,7 +40,9 @@ export const TRACKS = [
   devopsCloud,
   engineeringEssentials,
   cybersecurity,
+  cyberDefenseOps,
   dataScience,
+  mlResearch,
   productManagement,
   uxResearch,
   engineeringLeadership,
@@ -41,6 +51,7 @@ export const TRACKS = [
   biotechPharma,
   scientificResearch,
   financeFintech,
+  realEstate,
   legalCompliance,
   qaTesting,
   technicalWriting,
@@ -50,4 +61,9 @@ export const TRACKS = [
   freelanceBusiness,
   educationLearning,
   gameInteractive,
+  hospitalityTravel,
+  supplyChainLogistics,
+  nonprofitImpact,
+  sportsPerformance,
+  mediaProduction,
 ];

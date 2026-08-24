@@ -43,8 +43,17 @@ export default function Header() {
               </Link>
             )
           )}
+          <button
+            onClick={() => window.dispatchEvent(new Event("open-command-palette"))}
+            className="hidden lg:flex items-center gap-2 mr-1 px-3 py-1.5 rounded-lg border border-white/10 text-xs text-slate-500 hover:text-cyan-300 hover:border-cyan-400/40 transition-all duration-300"
+            aria-label="Search skills"
+          >
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+            Search
+            <kbd className="font-mono text-[10px] border border-white/10 rounded px-1">Ctrl K</kbd>
+          </button>
           <Link href="/skills"
-            className="shine ml-3 px-5 py-2 rounded-xl text-sm font-semibold text-ink bg-gradient-to-r from-cyan-400 to-teal-400 hover:from-cyan-300 hover:to-teal-300 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/45 hover:-translate-y-0.5 transition-all duration-300">
+            className="shine ml-1 px-5 py-2 rounded-xl text-sm font-semibold text-ink bg-gradient-to-r from-cyan-400 to-teal-400 hover:from-cyan-300 hover:to-teal-300 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/45 hover:-translate-y-0.5 transition-all duration-300">
             Install a Skill
           </Link>
         </nav>

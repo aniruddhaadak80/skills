@@ -3,6 +3,7 @@ import { TRACKS } from "@/data/tracks/index.mjs";
 import { getAllSkills } from "@/lib/skills.mjs";
 import InstallCommand from "@/components/InstallCommand";
 import SkillCard from "@/components/SkillCard";
+import PaletteTrigger from "@/components/PaletteTrigger";
 import { Reveal, StatCounter, Typewriter } from "@/components/Motion";
 
 export default function Home() {
@@ -178,6 +179,39 @@ export default function Home() {
               </div>
             </Reveal>
           ))}
+        </div>
+      </section>
+
+      {/* Newest additions */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-24">
+        <Reveal>
+          <div className="flex items-end justify-between flex-wrap gap-4 mb-10">
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Fresh off the <span className="gradient-text">bench</span></h2>
+              <p className="text-slate-500 mt-2">Latest tracks added to the library — expansion packs ship continuously.</p>
+            </div>
+            <PaletteTrigger className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-xl border border-white/10 text-sm text-slate-400 hover:border-cyan-400/40 hover:text-cyan-300 transition-all duration-300">
+              ⌘K quick-jump anywhere
+            </PaletteTrigger>
+          </div>
+        </Reveal>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {["cyber-defense-ops", "ml-research", "hospitality-travel", "sports-performance"].map((tid, i) => {
+            const t = TRACKS.find((x) => x.id === tid);
+            const first = t.domains[0].procedures[0];
+            const slug = `${t.domains[0].id}-${first.id}`;
+            return (
+              <Reveal key={tid} delay={i * 80}>
+                <Link href={`/skills/${tid}/${slug}`} className={`card-hover group block h-full rounded-2xl border border-white/[0.07] bg-panel/80 p-5 relative overflow-hidden`}>
+                  <div className={`absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r ${t.gradient} opacity-60 group-hover:opacity-100`} />
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-orange-300">New track</span>
+                  <h3 className="mt-1.5 font-bold text-slate-100 leading-snug">{first.title}</h3>
+                  <p className="mt-1 text-xs text-slate-600">{t.icon} {t.label} · {t.domains.reduce((a, d) => a + d.procedures.length, 0)} procedures</p>
+                  <p className="mt-2.5 text-xs text-slate-500 line-clamp-3">{first.description}</p>
+                </Link>
+              </Reveal>
+            );
+          })}
         </div>
       </section>
 

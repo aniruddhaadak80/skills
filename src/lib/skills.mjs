@@ -1,7 +1,10 @@
 import { TRACKS } from "../data/tracks/index.mjs";
 import { PLAYBOOKS } from "../data/tracks/playbooks.mjs";
 
+let _cache = null;
+
 export function getAllSkills() {
+  if (_cache) return _cache;
   const out = [];
   for (const track of TRACKS) {
     for (const domain of track.domains) {
@@ -23,7 +26,20 @@ export function getAllSkills() {
     if (seen.has(s.slug)) throw new Error(`Duplicate slug: ${s.slug}`);
     seen.add(s.slug);
   }
+  _cache = out;
   return out;
+}
+
+export function getSearchIndex() {
+  return getAllSkills().map((s) => ({
+    slug: s.slug,
+    title: s.title,
+    track: s.track,
+    trackLabel: s.trackLabel,
+    trackIcon: s.trackIcon,
+    tags: s.tags.slice(0, 6),
+    isPlaybook: !!s.isPlaybook,
+  }));
 }
 
 function expandPlaybooks(baseSkills) {

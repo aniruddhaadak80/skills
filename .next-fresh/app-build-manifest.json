@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-616e068a201ad621.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-9776bcfde68b9ed6.js",
+      "static/chunks/main-app-5d531a7d0e370704.js",
+      "static/chunks/app/_not-found/page-7b57af7c004eafad.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-616e068a201ad621.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-9776bcfde68b9ed6.js",
+      "static/chunks/main-app-5d531a7d0e370704.js",
+      "static/css/dca92e1cbceb6b9c.css",
+      "static/chunks/972-a1597467b2f45725.js",
+      "static/chunks/app/layout-cd34ce0aaab5c314.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-616e068a201ad621.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-9776bcfde68b9ed6.js",
+      "static/chunks/main-app-5d531a7d0e370704.js",
+      "static/chunks/972-a1597467b2f45725.js",
+      "static/chunks/app/page-8ca7b5941c1b2873.js"
+    ],
+    "/skills/page": [
+      "static/chunks/webpack-616e068a201ad621.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-9776bcfde68b9ed6.js",
+      "static/chunks/main-app-5d531a7d0e370704.js",
+      "static/chunks/972-a1597467b2f45725.js",
+      "static/chunks/app/skills/page-1d3ab82cd59d7c10.js"
+    ],
+    "/skills/[track]/[skill]/page": [
+      "static/chunks/webpack-616e068a201ad621.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-9776bcfde68b9ed6.js",
+      "static/chunks/main-app-5d531a7d0e370704.js",
+      "static/chunks/972-a1597467b2f45725.js",
+      "static/chunks/app/skills/[track]/[skill]/page-040a4dca1fb5ab08.js"
+    ],
+    "/tracks/[track]/page": [
+      "static/chunks/webpack-616e068a201ad621.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-9776bcfde68b9ed6.js",
+      "static/chunks/main-app-5d531a7d0e370704.js",
+      "static/chunks/972-a1597467b2f45725.js",
+      "static/chunks/app/tracks/[track]/page-f56ee6c444087086.js"
+    ]
+  }
+}
