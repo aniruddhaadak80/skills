@@ -286,5 +286,116 @@ export const PLAYBOOKS = [
       { id: "search-launch", title: "Launch a job search that works", goal: "Truth-effective resume, proof-of-work portfolio, and tailored pipeline running weekly.", uses: ["search-assets-resume-truth-optimization", "search-assets-portfolio-proof-system"], guidance: "Assets first, applications second. Spray-and-pray wastes your best stories." },
       { id: "interview-to-offer", title: "Convert interviews into offers", goal: "STAR story bank plus principled negotiation landing numbers you can defend.", uses: ["interview-offers-star-story-bank", "interview-offers-offer-negotiation-principled"], guidance: "Rehearse out loud; negotiate once, clearly, with market truth." }
     ]
+  },
+  {
+    trackId: "ai-engineering",
+    items: [
+      { id: "memory-system", title: "Give your agent a working memory", goal: "Tiered memory architecture with promotion, forgetting, and audit hygiene live in production.", uses: ["agent-memory-memory-architecture-tiers", "ai-engineering-context-window-budgeting"], guidance: "Memory without forgetting policy becomes noise; budget context before scaling storage." },
+      { id: "voice-launch", title: "Ship a voice agent people enjoy", goal: "Sub-800ms conversational latency with barge-in and multimodal eval coverage.", uses: ["voice-multimodal-voice-agent-latency", "voice-multimodal-multimodal-eval-design"], guidance: "Latency is the product in voice; evaluate extraction deterministically before judges." }
+    ]
+  },
+  {
+    trackId: "frontend-engineering",
+    items: [
+      { id: "interaction-polish", title: "Polish interactions users feel", goal: "Rage-free forms, honest optimistic UI, and infinite scroll that respects users.", uses: ["forms-interactions-form-ux-accessibility", "forms-interactions-optimistic-ui-patterns", "forms-interactions-infinite-scroll-done-right"], guidance: "Every pattern here has an anti-pattern twin; the pitfalls sections are the product." }
+    ]
+  },
+  {
+    trackId: "backend-engineering",
+    items: [
+      { id: "platform-hardening", title: "Harden platform traffic and integrations", goal: "Fair rate limits, trustworthy outbound webhooks, and exports that scale.", uses: ["traffic-control-rate-limiting-strategies", "traffic-control-outbound-webhooks-reliability", "data-movement-export-pipeline-design"], guidance: "These three break production trust fastest; instrument each before launch." }
+    ]
+  },
+  {
+    trackId: "devops-cloud",
+    items: [
+      { id: "recoverability", title: "Prove you can recover", goal: "Backups restored on schedule against declared RPO/RTO with evidence.", uses: ["platform-tooling-backup-restore-testing", "observability-golden-signals"], guidance: "A backup never restored is a hope, not a plan." },
+      { id: "obs-stack-choice", title: "Choose your observability stack deliberately", goal: "Vendor wired via OpenTelemetry with cardinality budgets and routing discipline.", uses: ["platform-tooling-observability-stack-setup-grafana", "observability-structured-logging"], guidance: "Pick one variant per reality; exit paths matter more than features." }
+    ]
+  },
+  {
+    trackId: "cybersecurity",
+    items: [
+      { id: "cloud-posture", title: "Fix cloud posture systematically", goal: "Configuration audits codified per platform with drift detection running.", uses: ["cloud-config-audit-cloud-config-audit-basics-aws", "cloud-config-audit-cloud-config-audit-basics-gcp", "cloud-config-audit-cloud-config-audit-basics-azure"], guidance: "Run the variant matching your platform; codify checks so drift gets caught." },
+      { id: "program-buildout", title: "Build out program-level security", goal: "Vendor risk tiering and SDLC gates developers respect.", uses: ["program-security-vendor-risk-assessment", "program-security-secure-sdlc-gates"], guidance: "Paved roads beat gates; exceptions need owners and expiry dates." }
+    ]
+  },
+  {
+    trackId: "product-management",
+    items: [
+      { id: "monetization-reset", title: "Reset monetization end to end", goal: "Value-metric pricing with stakeholder communication that holds under scrutiny.", uses: ["monetization-pricing-packaging-basics", "stakeholder-alignment-roadmap-communication-cadence"], guidance: "Grandfather honestly; communicate on cadence; both protect trust." }
+    ]
+  },
+  {
+    trackId: "people-hr",
+    items: [
+      { id: "people-systems", title: "Build humane performance systems", goal: "Fair PIPs and remote policy designed from operating reality.", uses: ["performance-growth-pip-conducted-fairly", "performance-growth-remote-work-policy-design"], guidance: "Documentation written BEFORE hard conversations is what makes them fair." }
+    ]
+  },
+  {
+    trackId: "qa-testing",
+    items: [
+      { id: "foundations-hardened", title: "Harden testing foundations", goal: "Leak-free test data and mobile matrices matching real users.", uses: ["test-foundations-test-data-management", "test-foundations-mobile-testing-basics"], guidance: "PII in test envs is a breach waiting for discovery day." }
+    ]
+  },
+  {
+    trackId: "startup-founders",
+    items: [
+      { id: "founder-legal-base", title: "Secure founder fundamentals", goal: "Charter, vesting, and cap-table literacy before first term sheet.", uses: ["founder-fundamentals-co-founder-alignment-charter", "founder-fundamentals-cap-table-literacy"], guidance: "Awkward conversations now prevent company-freezing ones later." }
+    ]
+  },
+  {
+    trackId: "career-development",
+    items: [
+      { id: "search-systems", title: "Run your job search like a system", goal: "Truth-effective assets converting interviews into defensible offers.", uses: ["search-assets-resume-truth-optimization", "interview-offers-star-story-bank", "interview-offers-offer-negotiation-principled"], guidance: "Assets ? stories ? negotiation, in that order. Each compounds the last." }
+    ]
+  },
+  {
+    trackId: "aviation-aerospace",
+    items: [
+      { id: "fleet-availability", title: "Maximize fleet availability", goal: "Maintenance forecast, parts pipelines, and deferred-item control keeping aircraft flying.", uses: ["ops-planning-maintenance-planning-basics"], guidance: "Availability is planned at contract signing, not negotiated at the hangar door." }
+    ]
+  },
+  {
+    trackId: "agriculture-agtech",
+    items: [
+      { id: "livestock-trace", title: "Achieve livestock traceability", goal: "Individual records, withdrawal automation, and breeding performance driving decisions.", uses: ["livestock-systems-herd-record-discipline"], guidance: "Group averages hide the animal that needs help today." }
+    ]
+  },
+  {
+    trackId: "biotech-pharma",
+    items: [
+      { id: "supplier-control", title: "Control your supplier quality system", goal: "Risk-tiered qualification with quality agreements and change control live.", uses: ["quality-suppliers-vendor-qualification-gxp"], guidance: "Your product is only as compliant as your least-compliant vendor." }
+    ]
+  },
+  {
+    trackId: "public-sector",
+    items: [
+      { id: "consultation-integrity", title: "Run public consultations with integrity", goal: "Representative comment analysis with published methodology feeding decisions.", uses: ["civic-engagement-public-comment-analysis"], guidance: "Methodology transparency is what makes contested conclusions defensible." }
+    ]
+  },
+  {
+    trackId: "nonprofit-impact",
+    items: [
+      { id: "volunteer-engine", title: "Build a volunteer engine that retains", goal: "Screening tiers, first-shift wins, and recognition loops reducing churn.", uses: ["volunteer-force-volunteer-onboarding-system"], guidance: "Volunteers stay where they feel useful and seen — engineer both." }
+    ]
+  },
+  {
+    trackId: "sports-performance",
+    items: [
+      { id: "video-to-pitch", title: "Convert video analysis into training change", goal: "Question-led coding producing session designs players actually absorb.", uses: ["match-intelligence-match-analysis-workflow"], guidance: "If Monday's session looks like every other Monday, the analysis was decoration." }
+    ]
+  },
+  {
+    trackId: "media-production",
+    items: [
+      { id: "accessible-publishing", title: "Publish media to accessibility standard", goal: "Human-quality captions, audio-description-aware production, verified by affected reviewers.", uses: ["accessibility-media-captioning-accessibility-standard"], guidance: "Accessibility planned in production costs minutes; retrofitted, it costs reshoots." }
+    ]
+  },
+  {
+    trackId: "devops-cloud",
+    items: [
+      { id: "cost-and-recovery", title: "Control cloud cost AND recoverability together", goal: "FinOps rhythms plus restore drills making spend explainable and recovery proven.", uses: ["engineering-economics-cloud-cost-monitoring-finops", "platform-tooling-backup-restore-testing"], guidance: "Both are boring until the day they are existential." }
+    ]
   }
 ];

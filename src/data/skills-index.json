@@ -1,5 +1,5 @@
 {
- "count": 392,
+ "count": 500,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -250,6 +250,74 @@
    ]
   },
   {
+   "slug": "voice-multimodal-voice-agent-latency",
+   "title": "Engineer voice agents under latency ceilings",
+   "description": "Streaming ASR, incremental TTS, and barge-in handling keeping conversation feel under 800ms response.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "voice-multimodal",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "voice",
+    "latency",
+    "streaming",
+    "ai-engineering",
+    "voice-multimodal"
+   ]
+  },
+  {
+   "slug": "voice-multimodal-multimodal-eval-design",
+   "title": "Evaluate multimodal outputs beyond vibes",
+   "description": "Task-grounded scoring for image/chart/document understanding with calibrated human baselines.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "voice-multimodal",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "evals",
+    "multimodal",
+    "vision",
+    "ai-engineering",
+    "voice-multimodal"
+   ]
+  },
+  {
+   "slug": "agent-memory-memory-architecture-tiers",
+   "title": "Design tiered memory for persistent agents",
+   "description": "Working, episodic, and semantic memory tiers with promotion/forgetting policies that stay coherent.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "agent-memory",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "agents",
+    "memory",
+    "architecture",
+    "ai-engineering",
+    "agent-memory"
+   ]
+  },
+  {
+   "slug": "agent-memory-context-window-budgeting",
+   "title": "Budget long-context windows deliberately",
+   "description": "Priority-ranked context assembly with measured attention degradation at depth.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "agent-memory",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "context",
+    "long-context",
+    "prompts",
+    "ai-engineering",
+    "agent-memory"
+   ]
+  },
+  {
    "slug": "react-patterns-server-client-boundary",
    "title": "Draw the server/client component boundary",
    "description": "Decide what renders on the server versus client in React Server Components to minimize JavaScript shipped.",
@@ -447,6 +515,22 @@
     "a11y",
     "frontend-engineering",
     "accessibility"
+   ]
+  },
+  {
+   "slug": "collaboration-flows-design-handoff-receiving",
+   "title": "Receive design handoffs without rework loops",
+   "description": "Pre-build alignment on states, breakpoints, and motion specs eliminating mid-sprint surprises.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "collaboration-flows",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "handoff",
+    "design-collaboration",
+    "frontend-engineering",
+    "collaboration-flows"
    ]
   },
   {
@@ -666,6 +750,23 @@
     "security",
     "backend-engineering",
     "auth-security"
+   ]
+  },
+  {
+   "slug": "resilience-patterns-graceful-degradation-design",
+   "title": "Design degradation users forgive",
+   "description": "Feature-tier fallbacks, circuit breakers, and honest UI states keeping core journeys alive during partial failure.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "resilience-patterns",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "resilience",
+    "circuit-breakers",
+    "fallbacks",
+    "backend-engineering",
+    "resilience-patterns"
    ]
   },
   {
@@ -966,6 +1067,40 @@
    ]
   },
   {
+   "slug": "engineering-economics-cloud-cost-monitoring-finops",
+   "title": "Run FinOps before finance finds the invoice",
+   "description": "Tagging discipline, unit-economics dashboards, and anomaly alerts keeping cloud spend explainable.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "engineering-economics",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "finops",
+    "cost",
+    "cloud",
+    "devops-cloud",
+    "engineering-economics"
+   ]
+  },
+  {
+   "slug": "engineering-economics-runbook-craft",
+   "title": "Write runbooks that work at 3am",
+   "description": "Symptom-indexed, copy-paste-ready procedures with verification steps and escalation exits.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "engineering-economics",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "runbooks",
+    "operations",
+    "documentation",
+    "devops-cloud",
+    "engineering-economics"
+   ]
+  },
+  {
    "slug": "debug-craft-systematic-bug-hunt-node",
    "title": "Hunt bugs systematically (Node.js)",
    "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
@@ -1048,6 +1183,134 @@
   {
    "slug": "debug-craft-systematic-bug-hunt-dotnet",
    "title": "Hunt bugs systematically (.NET)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-kotlin",
+   "title": "Hunt bugs systematically (Kotlin)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-swift",
+   "title": "Hunt bugs systematically (Swift)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-php",
+   "title": "Hunt bugs systematically (PHP)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-ruby",
+   "title": "Hunt bugs systematically (Ruby)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-elixir",
+   "title": "Hunt bugs systematically (Elixir)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-cpp",
+   "title": "Hunt bugs systematically (C++)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-scala",
+   "title": "Hunt bugs systematically (Scala)",
+   "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "debugging",
+    "methodology",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-systematic-bug-hunt-dart",
+   "title": "Hunt bugs systematically (Dart/Flutter)",
    "description": "Reproduce, bisect, hypothesize, verify — the method that beats random poking under deadline pressure.",
    "track": "engineering-essentials",
    "trackLabel": "Engineering Essentials",
@@ -1149,6 +1412,142 @@
   {
    "slug": "debug-craft-production-debugging-dotnet",
    "title": "Debug production without stopping the world (.NET)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-kotlin",
+   "title": "Debug production without stopping the world (Kotlin)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-swift",
+   "title": "Debug production without stopping the world (Swift)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-php",
+   "title": "Debug production without stopping the world (PHP)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-ruby",
+   "title": "Debug production without stopping the world (Ruby)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-elixir",
+   "title": "Debug production without stopping the world (Elixir)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-cpp",
+   "title": "Debug production without stopping the world (C++)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-scala",
+   "title": "Debug production without stopping the world (Scala)",
+   "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "debug-craft",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "debugging",
+    "production",
+    "observability",
+    "engineering-essentials",
+    "debug-craft"
+   ]
+  },
+  {
+   "slug": "debug-craft-production-debugging-dart",
+   "title": "Debug production without stopping the world (Dart/Flutter)",
    "description": "Safe live diagnosis using flags, traces, and snapshots instead of restart roulette.",
    "track": "engineering-essentials",
    "trackLabel": "Engineering Essentials",
@@ -1266,6 +1665,142 @@
    ]
   },
   {
+   "slug": "code-quality-code-review-checklist-kotlin",
+   "title": "Review code like a senior engineer (Kotlin)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-swift",
+   "title": "Review code like a senior engineer (Swift)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-php",
+   "title": "Review code like a senior engineer (PHP)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-ruby",
+   "title": "Review code like a senior engineer (Ruby)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-elixir",
+   "title": "Review code like a senior engineer (Elixir)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-cpp",
+   "title": "Review code like a senior engineer (C++)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-scala",
+   "title": "Review code like a senior engineer (Scala)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-code-review-checklist-dart",
+   "title": "Review code like a senior engineer (Dart/Flutter)",
+   "description": "Review order, comment quality, and scope discipline making PRs fast and kind.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "code-review",
+    "quality",
+    "collaboration",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
    "slug": "code-quality-refactor-safely-node",
    "title": "Refactor without breaking behavior (Node.js)",
    "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
@@ -1348,6 +1883,134 @@
   {
    "slug": "code-quality-refactor-safely-dotnet",
    "title": "Refactor without breaking behavior (.NET)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-kotlin",
+   "title": "Refactor without breaking behavior (Kotlin)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-swift",
+   "title": "Refactor without breaking behavior (Swift)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-php",
+   "title": "Refactor without breaking behavior (PHP)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-ruby",
+   "title": "Refactor without breaking behavior (Ruby)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-elixir",
+   "title": "Refactor without breaking behavior (Elixir)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-cpp",
+   "title": "Refactor without breaking behavior (C++)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-scala",
+   "title": "Refactor without breaking behavior (Scala)",
+   "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "refactoring",
+    "legacy-code",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-refactor-safely-dart",
+   "title": "Refactor without breaking behavior (Dart/Flutter)",
    "description": "Characterization tests, small mechanical steps, and clean-cut commits keeping refactors boring.",
    "track": "engineering-essentials",
    "trackLabel": "Engineering Essentials",
@@ -1458,6 +2121,134 @@
    ]
   },
   {
+   "slug": "code-quality-performance-profiling-kotlin",
+   "title": "Profile before optimizing (Kotlin)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-swift",
+   "title": "Profile before optimizing (Swift)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-php",
+   "title": "Profile before optimizing (PHP)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-ruby",
+   "title": "Profile before optimizing (Ruby)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-elixir",
+   "title": "Profile before optimizing (Elixir)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-cpp",
+   "title": "Profile before optimizing (C++)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-scala",
+   "title": "Profile before optimizing (Scala)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
+   "slug": "code-quality-performance-profiling-dart",
+   "title": "Profile before optimizing (Dart/Flutter)",
+   "description": "Measure hot paths with real data shapes, optimize measured bottlenecks, verify wins.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "code-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "performance",
+    "profiling",
+    "engineering-essentials",
+    "code-quality"
+   ]
+  },
+  {
    "slug": "collab-workflow-git-discipline-node",
    "title": "Practice git discipline teams thank you for (Node.js)",
    "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
@@ -1554,6 +2345,134 @@
    ]
   },
   {
+   "slug": "collab-workflow-git-discipline-kotlin",
+   "title": "Practice git discipline teams thank you for (Kotlin)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-swift",
+   "title": "Practice git discipline teams thank you for (Swift)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-php",
+   "title": "Practice git discipline teams thank you for (PHP)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-ruby",
+   "title": "Practice git discipline teams thank you for (Ruby)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-elixir",
+   "title": "Practice git discipline teams thank you for (Elixir)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-cpp",
+   "title": "Practice git discipline teams thank you for (C++)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-scala",
+   "title": "Practice git discipline teams thank you for (Scala)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
+   "slug": "collab-workflow-git-discipline-dart",
+   "title": "Practice git discipline teams thank you for (Dart/Flutter)",
+   "description": "Commit hygiene, branch strategy, and recovery skills preventing shared-repo disasters.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "collab-workflow",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "workflow",
+    "engineering-essentials",
+    "collab-workflow"
+   ]
+  },
+  {
    "slug": "collab-workflow-async-communication",
    "title": "Communicate asynchronously like a distributed-native",
    "description": "Written updates, decision records, and meeting hygiene across timezones.",
@@ -1568,6 +2487,57 @@
     "writing",
     "engineering-essentials",
     "collab-workflow"
+   ]
+  },
+  {
+   "slug": "diagnostic-foundations-http-api-debugging",
+   "title": "Debug HTTP APIs methodically",
+   "description": "Request-level forensics: headers, status semantics, timing, and auth layers isolated step by step.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "diagnostic-foundations",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "http",
+    "debugging",
+    "api",
+    "engineering-essentials",
+    "diagnostic-foundations"
+   ]
+  },
+  {
+   "slug": "diagnostic-foundations-database-triage-basics",
+   "title": "Triage 'the database is slow' alarms",
+   "description": "Structured first-response: load vs lock vs query-plan diagnosis under pressure.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "diagnostic-foundations",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "databases",
+    "debugging",
+    "triage",
+    "engineering-essentials",
+    "diagnostic-foundations"
+   ]
+  },
+  {
+   "slug": "diagnostic-foundations-codebase-reading-strategy",
+   "title": "Read unfamiliar codebases strategically",
+   "description": "Entry-point tracing, test-first reading, and boundary mapping building accurate mental models fast.",
+   "track": "engineering-essentials",
+   "trackLabel": "Engineering Essentials",
+   "domain": "diagnostic-foundations",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "onboarding",
+    "reading-code",
+    "legacy",
+    "engineering-essentials",
+    "diagnostic-foundations"
    ]
   },
   {
@@ -1684,6 +2654,23 @@
     "awareness",
     "cybersecurity",
     "incident-response-security"
+   ]
+  },
+  {
+   "slug": "human-layer-security-champions-program",
+   "title": "Launch a security champions program",
+   "description": "Embedded team advocates with training, authority, and recognition multiplying security capacity.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "human-layer",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "champions",
+    "culture",
+    "devsecops",
+    "cybersecurity",
+    "human-layer"
    ]
   },
   {
@@ -1921,6 +2908,23 @@
    ]
   },
   {
+   "slug": "critical-consumption-ab-test-reading-checklist",
+   "title": "Read other people's A/B tests critically",
+   "description": "Validity checklist catching underpowered tests, peeking, and metric tricks in published results.",
+   "track": "data-science",
+   "trackLabel": "Data Science & Analytics",
+   "domain": "critical-consumption",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "experimentation",
+    "critical-thinking",
+    "statistics",
+    "data-science",
+    "critical-consumption"
+   ]
+  },
+  {
    "slug": "experimentation-rigor-paper-reproduction-protocol",
    "title": "Reproduce papers without drowning",
    "description": "Staged reproduction from inference-first to full retrain with deviation journals.",
@@ -2104,6 +3108,23 @@
    ]
   },
   {
+   "slug": "feedback-systems-user-feedback-triage-system",
+   "title": "Triage user feedback into signal, not noise",
+   "description": "Structured capture, revenue-weighted pattern analysis, and closed-loop responses feeding roadmaps.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "feedback-systems",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "feedback",
+    "voice-of-customer",
+    "prioritization",
+    "product-management",
+    "feedback-systems"
+   ]
+  },
+  {
    "slug": "research-methods-usability-test-script",
    "title": "Run usability tests that reveal truth",
    "description": "Task-based sessions with neutral scripting, think-aloud discipline, and severity-rated findings.",
@@ -2183,6 +3204,23 @@
     "service-design",
     "ux-research",
     "design-practice"
+   ]
+  },
+  {
+   "slug": "rapid-methods-guerrilla-usability-testing",
+   "title": "Run guerrilla usability tests that still count",
+   "description": "Fast hallway/café testing with tight tasks and honest limits about what the data supports.",
+   "track": "ux-research",
+   "trackLabel": "UX Research & Design",
+   "domain": "rapid-methods",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "usability",
+    "rapid-research",
+    "testing",
+    "ux-research",
+    "rapid-methods"
    ]
   },
   {
@@ -2319,6 +3357,40 @@
    ]
   },
   {
+   "slug": "leadership-rhythms-skip-level-meetings",
+   "title": "Run skip-levels that surface truth",
+   "description": "Psychologically safe formats hearing unfiltered reality two layers down without undermining managers.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "leadership-rhythms",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "skip-levels",
+    "management",
+    "communication",
+    "engineering-leadership",
+    "leadership-rhythms"
+   ]
+  },
+  {
+   "slug": "leadership-rhythms-incident-comms-leadership",
+   "title": "Communicate during incidents as a leader",
+   "description": "Stakeholder cadence, uncertainty honesty, and blame avoidance setting organizational tone.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "leadership-rhythms",
+   "level": "advanced",
+   "minutes": 30,
+   "tags": [
+    "incidents",
+    "communication",
+    "leadership",
+    "engineering-leadership",
+    "leadership-rhythms"
+   ]
+  },
+  {
    "slug": "recruiting-jd-writing-inclusive",
    "title": "Write job descriptions candidates actually read",
    "description": "Outcome-focused, inclusive-language JDs that widen rather than shrink funnels.",
@@ -2416,6 +3488,23 @@
     "culture",
     "people-hr",
     "policy-engagement"
+   ]
+  },
+  {
+   "slug": "hiring-quality-interview-debrief-facilitation",
+   "title": "Facilitate hiring debriefs that decide well",
+   "description": "Independent scoring first, evidence-based discussion, and bias callouts structured into the meeting.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "hiring-quality",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "debrief",
+    "hiring",
+    "decisions",
+    "people-hr",
+    "hiring-quality"
    ]
   },
   {
@@ -2518,6 +3607,23 @@
     "health-literacy",
     "healthcare-clinical",
     "quality-informatics"
+   ]
+  },
+  {
+   "slug": "telehealth-ops-telehealth-workflow-setup",
+   "title": "Run telehealth visits that clinically satisfy",
+   "description": "Pre-visit tech checks, structured remote exams, documentation parity, and escalation ladders.",
+   "track": "healthcare-clinical",
+   "trackLabel": "Healthcare & Clinical",
+   "domain": "telehealth-ops",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "telehealth",
+    "workflow",
+    "remote-care",
+    "healthcare-clinical",
+    "telehealth-ops"
    ]
   },
   {
@@ -2642,6 +3748,23 @@
    ]
   },
   {
+   "slug": "quality-suppliers-vendor-qualification-gxp",
+   "title": "Qualify GxP vendors before reliance",
+   "description": "Risk-tiered audits, quality agreements, and change-notification clauses protecting product integrity.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "quality-suppliers",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "suppliers",
+    "gxp",
+    "qualification",
+    "biotech-pharma",
+    "quality-suppliers"
+   ]
+  },
+  {
    "slug": "study-design-power-analysis-first",
    "title": "Power studies before collecting a single datapoint",
    "description": "Effect-size estimates, power targets, and preregistration preventing underpowered regrets.",
@@ -2739,6 +3862,23 @@
     "writing",
     "scientific-research",
     "publication-grants"
+   ]
+  },
+  {
+   "slug": "research-data-stewardship-data-management-plans",
+   "title": "Write data management plans funders approve",
+   "description": "Collection, storage, sharing, and preservation commitments matching both science and compliance.",
+   "track": "scientific-research",
+   "trackLabel": "Scientific Research",
+   "domain": "research-data-stewardship",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "dmp",
+    "data-governance",
+    "funding",
+    "scientific-research",
+    "research-data-stewardship"
    ]
   },
   {
@@ -2840,6 +3980,22 @@
     "finance",
     "finance-fintech",
     "risk-modeling"
+   ]
+  },
+  {
+   "slug": "open-banking-open-banking-integrations",
+   "title": "Integrate open banking APIs reliably",
+   "description": "Consent flows, provider fragmentation handling, and reconciliation-ready transaction ingestion.",
+   "track": "finance-fintech",
+   "trackLabel": "Finance & Fintech",
+   "domain": "open-banking",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "open-banking",
+    "integrations",
+    "plaid",
+    "finance-fintech"
    ]
   },
   {
@@ -3013,6 +4169,23 @@
    ]
   },
   {
+   "slug": "open-source-law-license-selection-strategy",
+   "title": "Choose open-source licenses strategically",
+   "description": "Permissive vs copyleft vs source-available tradeoffs matched to project goals.",
+   "track": "legal-compliance",
+   "trackLabel": "Legal & Compliance",
+   "domain": "open-source-law",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "licensing",
+    "open-source",
+    "strategy",
+    "legal-compliance",
+    "open-source-law"
+   ]
+  },
+  {
    "slug": "test-strategy-test-pyramid-balance",
    "title": "Balance the test pyramid for your app",
    "description": "Allocate unit/integration/e2e counts by feedback speed and failure diagnosability.",
@@ -3130,6 +4303,40 @@
    ]
   },
   {
+   "slug": "test-foundations-test-data-management",
+   "title": "Manage test data without production leaks",
+   "description": "Synthetic generation, masked subsets, and refresh pipelines keeping tests realistic and legal.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "test-foundations",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "test-data",
+    "privacy",
+    "fixtures",
+    "qa-testing",
+    "test-foundations"
+   ]
+  },
+  {
+   "slug": "test-foundations-mobile-testing-basics",
+   "title": "Test mobile apps across the fragmentation minefield",
+   "description": "Device matrix selection, interruption/resume testing, and network-condition realism.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "test-foundations",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "mobile",
+    "devices",
+    "testing",
+    "qa-testing",
+    "test-foundations"
+   ]
+  },
+  {
    "slug": "docs-systems-diataxis-audit",
    "title": "Sort docs into types readers recognize",
    "description": "Tutorials vs how-tos vs reference vs explanation — separating modes ends most doc confusion.",
@@ -3229,6 +4436,23 @@
    ]
   },
   {
+   "slug": "product-copy-microcopy-error-messages",
+   "title": "Write microcopy that helps instead of blames",
+   "description": "Error messages, empty states, and button labels engineered for user recovery.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "product-copy",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "ux-writing",
+    "errors",
+    "microcopy",
+    "technical-writing",
+    "product-copy"
+   ]
+  },
+  {
    "slug": "positioning-content-messaging-hierarchy",
    "title": "Build a messaging hierarchy from customer language",
    "description": "One-liner → proof pillars → objection handling, mined verbatim from real buyer words.",
@@ -3297,6 +4521,23 @@
    ]
   },
   {
+   "slug": "organic-search-seo-technical-audit",
+   "title": "Audit technical SEO before writing more content",
+   "description": "Crawlability, indexation, Core Web Vitals, and structured data checked in priority order.",
+   "track": "marketing-growth",
+   "trackLabel": "Marketing & Growth",
+   "domain": "organic-search",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "seo",
+    "technical",
+    "audit",
+    "marketing-growth",
+    "organic-search"
+   ]
+  },
+  {
    "slug": "validation-mvp-mvp-scope-cutting",
    "title": "Cut MVP scope without cutting the point",
    "description": "Identify the single riskiest assumption and build only what tests it.",
@@ -3362,6 +4603,40 @@
     "distribution",
     "startup-founders",
     "growth-fundraising"
+   ]
+  },
+  {
+   "slug": "founder-fundamentals-co-founder-alignment-charter",
+   "title": "Align co-founders before conflict finds you",
+   "description": "Written charters covering equity, roles, decisions, exits — awkward conversations as insurance.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "founder-fundamentals",
+   "level": "foundation",
+   "minutes": 40,
+   "tags": [
+    "co-founders",
+    "equity",
+    "governance",
+    "startup-founders",
+    "founder-fundamentals"
+   ]
+  },
+  {
+   "slug": "founder-fundamentals-cap-table-literacy",
+   "title": "Read your cap table like an investor does",
+   "description": "Ownership math through rounds: dilution, option pools, liquidation preferences in plain terms.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "founder-fundamentals",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "cap-table",
+    "fundraising",
+    "equity",
+    "startup-founders",
+    "founder-fundamentals"
    ]
   },
   {
@@ -3450,6 +4725,23 @@
    ]
   },
   {
+   "slug": "demo-craft-product-demo-craft",
+   "title": "Deliver demos buyers remember",
+   "description": "Discovery-linked narratives, their-data rehearsals, and objection-proof sequencing.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "demo-craft",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "demos",
+    "sales",
+    "presentation",
+    "sales-success",
+    "demo-craft"
+   ]
+  },
+  {
    "slug": "winning-clients-proposal-that-closes",
    "title": "Write proposals that close without discounting",
    "description": "Outcome-first structure, option pricing, and risk reversal moving decisions forward.",
@@ -3515,6 +4807,23 @@
     "negotiation",
     "freelance-business",
     "client-delivery"
+   ]
+  },
+  {
+   "slug": "client-lifecycle-client-onboarding-checklist",
+   "title": "Onboard clients like a product company",
+   "description": "Structured kickoff, access collection, comms rhythm, and success definition starting engagements right.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "client-lifecycle",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "onboarding",
+    "process",
+    "clients",
+    "freelance-business",
+    "client-lifecycle"
    ]
   },
   {
@@ -3597,6 +4906,23 @@
     "culture",
     "education-learning",
     "classroom-assessment"
+   ]
+  },
+  {
+   "slug": "modern-classroom-ai-classroom-policy-design",
+   "title": "Design AI-use policies students understand",
+   "description": "Assignment-tiered AI permissions, process documentation, and assessment redesign over surveillance.",
+   "track": "education-learning",
+   "trackLabel": "Education & Teaching",
+   "domain": "modern-classroom",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "ai",
+    "policy",
+    "assessment",
+    "education-learning",
+    "modern-classroom"
    ]
   },
   {
@@ -3753,6 +5079,23 @@
    ]
   },
   {
+   "slug": "loyalty-design-loyalty-program-basics",
+   "title": "Design loyalty programs guests actually use",
+   "description": "Earn-burn balance, experiential rewards, and liability tracking beyond discount-card clichés.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "loyalty-design",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "loyalty",
+    "retention",
+    "rewards",
+    "hospitality-travel",
+    "loyalty-design"
+   ]
+  },
+  {
    "slug": "planning-inventory-demand-baseline-forecast",
    "title": "Build a demand baseline you can beat",
    "description": "Cleanse history, segment by variability, and benchmark naive forecasts before fancy models.",
@@ -3905,6 +5248,23 @@
    ]
   },
   {
+   "slug": "volunteer-force-volunteer-onboarding-system",
+   "title": "Onboard volunteers into retained contributors",
+   "description": "Screening proportionate to role, first-shift success design, and recognition rhythms reducing churn.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "volunteer-force",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "volunteers",
+    "onboarding",
+    "retention",
+    "nonprofit-impact",
+    "volunteer-force"
+   ]
+  },
+  {
    "slug": "training-design-periodization-basics",
    "title": "Periodize training around real competition calendars",
    "description": "Macro-to-micro planning balancing stress and adaptation with planned recovery weeks.",
@@ -3990,6 +5350,23 @@
    ]
   },
   {
+   "slug": "match-intelligence-match-analysis-workflow",
+   "title": "Turn match footage into Monday's training",
+   "description": "Question-led coding, opposition tendencies, and session-linked insights coaches actually use.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "match-intelligence",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "analysis",
+    "video",
+    "tactics",
+    "sports-performance",
+    "match-intelligence"
+   ]
+  },
+  {
    "slug": "preproduction-prepro-checklist",
    "title": "Pre-produce shoots that don't improvise",
    "description": "Shot lists, location scouts, gear checks, and contingency plans making shoot days boring.",
@@ -4055,6 +5432,23 @@
     "distribution",
     "media-production",
     "post-publish"
+   ]
+  },
+  {
+   "slug": "accessibility-media-captioning-accessibility-standard",
+   "title": "Caption and describe to accessibility standard",
+   "description": "Accuracy thresholds, speaker ID, sound description, and audio-description planning from production.",
+   "track": "media-production",
+   "trackLabel": "Media & Video Production",
+   "domain": "accessibility-media",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "captions",
+    "accessibility",
+    "compliance",
+    "media-production",
+    "accessibility-media"
    ]
   },
   {
@@ -4227,6 +5621,23 @@
    ]
   },
   {
+   "slug": "metrics-quality-support-metrics-framework",
+   "title": "Design support metrics that measure the right thing",
+   "description": "Balanced SLA/CSAT/FCR/CES frameworks avoiding metric gaming through paired indicators.",
+   "track": "customer-support",
+   "trackLabel": "Customer Support",
+   "domain": "metrics-quality",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "metrics",
+    "sla",
+    "operations",
+    "customer-support",
+    "metrics-quality"
+   ]
+  },
+  {
    "slug": "conversion-merchandising-pdp-conversion-audit",
    "title": "Audit product pages for conversion leaks",
    "description": "Above-fold promise, objection handling, trust signals, and friction mapping per template.",
@@ -4295,6 +5706,23 @@
    ]
   },
   {
+   "slug": "discovery-experience-site-search-merchandising",
+   "title": "Make site search find what merchandisers mean",
+   "description": "Query understanding, synonym control, zero-result recovery, and curated placements.",
+   "track": "ecommerce-retail",
+   "trackLabel": "E-commerce & Retail",
+   "domain": "discovery-experience",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "search",
+    "merchandising",
+    "conversion",
+    "ecommerce-retail",
+    "discovery-experience"
+   ]
+  },
+  {
    "slug": "claims-handling-fnol-to-resolution",
    "title": "Drive claims from FNOL to fair resolution fast",
    "description": "Structured intake, coverage verification, documentation, and settlement discipline.",
@@ -4360,6 +5788,23 @@
     "service",
     "insurance",
     "underwriting-service"
+   ]
+  },
+  {
+   "slug": "claims-experience-claims-comms-cadence",
+   "title": "Communicate through claims without radio silence",
+   "description": "Proactive status rhythms, plain-language updates, and expectation resets during long investigations.",
+   "track": "insurance",
+   "trackLabel": "Insurance Operations",
+   "domain": "claims-experience",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "communication",
+    "claims",
+    "service",
+    "insurance",
+    "claims-experience"
    ]
   },
   {
@@ -4499,6 +5944,23 @@
    ]
   },
   {
+   "slug": "civic-engagement-public-comment-analysis",
+   "title": "Analyze public comments without bias amplification",
+   "description": "Representative sampling, theme coding with reliability checks, and reporting honoring minority voices.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "civic-engagement",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "public-comments",
+    "analysis",
+    "equity",
+    "public-sector",
+    "civic-engagement"
+   ]
+  },
+  {
    "slug": "bar-program-cocktail-spec-cards",
    "title": "Build cocktail spec cards that survive staff turnover",
    "description": "Weighted builds, glassware, garnish, and timing specs keeping drinks identical across bartenders.",
@@ -4615,6 +6077,23 @@
     "quality",
     "aviation-aerospace",
     "sms-maintenance"
+   ]
+  },
+  {
+   "slug": "ops-planning-maintenance-planning-basics",
+   "title": "Plan maintenance without grounding surprises",
+   "description": "Forecast-driven scheduling, parts lead-time reality, and deferred-item tracking keeping fleets available.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "ops-planning",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "maintenance",
+    "planning",
+    "availability",
+    "aviation-aerospace",
+    "ops-planning"
    ]
   },
   {
@@ -4754,6 +6233,23 @@
    ]
   },
   {
+   "slug": "subcontractor-management-subcontractor-prequalification",
+   "title": "Prequalify subcontractors beyond lowest price",
+   "description": "Safety records, financial health, capacity truth, and reference depth preventing downstream failures.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "subcontractor-management",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "prequalification",
+    "procurement",
+    "risk",
+    "construction-built-env",
+    "subcontractor-management"
+   ]
+  },
+  {
    "slug": "crop-planning-rotation-plan-design",
    "title": "Design crop rotations that build, not mine, soil",
    "description": "Diversity windows, pest-cycle breaks, and nutrient balancing across multi-year plans.",
@@ -4819,6 +6315,23 @@
     "efficiency",
     "agriculture-agtech",
     "farm-data-tech"
+   ]
+  },
+  {
+   "slug": "livestock-systems-herd-record-discipline",
+   "title": "Keep herd records that drive decisions",
+   "description": "Individual identification, health/treatment logs, and breeding performance data captured at the chute.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "livestock-systems",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "livestock",
+    "records",
+    "traceability",
+    "agriculture-agtech",
+    "livestock-systems"
    ]
   },
   {
@@ -4890,6 +6403,23 @@
    ]
   },
   {
+   "slug": "localization-ops-tms-workflow-setup",
+   "title": "Set up translation management workflows",
+   "description": "CAT/TMS pipelines, string freezes, and cost controls making localization routine not heroic.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "localization-ops",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "tms",
+    "workflow",
+    "vendors",
+    "localization-i18n",
+    "localization-ops"
+   ]
+  },
+  {
    "slug": "search-assets-resume-truth-optimization",
    "title": "Build a resume that is true AND effective",
    "description": "Achievement-format bullets with honest metrics, ATS-safe structure, and per-role tailoring.",
@@ -4955,6 +6485,23 @@
     "salary",
     "career-development",
     "interview-offers"
+   ]
+  },
+  {
+   "slug": "network-visibility-authentic-networking-system",
+   "title": "Network authentically as an introvert-friendly system",
+   "description": "Give-first outreach cadences, public artifact sharing, and relationship CRM habits that compound.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "network-visibility",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "networking",
+    "career",
+    "relationships",
+    "career-development",
+    "network-visibility"
    ]
   },
   {
@@ -6395,6 +7942,231 @@
     "playbook",
     "journey",
     "career-development"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-memory-system",
+   "title": "Playbook: Give your agent a working memory",
+   "description": "Tiered memory architecture with promotion, forgetting, and audit hygiene live in production.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 45,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-voice-launch",
+   "title": "Playbook: Ship a voice agent people enjoy",
+   "description": "Sub-800ms conversational latency with barge-in and multimodal eval coverage.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-recoverability",
+   "title": "Playbook: Prove you can recover",
+   "description": "Backups restored on schedule against declared RPO/RTO with evidence.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-obs-stack-choice",
+   "title": "Playbook: Choose your observability stack deliberately",
+   "description": "Vendor wired via OpenTelemetry with cardinality budgets and routing discipline.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 25,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "playbook-qa-testing-foundations-hardened",
+   "title": "Playbook: Harden testing foundations",
+   "description": "Leak-free test data and mobile matrices matching real users.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "qa-testing"
+   ]
+  },
+  {
+   "slug": "playbook-startup-founders-founder-legal-base",
+   "title": "Playbook: Secure founder fundamentals",
+   "description": "Charter, vesting, and cap-table literacy before first term sheet.",
+   "track": "startup-founders",
+   "trackLabel": "Startup & Founders",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "startup-founders"
+   ]
+  },
+  {
+   "slug": "playbook-career-development-search-systems",
+   "title": "Playbook: Run your job search like a system",
+   "description": "Truth-effective assets converting interviews into defensible offers.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 110,
+   "tags": [
+    "playbook",
+    "journey",
+    "career-development"
+   ]
+  },
+  {
+   "slug": "playbook-aviation-aerospace-fleet-availability",
+   "title": "Playbook: Maximize fleet availability",
+   "description": "Maintenance forecast, parts pipelines, and deferred-item control keeping aircraft flying.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "aviation-aerospace"
+   ]
+  },
+  {
+   "slug": "playbook-agriculture-agtech-livestock-trace",
+   "title": "Playbook: Achieve livestock traceability",
+   "description": "Individual records, withdrawal automation, and breeding performance driving decisions.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 25,
+   "tags": [
+    "playbook",
+    "journey",
+    "agriculture-agtech"
+   ]
+  },
+  {
+   "slug": "playbook-biotech-pharma-supplier-control",
+   "title": "Playbook: Control your supplier quality system",
+   "description": "Risk-tiered qualification with quality agreements and change control live.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "biotech-pharma"
+   ]
+  },
+  {
+   "slug": "playbook-public-sector-consultation-integrity",
+   "title": "Playbook: Run public consultations with integrity",
+   "description": "Representative comment analysis with published methodology feeding decisions.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "public-sector"
+   ]
+  },
+  {
+   "slug": "playbook-nonprofit-impact-volunteer-engine",
+   "title": "Playbook: Build a volunteer engine that retains",
+   "description": "Screening tiers, first-shift wins, and recognition loops reducing churn.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 25,
+   "tags": [
+    "playbook",
+    "journey",
+    "nonprofit-impact"
+   ]
+  },
+  {
+   "slug": "playbook-sports-performance-video-to-pitch",
+   "title": "Playbook: Convert video analysis into training change",
+   "description": "Question-led coding producing session designs players actually absorb.",
+   "track": "sports-performance",
+   "trackLabel": "Sports & Performance",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "sports-performance"
+   ]
+  },
+  {
+   "slug": "playbook-media-production-accessible-publishing",
+   "title": "Playbook: Publish media to accessibility standard",
+   "description": "Human-quality captions, audio-description-aware production, verified by affected reviewers.",
+   "track": "media-production",
+   "trackLabel": "Media & Video Production",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 30,
+   "tags": [
+    "playbook",
+    "journey",
+    "media-production"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-cost-and-recovery",
+   "title": "Playbook: Control cloud cost AND recoverability together",
+   "description": "FinOps rhythms plus restore drills making spend explainable and recovery proven.",
+   "track": "devops-cloud",
+   "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
    ]
   }
  ]

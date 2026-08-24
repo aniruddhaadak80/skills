@@ -1,5 +1,13 @@
 import { TRACKS } from "../data/tracks/index.mjs";
 import { PLAYBOOKS } from "../data/tracks/playbooks.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_A } from "../data/tracks/expansions-a.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_B } from "../data/tracks/expansions-b.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_C } from "../data/tracks/expansions-c.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_D } from "../data/tracks/expansions-d.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_E } from "../data/tracks/expansions-e.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_F } from "../data/tracks/expansions-f.mjs";
+
+const EXPANSIONS = { ...EXPANSIONS_A, ...EXPANSIONS_B, ...EXPANSIONS_C, ...EXPANSIONS_D, ...EXPANSIONS_E, ...EXPANSIONS_F };
 
 let _cache = null;
 
@@ -7,7 +15,9 @@ export function getAllSkills() {
   if (_cache) return _cache;
   const out = [];
   for (const track of TRACKS) {
-    for (const domain of track.domains) {
+    const extraDomains = EXPANSIONS[track.id] || [];
+    const domains = [...track.domains, ...extraDomains];
+    for (const domain of domains) {
       for (const proc of domain.procedures) {
         const variants = proc.variants ? Object.entries(proc.variants) : [];
         if (!variants.length) {

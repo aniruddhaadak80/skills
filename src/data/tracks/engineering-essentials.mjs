@@ -5,6 +5,14 @@ const S = {
   rust: { label: "Rust", adds: ["Let the borrow checker guide design; resist RefCell escapes", "Benchmark criterion suites for hot paths before optimizing"] },
   java: { label: "Java/JVM", adds: ["Tune GC logs review into routine; watch allocation pressure", "Use JFR recordings for production-safe continuous profiling"] },
   dotnet: { label: ".NET", adds: ["Review GC modes per workload type (workstation/server)", "Benchmark with BenchmarkDotNet; beware allocation in loops"] },
+  kotlin: { label: "Kotlin", adds: ["Leverage coroutines structured concurrency; cancel scopes deliberately", "Watch Kotlin/Native memory model differences in multiplatform code"] },
+  swift: { label: "Swift", adds: ["Adopt Swift Concurrency (async/await, actors) for data-race safety", "Profile Instruments templates: Time Profiler + Allocations together"] },
+  php: { label: "PHP", adds: ["Run static analysis (PHPStan/Psalm) at max level in CI", "Profile request cycles with Xdebug + cachegrind on real routes"] },
+  ruby: { label: "Ruby", adds: ["Profile with rack-mini-profiler in dev and rbspy in prod", "Watch object churn per request; freeze frozen string literals"] },
+  elixir: { label: "Elixir", adds: ["Inspect supervision trees and mailbox depths via :observer", "Benchmark with Benchee; watch BEAM scheduler reductions"] },
+  cpp: { label: "C++", adds: ["Sanitizer builds (ASan/UBSan) in CI before perf tuning", "Profile with perf/VTune; watch cache lines and allocations"] },
+  scala: { label: "Scala", adds: ["Profile with async-profiler; watch GC pressure from allocations", "Enforce scalafmt/scalafix gates; mind closure capture costs"] },
+  dart: { label: "Dart/Flutter", adds: ["Profile with DevTools timeline; watch jank frames on real devices", "Mind isolate boundaries — no shared mutable state across them"] }
 };
 
 export const track = {

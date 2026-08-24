@@ -2,7 +2,7 @@
 
 # ⚡ Agent Skills Directory
 
-### Installable AI agent skills for every profession — 40 tracks, one command
+### Installable AI agent skills for every profession — 46 tracks, one command
 
 **Software · AI/ML · Security · Data · Product · Design · Leadership · HR · Healthcare · Biotech · Science · Finance · Legal · Real Estate · Insurance · Energy · Supply Chain · Hospitality · F&B · Retail · Marketing · Sales · Support · Education · Sports · Media · Government · Nonprofits · Startups · Freelance**
 
@@ -16,7 +16,7 @@
 
 ---
 
-A curated library of **production-grade [Agent Skills](https://agentskills.io)** (`SKILL.md` procedures) that give coding agents — OpenCode, Claude Code, Cursor, Codex, Copilot, Gemini CLI and **75+ more** — the procedural knowledge of an entire senior team across dozens of professions.
+**500 curated skills** and counting. A library of **production-grade [Agent Skills](https://agentskills.io)** (`SKILL.md` procedures) that give coding agents — OpenCode, Claude Code, Cursor, Codex, Copilot, Gemini CLI and **75+ more** — the procedural knowledge of an entire senior team across dozens of professions.
 
 Every skill contains: concrete numbered steps, common pitfalls, success signals/KPIs, and copy-paste commands. Authored from real workflows — no filler, no near-duplicate stamping, no AI slop.
 
@@ -92,6 +92,12 @@ Your agent discovers installed skills automatically and activates them on demand
 | 🏨 Hospitality & Travel | Service recovery · itinerary pacing · dynamic pricing ethics · review response systems |
 | 🏆 Sports & Performance | Periodization · load monitoring · criteria-based return-to-play · effective cueing |
 | 🎬 Media & Video Production | Pre-pro checklists · interview craft · edit pacing discipline · publish packaging |
+| ✈️ Aviation & Aerospace Ops | Checklist culture · go/no-go gates · just-culture reporting · maintenance planning |
+| 🐾 Veterinary Medicine | Urgency triage · cost-consent clarity · controlled-drug logs · zoonotic safety |
+| 🏗️ Construction & Built Environment | Toolbox talks · schedule recovery · inspection test plans · estimate discipline |
+| 🌾 Agriculture & AgTech | Rotation design · input stewardship · yield-map analysis · herd records |
+| 🌐 Localization & i18n | String externalization · RTL support · LQA cycles · TMS workflows |
+| 🎯 Career & Job Search | Truth-effective resumes · STAR story banks · principled offer negotiation |
 | 🎮 Game & Interactive Dev | Game-feel tuning · crash-safe save systems · frame budgets · live-ops pipelines |
 | 🔋 Energy & Renewables | Solar feasibility screens · P50/P90 model integrity · commissioning rigor · storage cycling |
 
