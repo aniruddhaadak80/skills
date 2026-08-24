@@ -144,9 +144,16 @@ The architecture is built to reach six figures of skills without quality collaps
 
 ## 🤝 Contributing
 
+**Read [CONTRIBUTING.md](CONTRIBUTING.md)** — it covers the quality bar, full schema reference, and local workflow. Short version:
+
 1. Pick a track you have real production experience in
 2. Add a procedure object to `src/data/tracks/<track>.mjs` following the schema
-3. Run `npm run gen` — your SKILL.md, website page, and index entry appear automatically
-4. Run `node scripts/verify-routes.mjs` after building; open a PR
+3. Run `npm run gen` + `node scripts/validate-data.mjs` — your SKILL.md, website page, and index entry appear automatically
+4. Open a PR; **automated review checks everything** (data QA, generated-file sync, route integrity) and labels it instantly
+
+Every merged PR earns you a place on the auto-updated contributors wall below.
+
+<!-- CONTRIBUTORS:START -->
+<!-- CONTRIBUTORS:END -->
 
 MIT © [Aniruddha Adak](https://github.com/aniruddhaadak80) · 350+ merged OSS PRs · [aniruddhaadak80@gmail.com](mailto:aniruddhaadak80@gmail.com)

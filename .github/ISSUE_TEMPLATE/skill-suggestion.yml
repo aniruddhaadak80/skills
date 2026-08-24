@@ -1,0 +1,80 @@
+name: 🧩 Skill Suggestion
+description: Propose a new skill for the library
+labels: ["skill-suggestion", "triage-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a skill! Our bar: **procedures you have personally done in real work**.
+        Vague ideas become low-quality skills — specifics become library stars.
+  - type: dropdown
+    id: track
+    attributes:
+      label: Which track does this belong to?
+      options:
+        - "🤖 AI Engineering"
+        - "🎨 Frontend Engineering"
+        - "⚙️ Backend Engineering"
+        - "🛢️ Data Engineering"
+        - "☁️ DevOps & Cloud"
+        - "🔐 Cybersecurity / Cyber Defense"
+        - "🧰 Engineering Essentials"
+        - "📊 Data Science / ML Research"
+        - "📋 Product Management"
+        - "🧠 UX Research & Design"
+        - "🧭 Engineering Leadership"
+        - "👥 People & HR"
+        - "🏥 Healthcare & Clinical"
+        - "🐾 Veterinary Medicine"
+        - "🧬 Biotech & Pharma"
+        - "🔬 Scientific Research"
+        - "💰 Finance & Fintech"
+        - "🏘️ Real Estate"
+        - "☂️ Insurance"
+        - "⚖️ Legal & Compliance"
+        - "✍️ Technical Writing"
+        - "📣 Marketing & Growth"
+        - "🛍️ E-commerce & Retail"
+        - "💬 Customer Support"
+        - "🚀 Startup & Founders"
+        - "🤝 Sales & Customer Success"
+        - "💼 Freelance & Business"
+        - "🎯 Career & Job Search"
+        - "🎓 Education & Teaching"
+        - "🎮 Game & Interactive Dev"
+        - "🏨 Hospitality & Travel"
+        - "🍽️ Food & Beverage / Beverage Program"
+        - "🚚 Supply Chain & Logistics"
+        - "🌾 Agriculture & AgTech"
+        - "🏗️ Construction & Built Environment"
+        - "🔋 Energy & Renewables"
+        - "✈️ Aviation & Aerospace"
+        - "🏛️ Public Sector & GovTech"
+        - "🌍 Nonprofit & Impact"
+        - "🏆 Sports & Performance"
+        - "🎬 Media & Video Production"
+        - "🌐 Localization & i18n"
+        - "✨ New track needed (describe below)"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Skill title
+      description: "e.g. 'Run a structured shift handoff with ISBAR'"
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your real-world experience with this
+      description: Where/when have you done this? What went wrong that others should avoid?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Draft steps (3+ minimum)
+      description: Numbered, imperative, concrete. These become the skill body.
+    validations:
+      required: true

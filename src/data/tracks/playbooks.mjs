@@ -246,5 +246,45 @@ export const PLAYBOOKS = [
     items: [
       { id: "bar-program-build", title: "Build a bar program that survives turnover", goal: "Spec cards, weight-based counts, and responsible service as standard operating system.", uses: ["bar-program-cocktail-spec-cards", "bar-program-bar-inventory-control", "bar-program-responsible-service-flow"], guidance: "Consistency systems protect margin AND licenses simultaneously." }
     ]
+  },
+  {
+    trackId: "aviation-aerospace",
+    items: [
+      { id: "safety-culture", title: "Build aviation-grade safety culture anywhere", goal: "Just-culture reporting, checklist discipline, and error defenses ported to any high-stakes team.", uses: ["sms-maintenance-safety-report-flow", "flight-discipline-checklist-culture", "sms-maintenance-maintenance-error-defense"], guidance: "Aviation's lesson generalizes: punish recklessness, coach error, and make reporting visible." },
+      { id: "decision-gates", title: "Install go/no-go decision gates", goal: "Written minimums and abort criteria protecting against pressure in any operation.", uses: ["flight-discipline-go-no-go-decision"], guidance: "Decide the criteria before desire gets a vote." }
+    ]
+  },
+  {
+    trackId: "veterinary-medicine",
+    items: [
+      { id: "clinic-ops", title: "Tighten clinic operations and compliance", goal: "Triage flow, consent clarity, controlled-drug rigor, and staff safety as one system.", uses: ["clinical-vet-vet-triage-protocol", "clinical-vet-estimate-consent-conversations", "practice-ops-controlled-drug-log", "practice-ops-zoonotic-safety-briefing"], guidance: "Compliance systems protect animals, staff, AND license simultaneously." }
+    ]
+  },
+  {
+    trackId: "construction-built-env",
+    items: [
+      { id: "site-quality-drive", title: "Drive site quality and schedule together", goal: "ITP hold points, toolbox engagement, and honest recovery planning.", uses: ["site-execution-itp-quality-inspections", "site-execution-toolbox-talk-craft", "site-execution-schedule-recovery-plan"], guidance: "Quality systems discovered late cost triple; hold points are cheap insurance." },
+      { id: "bid-confidence", title: "Bid with confidence", goal: "Estimates built on real rates with review gates surviving construction.", uses: ["cost-contracts-estimate-takeoff-discipline"], guidance: "Revision-stamped drawings or no takeoff." }
+    ]
+  },
+  {
+    trackId: "agriculture-agtech",
+    items: [
+      { id: "season-systems", title: "Systemize your season", goal: "Rotation design, compliant input records, and data-driven irrigation in one operating rhythm.", uses: ["crop-planning-rotation-plan-design", "crop-planning-input-stewardship-records", "farm-data-tech-water-scheduling-efficiency"], guidance: "Records written at application time are worth ten reconstructed after audits." }
+    ]
+  },
+  {
+    trackId: "localization-i18n",
+    items: [
+      { id: "global-ready", title: "Make a product truly global-ready", goal: "Externalized strings, RTL support, and locale-data correctness verified by smoke suites.", uses: ["string-engineering-externalize-strings-audit", "string-engineering-rtl-layout-support", "linguistic-quality-locale-data-correctness"], guidance: "Pseudo-localization early beats Arabic-layout archaeology later." },
+      { id: "quality-loop", title: "Run localization quality loops", goal: "In-context LQA with vendor feedback improving density every release.", uses: ["linguistic-quality-lqa-review-cycle"], guidance: "Review in context or miss half the real errors." }
+    ]
+  },
+  {
+    trackId: "career-development",
+    items: [
+      { id: "search-launch", title: "Launch a job search that works", goal: "Truth-effective resume, proof-of-work portfolio, and tailored pipeline running weekly.", uses: ["search-assets-resume-truth-optimization", "search-assets-portfolio-proof-system"], guidance: "Assets first, applications second. Spray-and-pray wastes your best stories." },
+      { id: "interview-to-offer", title: "Convert interviews into offers", goal: "STAR story bank plus principled negotiation landing numbers you can defend.", uses: ["interview-offers-star-story-bank", "interview-offers-offer-negotiation-principled"], guidance: "Rehearse out loud; negotiate once, clearly, with market truth." }
+    ]
   }
 ];

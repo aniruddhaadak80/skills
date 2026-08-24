@@ -1,6 +1,6 @@
 {
- "count": 358,
- "generatedAt": "2026-08-24T21:50:30.302Z",
+ "count": 392,
+ "generatedAt": "2026-08-24T22:30:19.676Z",
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -4551,6 +4551,414 @@
    ]
   },
   {
+   "slug": "flight-discipline-checklist-culture",
+   "title": "Use checklists as culture, not compliance",
+   "description": "Challenge-response execution, no-interruption rules, and sterile cockpit below 10,000ft.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "flight-discipline",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "checklists",
+    "safety-culture",
+    "crm",
+    "aviation-aerospace",
+    "flight-discipline"
+   ]
+  },
+  {
+   "slug": "flight-discipline-go-no-go-decision",
+   "title": "Decide go/no-go with structured risk gates",
+   "description": "Personal minimums, IMSAFE self-check, and pre-defined abort criteria beating get-there-itis.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "flight-discipline",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "decision-making",
+    "risk",
+    "weather",
+    "aviation-aerospace",
+    "flight-discipline"
+   ]
+  },
+  {
+   "slug": "sms-maintenance-safety-report-flow",
+   "title": "Operate a just-culture safety reporting flow",
+   "description": "Confidential reporting, non-punitive classification, and visible fixes keeping the pipeline alive.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "sms-maintenance",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "sms",
+    "just-culture",
+    "reporting",
+    "aviation-aerospace",
+    "sms-maintenance"
+   ]
+  },
+  {
+   "slug": "sms-maintenance-maintenance-error-defense",
+   "title": "Defend against maintenance error systematically",
+   "description": "Task interruption protocols, independent inspections, and tool control closing classic error chains.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "sms-maintenance",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "maintenance",
+    "human-factors",
+    "quality",
+    "aviation-aerospace",
+    "sms-maintenance"
+   ]
+  },
+  {
+   "slug": "clinical-vet-vet-triage-protocol",
+   "title": "Triage patients by urgency, not arrival order",
+   "description": "Fast structured triage categories keeping emergencies ahead of the queue without chaos.",
+   "track": "veterinary-medicine",
+   "trackLabel": "Veterinary Medicine",
+   "domain": "clinical-vet",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "triage",
+    "emergencies",
+    "workflow",
+    "veterinary-medicine",
+    "clinical-vet"
+   ]
+  },
+  {
+   "slug": "clinical-vet-estimate-consent-conversations",
+   "title": "Handle cost estimates and consent with clarity",
+   "description": "Range-based estimates, decision tiers, and documented consent protecting animals and practices.",
+   "track": "veterinary-medicine",
+   "trackLabel": "Veterinary Medicine",
+   "domain": "clinical-vet",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "clients",
+    "ethics",
+    "communication",
+    "veterinary-medicine",
+    "clinical-vet"
+   ]
+  },
+  {
+   "slug": "practice-ops-controlled-drug-log",
+   "title": "Keep controlled drug logs audit-proof",
+   "description": "Dual-signature logging, running balances, and discrepancy response meeting regulatory scrutiny.",
+   "track": "veterinary-medicine",
+   "trackLabel": "Veterinary Medicine",
+   "domain": "practice-ops",
+   "level": "advanced",
+   "minutes": 25,
+   "tags": [
+    "compliance",
+    "controlled-substances",
+    "records",
+    "veterinary-medicine",
+    "practice-ops"
+   ]
+  },
+  {
+   "slug": "zoonotic-safety-briefing",
+   "title": "Brief zoonotic and bite-prevention safety routinely",
+   "description": "Handling precautions, PPE triggers, and incident reporting protecting staff and public health.",
+   "track": "veterinary-medicine",
+   "trackLabel": "Veterinary Medicine",
+   "domain": "practice-ops",
+   "level": "foundation",
+   "minutes": 15,
+   "tags": [
+    "safety",
+    "zoonosis",
+    "staff",
+    "veterinary-medicine",
+    "practice-ops"
+   ]
+  },
+  {
+   "slug": "site-execution-toolbox-talk-craft",
+   "title": "Run toolbox talks that change behavior",
+   "description": "Five-minute task-specific safety briefings with worker voice and documented attendance.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "site-execution",
+   "level": "foundation",
+   "minutes": 15,
+   "tags": [
+    "safety",
+    "briefings",
+    "culture",
+    "construction-built-env",
+    "site-execution"
+   ]
+  },
+  {
+   "slug": "schedule-recovery-plan",
+   "title": "Recover a slipping construction schedule",
+   "description": "Critical-path truth, look-ahead replanning, and recovery options priced honestly.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "site-execution",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "schedule",
+    "recovery",
+    "planning",
+    "construction-built-env",
+    "site-execution"
+   ]
+  },
+  {
+   "slug": "site-execution-itp-quality-inspections",
+   "title": "Drive quality with inspection test plans",
+   "description": "Hold points, witness points, and documented ITPs preventing rework discovery too late.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "site-execution",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "quality",
+    "inspection",
+    "itp",
+    "construction-built-env",
+    "site-execution"
+   ]
+  },
+  {
+   "slug": "cost-contracts-estimate-takeoff-discipline",
+   "title": "Produce estimates that survive construction",
+   "description": "Quantity takeoffs, productivity rates, risk allowances, and bid review gates.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "cost-contracts",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "estimating",
+    "bids",
+    "cost",
+    "construction-built-env",
+    "cost-contracts"
+   ]
+  },
+  {
+   "slug": "crop-planning-rotation-plan-design",
+   "title": "Design crop rotations that build, not mine, soil",
+   "description": "Diversity windows, pest-cycle breaks, and nutrient balancing across multi-year plans.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "crop-planning",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "rotation",
+    "soil",
+    "agronomy",
+    "agriculture-agtech",
+    "crop-planning"
+   ]
+  },
+  {
+   "slug": "crop-planning-input-stewardship-records",
+   "title": "Steward inputs with application records that protect you",
+   "description": "Label-compliant applications, buffer respect, and complete traceability from purchase to harvest.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "crop-planning",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "inputs",
+    "compliance",
+    "traceability",
+    "agriculture-agtech",
+    "crop-planning"
+   ]
+  },
+  {
+   "slug": "farm-data-tech-yield-map-analysis",
+   "title": "Analyze yield maps without fooling yourself",
+   "description": "Cleaning sensor artifacts, multi-year patterns, and trial-backed decisions from precision data.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "farm-data-tech",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "precision-ag",
+    "data",
+    "analysis",
+    "agriculture-agtech",
+    "farm-data-tech"
+   ]
+  },
+  {
+   "slug": "farm-data-tech-water-scheduling-efficiency",
+   "title": "Schedule irrigation on data instead of habit",
+   "description": "Soil moisture sensing, evapotranspiration budgets, and efficiency tracking protecting both yield and water rights.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "farm-data-tech",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "irrigation",
+    "water",
+    "efficiency",
+    "agriculture-agtech",
+    "farm-data-tech"
+   ]
+  },
+  {
+   "slug": "string-engineering-externalize-strings-audit",
+   "title": "Externalize strings without breaking the app",
+   "description": "Systematic extraction, key naming, and context comments making translation safe.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "string-engineering",
+   "level": "foundation",
+   "minutes": 30,
+   "tags": [
+    "i18n",
+    "strings",
+    "refactoring",
+    "localization-i18n",
+    "string-engineering"
+   ]
+  },
+  {
+   "slug": "string-engineering-rtl-layout-support",
+   "title": "Support RTL layouts properly",
+   "description": "Logical properties, mirrored iconography decisions, and bidi text handling done right.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "string-engineering",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "rtl",
+    "css",
+    "arabic",
+    "hebrew",
+    "localization-i18n",
+    "string-engineering"
+   ]
+  },
+  {
+   "slug": "linguistic-quality-lqa-review-cycle",
+   "title": "Run linguistic QA that catches real errors",
+   "description": "In-context review, error typology scoring, and vendor feedback loops improving over releases.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "linguistic-quality",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "lqa",
+    "translation-quality",
+    "localization-i18n",
+    "linguistic-quality"
+   ]
+  },
+  {
+   "slug": "locale-data-correctness",
+   "title": "Get locale data right: dates, numbers, names",
+   "description": "ICU-driven formatting, name ordering, address forms, and timezone correctness per locale.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "linguistic-quality",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "icu",
+    "formats",
+    "global-ready",
+    "localization-i18n",
+    "linguistic-quality"
+   ]
+  },
+  {
+   "slug": "search-assets-resume-truth-optimization",
+   "title": "Build a resume that is true AND effective",
+   "description": "Achievement-format bullets with honest metrics, ATS-safe structure, and per-role tailoring.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "search-assets",
+   "level": "foundation",
+   "minutes": 40,
+   "tags": [
+    "resume",
+    "ats",
+    "job-search",
+    "career-development",
+    "search-assets"
+   ]
+  },
+  {
+   "slug": "search-assets-portfolio-proof-system",
+   "title": "Build proof-of-work that beats credentials",
+   "description": "Case studies with problem→approach→outcome narratives and verified public artifacts.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "search-assets",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "portfolio",
+    "evidence",
+    "branding",
+    "career-development",
+    "search-assets"
+   ]
+  },
+  {
+   "slug": "interview-offers-star-story-bank",
+   "title": "Prepare a STAR story bank, not memorized scripts",
+   "description": "8-10 reusable stories mapped to competencies, told fresh under pressure.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "interview-offers",
+   "level": "intermediate",
+   "minutes": 40,
+   "tags": [
+    "interview",
+    "behavioral",
+    "preparation",
+    "career-development",
+    "interview-offers"
+   ]
+  },
+  {
+   "slug": "interview-offers-offer-negotiation-principled",
+   "title": "Negotiate offers without fear or fantasy",
+   "description": "Market data anchors, total-comp framing, and principled asks preserving relationships.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "interview-offers",
+   "level": "advanced",
+   "minutes": 30,
+   "tags": [
+    "negotiation",
+    "offers",
+    "salary",
+    "career-development",
+    "interview-offers"
+   ]
+  },
+  {
    "slug": "playbook-ai-engineering-rag-launch",
    "title": "Playbook: Launch a RAG feature end to end",
    "description": "Take retrieval-augmented answers from empty repo to evaluated production feature.",
@@ -5838,6 +6246,156 @@
     "playbook",
     "journey",
     "hospitality-fnb-wine"
+   ]
+  },
+  {
+   "slug": "playbook-aviation-aerospace-safety-culture",
+   "title": "Playbook: Build aviation-grade safety culture anywhere",
+   "description": "Just-culture reporting, checklist discipline, and error defenses ported to any high-stakes team.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 90,
+   "tags": [
+    "playbook",
+    "journey",
+    "aviation-aerospace"
+   ]
+  },
+  {
+   "slug": "playbook-aviation-aerospace-decision-gates",
+   "title": "Playbook: Install go/no-go decision gates",
+   "description": "Written minimums and abort criteria protecting against pressure in any operation.",
+   "track": "aviation-aerospace",
+   "trackLabel": "Aviation & Aerospace Ops",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 30,
+   "tags": [
+    "playbook",
+    "journey",
+    "aviation-aerospace"
+   ]
+  },
+  {
+   "slug": "playbook-veterinary-medicine-clinic-ops",
+   "title": "Playbook: Tighten clinic operations and compliance",
+   "description": "Triage flow, consent clarity, controlled-drug rigor, and staff safety as one system.",
+   "track": "veterinary-medicine",
+   "trackLabel": "Veterinary Medicine",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "veterinary-medicine"
+   ]
+  },
+  {
+   "slug": "playbook-construction-built-env-site-quality-drive",
+   "title": "Playbook: Drive site quality and schedule together",
+   "description": "ITP hold points, toolbox engagement, and honest recovery planning.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 50,
+   "tags": [
+    "playbook",
+    "journey",
+    "construction-built-env"
+   ]
+  },
+  {
+   "slug": "playbook-construction-built-env-bid-confidence",
+   "title": "Playbook: Bid with confidence",
+   "description": "Estimates built on real rates with review gates surviving construction.",
+   "track": "construction-built-env",
+   "trackLabel": "Construction & Built Environment",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "construction-built-env"
+   ]
+  },
+  {
+   "slug": "playbook-agriculture-agtech-season-systems",
+   "title": "Playbook: Systemize your season",
+   "description": "Rotation design, compliant input records, and data-driven irrigation in one operating rhythm.",
+   "track": "agriculture-agtech",
+   "trackLabel": "Agriculture & AgTech",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 90,
+   "tags": [
+    "playbook",
+    "journey",
+    "agriculture-agtech"
+   ]
+  },
+  {
+   "slug": "playbook-localization-i18n-global-ready",
+   "title": "Playbook: Make a product truly global-ready",
+   "description": "Externalized strings, RTL support, and locale-data correctness verified by smoke suites.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "localization-i18n"
+   ]
+  },
+  {
+   "slug": "playbook-localization-i18n-quality-loop",
+   "title": "Playbook: Run localization quality loops",
+   "description": "In-context LQA with vendor feedback improving density every release.",
+   "track": "localization-i18n",
+   "trackLabel": "Localization & i18n",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 35,
+   "tags": [
+    "playbook",
+    "journey",
+    "localization-i18n"
+   ]
+  },
+  {
+   "slug": "playbook-career-development-search-launch",
+   "title": "Playbook: Launch a job search that works",
+   "description": "Truth-effective resume, proof-of-work portfolio, and tailored pipeline running weekly.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 75,
+   "tags": [
+    "playbook",
+    "journey",
+    "career-development"
+   ]
+  },
+  {
+   "slug": "playbook-career-development-interview-to-offer",
+   "title": "Playbook: Convert interviews into offers",
+   "description": "STAR story bank plus principled negotiation landing numbers you can defend.",
+   "track": "career-development",
+   "trackLabel": "Career & Job Search",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 70,
+   "tags": [
+    "playbook",
+    "journey",
+    "career-development"
    ]
   }
  ]

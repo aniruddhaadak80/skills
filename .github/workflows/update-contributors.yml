@@ -1,0 +1,82 @@
+name: Update Contributors
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # weekly Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Collect contributor stats
+        id: stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "repos/${{ github.repository }}/contributors?per_page=100" --paginate \
+            --jq '.[] | select(.type == "User") | "\(.login)|\(.contributions)"' > /tmp/contributors.txt
+          COUNT=$(wc -l < /tmp/contributors.txt)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+          {
+            echo "table<<EOF"
+            echo "| Contributor | Contributions |"
+            echo "|---|---|"
+            while IFS='|' read -r login contribs; do
+              echo "| [![@${login}](https://avatars.githubusercontent.com/u/$(gh api "users/${login}" --jq '.id')?s=60&v=4)](https://github.com/${login}) [@${login}](https://github.com/${login}) | ${contribs} |"
+            done < /tmp/contributors.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Update CONTRIBUTORS.md and README section
+        env:
+          TABLE: ${{ steps.stats.outputs.table }}
+          COUNT: ${{ steps.stats.outputs.count }}
+        run: |
+          cat > CONTRIBUTORS.md <<HEADER
+          # 🌟 Contributors
+
+          Thank you to everyone who has helped build the Agent Skills Directory!
+
+          ${TABLE}
+
+          Want to join? Read [CONTRIBUTING.md](CONTRIBUTING.md) — every merged PR gets you on this wall.
+          HEADER
+
+          python3 - <<PYEOF
+          import re, pathlib
+          readme = pathlib.Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          block = f"""<!-- CONTRIBUTORS:START -->
+          ## 🌟 Contributors ({open('/tmp/contributors.txt').read().count(chr(10))})
+
+          {open('CONTRIBUTORS.md').read().split('\n\n', 1)[1].rsplit('Want to join?', 1)[0]}
+          <!-- CONTRIBUTORS:END -->"""
+          block = re.sub(r"\n {5,}", "\n", block)
+          if "<!-- CONTRIBUTORS:START -->" in text:
+              text = re.sub(r"<!-- CONTRIBUTORS:START -->.*?<!-- CONTRIBUTORS:END -->", block, text, flags=re.S)
+          else:
+              text = text.rstrip() + "\n\n" + block + "\n"
+          readme.write_text(text, encoding="utf-8")
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "skills-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add CONTRIBUTORS.md README.md
+          if git diff --cached --quiet; then
+            echo "No contributor changes"
+          else
+            git commit -m "docs: update contributors wall [skip ci]"
+            git push
+          fi

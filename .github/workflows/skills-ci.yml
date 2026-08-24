@@ -1,0 +1,94 @@
+name: Skills CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  validate-data:
+    name: Validate knowledge base
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run data QA checks
+        run: node scripts/validate-data.mjs
+
+  check-generated-sync:
+    name: Generated files in sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Regenerate skills
+        run: node scripts/generate.mjs
+      - name: Fail if generated output drifted
+        run: |
+          git diff --exit-code -- skills public/search-index.json src/data/skills-index.json src/data/tracks-meta.json || {
+            echo "::error::Generated files are out of sync with src/data/. Run 'npm run gen' locally and commit the result."
+            exit 1
+          }
+
+  route-integrity:
+    name: Website routes resolve
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Build website
+        run: npm run build
+        env:
+          NEXT_DIST_DIR: .next-ci
+          NODE_OPTIONS: --max-old-space-size=4096
+      - name: Verify all routes exist
+        run: node scripts/verify-routes.mjs
+        env:
+          NEXT_DIST_DIR: .next-ci
+
+  pr-review-checklist:
+    name: Post review checklist
+    if: github.event_name == 'pull_request'
+    needs: [validate-data]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              '## 🤖 Automated PR Review',
+              '',
+              'Validation jobs are running on this pull request:',
+              '',
+              '- ✅ Knowledge-base QA (schema, steps, pitfalls, placeholders)',
+              '- ✅ Generated-files sync (`npm run gen` must produce zero diff)',
+              '- ✅ Website build + route integrity',
+              '- 🏷️ Labels applied automatically by files touched',
+              '',
+              '**Author checklist:**',
+              '- [ ] Steps written from real production experience',
+              '- [ ] No duplicated existing skill (variants preferred)',
+              '- [ ] `description` states what it does AND when to activate',
+              '- [ ] Ran `node scripts/validate-data.mjs` locally — passed',
+              '',
+              'Full guidelines: [CONTRIBUTING.md](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md)'
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });

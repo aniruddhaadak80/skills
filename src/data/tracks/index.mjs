@@ -39,6 +39,12 @@ import { track as energyRenewables } from "./energy-renewables.mjs";
 import { track as publicSector } from "./public-sector.mjs";
 import { track as hospitalityFnbWine } from "./hospitality-fnb-wine.mjs";
 
+import { track as aviationAerospace } from "./aviation-aerospace.mjs";
+import { track as veterinaryMedicine } from "./veterinary-medicine.mjs";
+import { track as constructionBuiltEnv } from "./construction-built-env.mjs";
+import { track as agricultureAgtech } from "./agriculture-agtech.mjs";
+import { track as localizationI18n } from "./localization-i18n.mjs";
+import { track as careerDevelopment } from "./career-development.mjs";
 export const TRACKS = [
   aiEngineering,
   frontendEngineering,
@@ -80,4 +86,10 @@ export const TRACKS = [
   energyRenewables,
   publicSector,
   hospitalityFnbWine,
+  aviationAerospace,
+  veterinaryMedicine,
+  constructionBuiltEnv,
+  agricultureAgtech,
+  localizationI18n,
+  careerDevelopment,
 ];

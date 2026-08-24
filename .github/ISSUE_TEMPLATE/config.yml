@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & discussion
+    url: https://github.com/aniruddhaadak80/skills/discussions
+    about: Ask anything about using or extending the library
+  - name: 📖 Contributing guide
+    url: https://github.com/aniruddhaadak80/skills/blob/main/CONTRIBUTING.md
+    about: Read before opening a PR
