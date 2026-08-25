@@ -1,0 +1,7 @@
+.next
+.next-fresh
+.next-ci
+.git
+node_modules
+*.log
+CONTRIBUTORS.md
