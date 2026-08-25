@@ -45,6 +45,7 @@ import { track as constructionBuiltEnv } from "./construction-built-env.mjs";
 import { track as agricultureAgtech } from "./agriculture-agtech.mjs";
 import { track as localizationI18n } from "./localization-i18n.mjs";
 import { track as careerDevelopment } from "./career-development.mjs";
+import { track as agenticMethodology } from "./agentic-methodology.mjs";
 export const TRACKS = [
   aiEngineering,
   frontendEngineering,
@@ -92,4 +93,5 @@ export const TRACKS = [
   agricultureAgtech,
   localizationI18n,
   careerDevelopment,
+  agenticMethodology,
 ];

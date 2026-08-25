@@ -6,7 +6,7 @@ description: "Traced, permission-governed agent infrastructure auditors and engi
 
 > Traced, permission-governed agent infrastructure auditors and engineers both trust.
 
-**Track:** 🗺️ AI Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~120 min**
+**Track:** 🗺️ AI Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~40 min**
 
 **Who this is for:** AI Engineers, ML Engineers, LLM App Developers, Agent Builders
 
@@ -17,22 +17,18 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ## Journey Steps
 
-1. Step 1 — Standardize agent observability with tracing spans: start with "Define span hierarchy: session → plan → step → tool-call → sub-calls"
-2. Step 2 — Design tools an agent can use reliably: start with "One tool = one verb-noun responsibility; split anything doing two jobs"
-3. Step 3 — Govern agent tool access with permission matrices: start with "Inventory every tool × action class; classify read/write/irreversible"
-4. How it fits together: Traces answer debugging; permission matrices answer insurance. You need both.
+1. Step 1 — Design tools an agent can use reliably: start with "One tool = one verb-noun responsibility; split anything doing two jobs"
+2. How it fits together: Traces answer debugging; permission matrices answer insurance. You need both.
 
 ### Referenced Skills
 
-- `agent-platform-agent-tracing-standards`
 - `agents-tool-design`
-- `agent-platform-tool-permission-matrix`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill agent-platform-agent-tracing-standards && npx skills add aniruddhaadak80/skills --skill agents-tool-design && npx skills add aniruddhaadak80/skills --skill agent-platform-tool-permission-matrix
+npx skills add aniruddhaadak80/skills --skill agents-tool-design
 ```
 
 ---

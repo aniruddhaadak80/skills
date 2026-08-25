@@ -452,5 +452,25 @@ export const PLAYBOOKS = [
     items: [
       { id: "scaling-decisions", title: "Ground scaling decisions in reality", goal: "Scaling-law claims converted into budget-honest training choices.", uses: ["ml-research-inference-optimization-scaling-law-interpretation", "experimentation-rigor-ablation-design"], guidance: "Extrapolation beyond fitted compute ranges is strategy-by-vibes." }
     ]
+  },
+  {
+    trackId: "agentic-methodology",
+    items: [
+      { id: "agentic-dev-loop", title: "Run the full agentic development loop", goal: "Design gate ? executable plan ? subagent execution with TDD and two-stage reviews ? verified completion.", uses: ["design-gates-socratic-brainstorming", "design-gates-implementation-plan-writing", "execution-discipline-subagent-dispatch-discipline", "execution-discipline-tdd-red-green-refactor", "execution-discipline-verification-before-completion"], guidance: "The gates exist in order for a reason: design kills wrong ideas cheapest, plans make execution mechanical, TDD keeps agents honest, verification keeps claims honest." },
+      { id: "parallel-workstreams", title: "Run parallel agent workstreams safely", goal: "Worktree isolation plus dispatch discipline letting multiple agents ship concurrently without collisions.", uses: ["branch-isolation-git-worktree-isolation", "execution-discipline-subagent-dispatch-discipline", "branch-isolation-receiving-code-review-gracefully"], guidance: "One agent per worktree, one brief per task. Cross-tree edits are how weekends die." },
+      { id: "review-culture-agentic", title: "Build review culture into agent workflows", goal: "Requesting AND receiving review handled with evidence on both sides.", uses: ["branch-isolation-receiving-code-review-gracefully", "execution-discipline-verification-before-completion"], guidance: "Agents that verify before claiming + humans that verify before applying = trustworthy velocity." }
+    ]
+  },
+  {
+    trackId: "ai-engineering",
+    items: [
+      { id: "mcp-toolkit", title: "Ship an MCP toolkit for your product", goal: "A scaffolded, schema-tight MCP server agents integrate without hand-holding.", uses: ["mcp-scaffolding-mcp-server-scaffold", "ai-engineering-agent-tracing-standards"], guidance: "Tool contracts are API contracts; version them from day one." }
+    ]
+  },
+  {
+    trackId: "technical-writing",
+    items: [
+      { id: "document-pipeline", title: "Operate a generated-documents pipeline", goal: "DOCX reports and slide decks produced deterministically from content models.", uses: ["document-generation-docx-report-generation", "document-generation-slide-narrative-design"], guidance: "Styles and titles-first are what separate generation from word-processor cosplay." }
+    ]
   }
 ];

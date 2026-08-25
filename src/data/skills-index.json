@@ -1,5 +1,5 @@
 {
- "count": 515,
+ "count": 521,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -250,89 +250,20 @@
    ]
   },
   {
-   "slug": "model-efficiency-quantization-strategy-selection",
-   "title": "Select quantization strategies without wrecking quality",
-   "description": "PTQ vs QAT tradeoffs, per-layer sensitivity analysis, and eval gates protecting downstream task accuracy.",
+   "slug": "mcp-scaffolding-mcp-server-scaffold",
+   "title": "Scaffold an MCP server agents can trust",
+   "description": "Tool schema design, transport choice, error contracts, and test harness for Model Context Protocol servers.",
    "track": "ai-engineering",
    "trackLabel": "AI Engineering",
-   "domain": "model-efficiency",
-   "level": "advanced",
-   "minutes": 50,
-   "tags": [
-    "quantization",
-    "inference",
-    "optimization",
-    "ai-engineering",
-    "model-efficiency"
-   ]
-  },
-  {
-   "slug": "model-efficiency-kv-cache-optimization",
-   "title": "Optimize KV cache for long-context serving",
-   "description": "Paged attention, prefix reuse, and eviction policies turning long-context from cost center into feature.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "model-efficiency",
-   "level": "advanced",
+   "domain": "mcp-scaffolding",
+   "level": "intermediate",
    "minutes": 45,
    "tags": [
-    "kv-cache",
-    "inference",
-    "serving",
+    "mcp",
+    "tools",
+    "protocol",
     "ai-engineering",
-    "model-efficiency"
-   ]
-  },
-  {
-   "slug": "model-efficiency-distillation-pipeline-design",
-   "title": "Distill large-model capability into deployable students",
-   "description": "Teacher selection, data generation governance, and student eval harnesses preserving target behaviors.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "model-efficiency",
-   "level": "advanced",
-   "minutes": 55,
-   "tags": [
-    "distillation",
-    "training",
-    "efficiency",
-    "ai-engineering",
-    "model-efficiency"
-   ]
-  },
-  {
-   "slug": "agent-platform-agent-tracing-standards",
-   "title": "Standardize agent observability with tracing spans",
-   "description": "OpenTelemetry-aligned span taxonomies for LLM calls, tool executions, and handoffs enabling real debugging.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "agent-platform",
-   "level": "advanced",
-   "minutes": 40,
-   "tags": [
-    "tracing",
-    "otel",
-    "agents",
-    "observability",
-    "ai-engineering",
-    "agent-platform"
-   ]
-  },
-  {
-   "slug": "agent-platform-tool-permission-matrix",
-   "title": "Govern agent tool access with permission matrices",
-   "description": "Role-scoped tool grants, parameter-level policies, and audit trails making agent autonomy insurable.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "agent-platform",
-   "level": "advanced",
-   "minutes": 40,
-   "tags": [
-    "agents",
-    "security",
-    "governance",
-    "ai-engineering",
-    "agent-platform"
+    "mcp-scaffolding"
    ]
   },
   {
@@ -4459,37 +4390,20 @@
    ]
   },
   {
-   "slug": "test-foundations-test-data-management",
-   "title": "Manage test data without production leaks",
-   "description": "Synthetic generation, masked subsets, and refresh pipelines keeping tests realistic and legal.",
+   "slug": "web-app-testing-playwright-smoke-authoring",
+   "title": "Author Playwright smoke suites for web apps",
+   "description": "Journey-selection, trace-on-retry infrastructure, and network stubs producing trustworthy five-minute gates.",
    "track": "qa-testing",
    "trackLabel": "QA & Testing",
-   "domain": "test-foundations",
-   "level": "advanced",
-   "minutes": 35,
-   "tags": [
-    "test-data",
-    "privacy",
-    "fixtures",
-    "qa-testing",
-    "test-foundations"
-   ]
-  },
-  {
-   "slug": "test-foundations-mobile-testing-basics",
-   "title": "Test mobile apps across the fragmentation minefield",
-   "description": "Device matrix selection, interruption/resume testing, and network-condition realism.",
-   "track": "qa-testing",
-   "trackLabel": "QA & Testing",
-   "domain": "test-foundations",
+   "domain": "web-app-testing",
    "level": "intermediate",
-   "minutes": 35,
+   "minutes": 40,
    "tags": [
-    "mobile",
-    "devices",
-    "testing",
+    "playwright",
+    "e2e",
+    "smoke",
     "qa-testing",
-    "test-foundations"
+    "web-app-testing"
    ]
   },
   {
@@ -4592,20 +4506,37 @@
    ]
   },
   {
-   "slug": "product-copy-microcopy-error-messages",
-   "title": "Write microcopy that helps instead of blames",
-   "description": "Error messages, empty states, and button labels engineered for user recovery.",
+   "slug": "document-generation-docx-report-generation",
+   "title": "Generate professional DOCX reports programmatically",
+   "description": "Template-first structure, style hierarchy over direct formatting, and programmatic population patterns.",
    "track": "technical-writing",
    "trackLabel": "Technical Writing",
-   "domain": "product-copy",
+   "domain": "document-generation",
    "level": "foundation",
-   "minutes": 20,
+   "minutes": 30,
    "tags": [
-    "ux-writing",
-    "errors",
-    "microcopy",
+    "docx",
+    "documents",
+    "automation",
     "technical-writing",
-    "product-copy"
+    "document-generation"
+   ]
+  },
+  {
+   "slug": "document-generation-slide-narrative-design",
+   "title": "Design slide decks as narratives, not bullet dumps",
+   "description": "Assertion-per-slide structure, visual-first layouts, and appendix discipline for deck generation.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "document-generation",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "pptx",
+    "slides",
+    "communication",
+    "technical-writing",
+    "document-generation"
    ]
   },
   {
@@ -4677,20 +4608,20 @@
    ]
   },
   {
-   "slug": "organic-search-seo-technical-audit",
-   "title": "Audit technical SEO before writing more content",
-   "description": "Crawlability, indexation, Core Web Vitals, and structured data checked in priority order.",
+   "slug": "brand-systems-brand-voice-codification",
+   "title": "Codify brand voice so anyone (or any agent) can write on-brand",
+   "description": "Voice attributes with do/don't pairs, vocabulary allowlists, and worked examples across channels.",
    "track": "marketing-growth",
    "trackLabel": "Marketing & Growth",
-   "domain": "organic-search",
+   "domain": "brand-systems",
    "level": "intermediate",
-   "minutes": 40,
+   "minutes": 35,
    "tags": [
-    "seo",
-    "technical",
-    "audit",
+    "brand-guidelines",
+    "voice",
+    "copywriting",
     "marketing-growth",
-    "organic-search"
+    "brand-systems"
    ]
   },
   {
@@ -6661,6 +6592,125 @@
    ]
   },
   {
+   "slug": "design-gates-socratic-brainstorming",
+   "title": "Brainstorm with the agent before any code",
+   "description": "Socratic refinement: one question at a time, alternatives with tradeoffs, segment-confirmed design docs.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "design-gates",
+   "level": "foundation",
+   "minutes": 25,
+   "tags": [
+    "brainstorming",
+    "design",
+    "workflow",
+    "agentic-methodology",
+    "design-gates"
+   ]
+  },
+  {
+   "slug": "design-gates-implementation-plan-writing",
+   "title": "Write plans a context-free agent could execute",
+   "description": "Bite-sized tasks (2-5 min each) with exact file paths, complete specs, and per-task verification steps.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "design-gates",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "planning",
+    "workflow",
+    "delegation",
+    "agentic-methodology",
+    "design-gates"
+   ]
+  },
+  {
+   "slug": "execution-discipline-tdd-red-green-refactor",
+   "title": "Enforce red-green-refactor with hard gates",
+   "description": "Failing test first, watch it fail, minimal code, watch it pass, commit — no code born before tests.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "execution-discipline",
+   "level": "intermediate",
+   "minutes": 30,
+   "tags": [
+    "tdd",
+    "testing",
+    "discipline",
+    "agentic-methodology",
+    "execution-discipline"
+   ]
+  },
+  {
+   "slug": "execution-discipline-subagent-dispatch-discipline",
+   "title": "Dispatch subagents with fresh-context discipline",
+   "description": "Fresh implementer per task, brief files as single source of truth, two-stage review, capped fix loops.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "execution-discipline",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "subagents",
+    "orchestration",
+    "quality",
+    "agentic-methodology",
+    "execution-discipline"
+   ]
+  },
+  {
+   "slug": "execution-discipline-verification-before-completion",
+   "title": "Verify before claiming done — evidence over claims",
+   "description": "Fresh-command proof for every completion claim; 'it should work' is a confession.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "execution-discipline",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "verification",
+    "honesty",
+    "workflow",
+    "agentic-methodology",
+    "execution-discipline"
+   ]
+  },
+  {
+   "slug": "branch-isolation-git-worktree-isolation",
+   "title": "Isolate parallel work with git worktrees",
+   "description": "Separate directories per branch letting agents work concurrently without stepping on each other.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "branch-isolation",
+   "level": "intermediate",
+   "minutes": 25,
+   "tags": [
+    "git",
+    "worktrees",
+    "parallel",
+    "agentic-methodology",
+    "branch-isolation"
+   ]
+  },
+  {
+   "slug": "branch-isolation-receiving-code-review-gracefully",
+   "title": "Receive agent code review without ego or obedience",
+   "description": "Verify claims, push back with evidence when wrong, apply instantly when right.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "branch-isolation",
+   "level": "foundation",
+   "minutes": 20,
+   "tags": [
+    "code-review",
+    "collaboration",
+    "feedback",
+    "agentic-methodology",
+    "branch-isolation"
+   ]
+  },
+  {
    "slug": "playbook-ai-engineering-rag-launch",
    "title": "Playbook: Launch a RAG feature end to end",
    "description": "Take retrieval-augmented answers from empty repo to evaluated production feature.",
@@ -8131,21 +8181,6 @@
    ]
   },
   {
-   "slug": "playbook-qa-testing-foundations-hardened",
-   "title": "Playbook: Harden testing foundations",
-   "description": "Leak-free test data and mobile matrices matching real users.",
-   "track": "qa-testing",
-   "trackLabel": "QA & Testing",
-   "domain": "playbooks",
-   "level": "journey",
-   "minutes": 70,
-   "tags": [
-    "playbook",
-    "journey",
-    "qa-testing"
-   ]
-  },
-  {
    "slug": "playbook-startup-founders-founder-legal-base",
    "title": "Playbook: Secure founder fundamentals",
    "description": "Charter, vesting, and cap-table literacy before first term sheet.",
@@ -8266,21 +8301,6 @@
    ]
   },
   {
-   "slug": "playbook-ai-engineering-inference-economics",
-   "title": "Playbook: Make LLM inference economically survivable",
-   "description": "Quantization, KV-cache strategy, and distillation decisions grounded in measured quality contracts.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "playbooks",
-   "level": "journey",
-   "minutes": 95,
-   "tags": [
-    "playbook",
-    "journey",
-    "ai-engineering"
-   ]
-  },
-  {
    "slug": "playbook-ai-engineering-agent-platform-hardening",
    "title": "Playbook: Harden an agent platform for production",
    "description": "Traced, permission-governed agent infrastructure auditors and engineers both trust.",
@@ -8288,7 +8308,7 @@
    "trackLabel": "AI Engineering",
    "domain": "playbooks",
    "level": "journey",
-   "minutes": 120,
+   "minutes": 40,
    "tags": [
     "playbook",
     "journey",
@@ -8413,6 +8433,81 @@
     "playbook",
     "journey",
     "ml-research"
+   ]
+  },
+  {
+   "slug": "playbook-agentic-methodology-agentic-dev-loop",
+   "title": "Playbook: Run the full agentic development loop",
+   "description": "Design gate ? executable plan ? subagent execution with TDD and two-stage reviews ? verified completion.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 150,
+   "tags": [
+    "playbook",
+    "journey",
+    "agentic-methodology"
+   ]
+  },
+  {
+   "slug": "playbook-agentic-methodology-parallel-workstreams",
+   "title": "Playbook: Run parallel agent workstreams safely",
+   "description": "Worktree isolation plus dispatch discipline letting multiple agents ship concurrently without collisions.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "agentic-methodology"
+   ]
+  },
+  {
+   "slug": "playbook-agentic-methodology-review-culture-agentic",
+   "title": "Playbook: Build review culture into agent workflows",
+   "description": "Requesting AND receiving review handled with evidence on both sides.",
+   "track": "agentic-methodology",
+   "trackLabel": "Agentic Methodology",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 40,
+   "tags": [
+    "playbook",
+    "journey",
+    "agentic-methodology"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-mcp-toolkit",
+   "title": "Playbook: Ship an MCP toolkit for your product",
+   "description": "A scaffolded, schema-tight MCP server agents integrate without hand-holding.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 45,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-technical-writing-document-pipeline",
+   "title": "Playbook: Operate a generated-documents pipeline",
+   "description": "DOCX reports and slide decks produced deterministically from content models.",
+   "track": "technical-writing",
+   "trackLabel": "Technical Writing",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 65,
+   "tags": [
+    "playbook",
+    "journey",
+    "technical-writing"
    ]
   }
  ]
