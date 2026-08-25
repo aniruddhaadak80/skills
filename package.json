@@ -10,9 +10,10 @@
     "gen": "node scripts/generate.mjs"
   },
   "dependencies": {
-    "next": "^14.2.15",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "^16.3.2",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sharp": "0.35.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
