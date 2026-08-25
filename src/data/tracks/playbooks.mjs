@@ -397,5 +397,60 @@ export const PLAYBOOKS = [
     items: [
       { id: "cost-and-recovery", title: "Control cloud cost AND recoverability together", goal: "FinOps rhythms plus restore drills making spend explainable and recovery proven.", uses: ["engineering-economics-cloud-cost-monitoring-finops", "platform-tooling-backup-restore-testing"], guidance: "Both are boring until the day they are existential." }
     ]
+  },
+  {
+    trackId: "ai-engineering",
+    items: [
+      { id: "inference-economics", title: "Make LLM inference economically survivable", goal: "Quantization, KV-cache strategy, and distillation decisions grounded in measured quality contracts.", uses: ["model-efficiency-quantization-strategy-selection", "model-efficiency-kv-cache-optimization", "ml-research-inference-optimization-speculative-decoding-tuning"], guidance: "Every efficiency win must survive your eval contract AND real batch shapes." },
+      { id: "agent-platform-hardening", title: "Harden an agent platform for production", goal: "Traced, permission-governed agent infrastructure auditors and engineers both trust.", uses: ["agent-platform-agent-tracing-standards", "agents-tool-design", "agent-platform-tool-permission-matrix"], guidance: "Traces answer debugging; permission matrices answer insurance. You need both." }
+    ]
+  },
+  {
+    trackId: "backend-engineering",
+    items: [
+      { id: "distributed-truth", title: "Design distributed truth carefully", goal: "Consistency models chosen by harm math with multi-region topology that survives evacuation.", uses: ["distributed-systems-consistency-model-selection", "distributed-systems-multi-region-data-topology"], guidance: "Write down what staleness costs per data class before picking any default." }
+    ]
+  },
+  {
+    trackId: "devops-cloud",
+    items: [
+      { id: "platform-org-leverage", title: "Turn platform work into organizational leverage", goal: "Golden paths adopted voluntarily plus capacity planned from growth curves.", uses: ["platform-delivery-golden-path-paved-road", "platform-delivery-capacity-planning-forecasting"], guidance: "Adoption percentage is the only platform metric leadership needs." }
+    ]
+  },
+  {
+    trackId: "cybersecurity",
+    items: [
+      { id: "detection-maturity", title: "Reach detection engineering maturity", goal: "Detection-as-code suites and threat intel pipelines producing measurable coverage.", uses: ["detection-operations-detection-as-code-testing", "detection-operations-threat-intel-operationalization"], guidance: "Untested rules are guesses with syntax highlighting." }
+    ]
+  },
+  {
+    trackId: "frontend-engineering",
+    items: [
+      { id: "rendering-mastery", title: "Master rendering strategy per route", goal: "Mode selection documented, workers offloading measured hot paths at 60fps.", uses: ["rendering-strategy-rendering-mode-selection", "rendering-strategy-web-workers-architecture"], guidance: "Route-level decisions beat app-level defaults every time." }
+    ]
+  },
+  {
+    trackId: "data-engineering",
+    items: [
+      { id: "lakehouse-maturity", title: "Operate a mature lakehouse", goal: "Stream/batch boundaries unified with open table formats governed properly.", uses: ["lakehouse-streaming-microbatch-streaming-hybrid", "lakehouse-streaming-open-table-format-selection"], guidance: "Pick the format your engines love; govern the catalog like production, because it is." }
+    ]
+  },
+  {
+    trackId: "engineering-leadership",
+    items: [
+      { id: "staff-plus-operating", title: "Operate at staff-plus scope", goal: "Force-multiplying rhythms and funded tech strategy documents.", uses: ["staff-plus-track-staff-eng-operating-model", "staff-plus-track-tech-strategy-doc-craft"], guidance: "Your calendar reveals whether you multiply or bottleneck. Audit it monthly." }
+    ]
+  },
+  {
+    trackId: "biotech-pharma",
+    items: [
+      { id: "silico-bench-bridge", title: "Bridge computational and wet-lab truth", goal: "Validated pipelines with pre-registered acceptance thresholds surviving review.", uses: ["computational-validation-assay-simulation-validation"], guidance: "Thresholds written before results are science; after, they are marketing." }
+    ]
+  },
+  {
+    trackId: "ml-research",
+    items: [
+      { id: "scaling-decisions", title: "Ground scaling decisions in reality", goal: "Scaling-law claims converted into budget-honest training choices.", uses: ["ml-research-inference-optimization-scaling-law-interpretation", "experimentation-rigor-ablation-design"], guidance: "Extrapolation beyond fitted compute ranges is strategy-by-vibes." }
+    ]
   }
 ];

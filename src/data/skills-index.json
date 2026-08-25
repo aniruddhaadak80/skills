@@ -1,5 +1,5 @@
 {
- "count": 500,
+ "count": 515,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -250,71 +250,89 @@
    ]
   },
   {
-   "slug": "voice-multimodal-voice-agent-latency",
-   "title": "Engineer voice agents under latency ceilings",
-   "description": "Streaming ASR, incremental TTS, and barge-in handling keeping conversation feel under 800ms response.",
+   "slug": "model-efficiency-quantization-strategy-selection",
+   "title": "Select quantization strategies without wrecking quality",
+   "description": "PTQ vs QAT tradeoffs, per-layer sensitivity analysis, and eval gates protecting downstream task accuracy.",
    "track": "ai-engineering",
    "trackLabel": "AI Engineering",
-   "domain": "voice-multimodal",
+   "domain": "model-efficiency",
    "level": "advanced",
-   "minutes": 45,
+   "minutes": 50,
    "tags": [
-    "voice",
-    "latency",
-    "streaming",
+    "quantization",
+    "inference",
+    "optimization",
     "ai-engineering",
-    "voice-multimodal"
+    "model-efficiency"
    ]
   },
   {
-   "slug": "voice-multimodal-multimodal-eval-design",
-   "title": "Evaluate multimodal outputs beyond vibes",
-   "description": "Task-grounded scoring for image/chart/document understanding with calibrated human baselines.",
+   "slug": "model-efficiency-kv-cache-optimization",
+   "title": "Optimize KV cache for long-context serving",
+   "description": "Paged attention, prefix reuse, and eviction policies turning long-context from cost center into feature.",
    "track": "ai-engineering",
    "trackLabel": "AI Engineering",
-   "domain": "voice-multimodal",
+   "domain": "model-efficiency",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "kv-cache",
+    "inference",
+    "serving",
+    "ai-engineering",
+    "model-efficiency"
+   ]
+  },
+  {
+   "slug": "model-efficiency-distillation-pipeline-design",
+   "title": "Distill large-model capability into deployable students",
+   "description": "Teacher selection, data generation governance, and student eval harnesses preserving target behaviors.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "model-efficiency",
+   "level": "advanced",
+   "minutes": 55,
+   "tags": [
+    "distillation",
+    "training",
+    "efficiency",
+    "ai-engineering",
+    "model-efficiency"
+   ]
+  },
+  {
+   "slug": "agent-platform-agent-tracing-standards",
+   "title": "Standardize agent observability with tracing spans",
+   "description": "OpenTelemetry-aligned span taxonomies for LLM calls, tool executions, and handoffs enabling real debugging.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "agent-platform",
    "level": "advanced",
    "minutes": 40,
    "tags": [
-    "evals",
-    "multimodal",
-    "vision",
+    "tracing",
+    "otel",
+    "agents",
+    "observability",
     "ai-engineering",
-    "voice-multimodal"
+    "agent-platform"
    ]
   },
   {
-   "slug": "agent-memory-memory-architecture-tiers",
-   "title": "Design tiered memory for persistent agents",
-   "description": "Working, episodic, and semantic memory tiers with promotion/forgetting policies that stay coherent.",
+   "slug": "agent-platform-tool-permission-matrix",
+   "title": "Govern agent tool access with permission matrices",
+   "description": "Role-scoped tool grants, parameter-level policies, and audit trails making agent autonomy insurable.",
    "track": "ai-engineering",
    "trackLabel": "AI Engineering",
-   "domain": "agent-memory",
+   "domain": "agent-platform",
    "level": "advanced",
-   "minutes": 45,
+   "minutes": 40,
    "tags": [
     "agents",
-    "memory",
-    "architecture",
+    "security",
+    "governance",
     "ai-engineering",
-    "agent-memory"
-   ]
-  },
-  {
-   "slug": "agent-memory-context-window-budgeting",
-   "title": "Budget long-context windows deliberately",
-   "description": "Priority-ranked context assembly with measured attention degradation at depth.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "agent-memory",
-   "level": "intermediate",
-   "minutes": 30,
-   "tags": [
-    "context",
-    "long-context",
-    "prompts",
-    "ai-engineering",
-    "agent-memory"
+    "agent-platform"
    ]
   },
   {
@@ -518,19 +536,38 @@
    ]
   },
   {
-   "slug": "collaboration-flows-design-handoff-receiving",
-   "title": "Receive design handoffs without rework loops",
-   "description": "Pre-build alignment on states, breakpoints, and motion specs eliminating mid-sprint surprises.",
+   "slug": "rendering-strategy-rendering-mode-selection",
+   "title": "Select rendering modes per route deliberately",
+   "description": "Static/ISR/SSR/streaming/client mapped to freshness needs, personalization, and TTFB budgets.",
    "track": "frontend-engineering",
    "trackLabel": "Frontend Engineering",
-   "domain": "collaboration-flows",
-   "level": "intermediate",
-   "minutes": 25,
+   "domain": "rendering-strategy",
+   "level": "advanced",
+   "minutes": 40,
    "tags": [
-    "handoff",
-    "design-collaboration",
+    "ssr",
+    "isr",
+    "streaming",
+    "architecture",
     "frontend-engineering",
-    "collaboration-flows"
+    "rendering-strategy"
+   ]
+  },
+  {
+   "slug": "rendering-strategy-web-workers-architecture",
+   "title": "Move heavy work off the main thread properly",
+   "description": "Worker pool sizing, transferable payloads, and Comlink-style RPC keeping UI at 60fps.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "rendering-strategy",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "web-workers",
+    "performance",
+    "architecture",
+    "frontend-engineering",
+    "rendering-strategy"
    ]
   },
   {
@@ -753,20 +790,54 @@
    ]
   },
   {
-   "slug": "resilience-patterns-graceful-degradation-design",
-   "title": "Design degradation users forgive",
-   "description": "Feature-tier fallbacks, circuit breakers, and honest UI states keeping core journeys alive during partial failure.",
+   "slug": "distributed-systems-consistency-model-selection",
+   "title": "Choose consistency models per data class deliberately",
+   "description": "Strong vs bounded-staleness vs eventual mapped to business harm scenarios, not fashion.",
    "track": "backend-engineering",
    "trackLabel": "Backend Engineering",
-   "domain": "resilience-patterns",
+   "domain": "distributed-systems",
    "level": "advanced",
-   "minutes": 40,
+   "minutes": 45,
    "tags": [
-    "resilience",
-    "circuit-breakers",
-    "fallbacks",
+    "consistency",
+    "architecture",
+    "distributed",
     "backend-engineering",
-    "resilience-patterns"
+    "distributed-systems"
+   ]
+  },
+  {
+   "slug": "distributed-systems-multi-region-data-topology",
+   "title": "Design multi-region data topologies honestly",
+   "description": "Residency, replication lag, failover semantics, and write-conflict strategy before the second region exists.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "distributed-systems",
+   "level": "advanced",
+   "minutes": 50,
+   "tags": [
+    "multi-region",
+    "residency",
+    "failover",
+    "backend-engineering",
+    "distributed-systems"
+   ]
+  },
+  {
+   "slug": "distributed-systems-event-sourcing-pragmatics",
+   "title": "Adopt event sourcing without the graveyard mistakes",
+   "description": "Command/event separation, upcasting discipline, and projection rebuild strategies that survive year three.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "distributed-systems",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "event-sourcing",
+    "architecture",
+    "cqrs",
+    "backend-engineering",
+    "distributed-systems"
    ]
   },
   {
@@ -883,6 +954,40 @@
     "analytics",
     "data-engineering",
     "streaming-modeling"
+   ]
+  },
+  {
+   "slug": "lakehouse-streaming-microbatch-streaming-hybrid",
+   "title": "Blend streaming and batch where each belongs",
+   "description": "Lambda-to-Kappa migrations, microbatch cadences, and consistency contracts across paths.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "lakehouse-streaming",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "lambda",
+    "kappa",
+    "streaming",
+    "data-engineering",
+    "lakehouse-streaming"
+   ]
+  },
+  {
+   "slug": "lakehouse-streaming-open-table-format-selection",
+   "title": "Choose and operate open table formats deliberately",
+   "description": "Iceberg/Delta/Hudi tradeoffs, compaction strategy, and catalog governance preventing metadata debt.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "lakehouse-streaming",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "iceberg",
+    "delta-lake",
+    "lakehouse",
+    "data-engineering",
+    "lakehouse-streaming"
    ]
   },
   {
@@ -1067,37 +1172,37 @@
    ]
   },
   {
-   "slug": "engineering-economics-cloud-cost-monitoring-finops",
-   "title": "Run FinOps before finance finds the invoice",
-   "description": "Tagging discipline, unit-economics dashboards, and anomaly alerts keeping cloud spend explainable.",
+   "slug": "platform-delivery-golden-path-paved-road",
+   "title": "Ship golden paths teams choose voluntarily",
+   "description": "Template repositories, self-service scaffolding, and paved-road adoption measured by pull not push.",
    "track": "devops-cloud",
    "trackLabel": "DevOps & Cloud",
-   "domain": "engineering-economics",
-   "level": "intermediate",
-   "minutes": 35,
+   "domain": "platform-delivery",
+   "level": "advanced",
+   "minutes": 45,
    "tags": [
-    "finops",
-    "cost",
-    "cloud",
+    "platform-engineering",
+    "dx",
+    "templates",
     "devops-cloud",
-    "engineering-economics"
+    "platform-delivery"
    ]
   },
   {
-   "slug": "engineering-economics-runbook-craft",
-   "title": "Write runbooks that work at 3am",
-   "description": "Symptom-indexed, copy-paste-ready procedures with verification steps and escalation exits.",
+   "slug": "platform-delivery-capacity-planning-forecasting",
+   "title": "Plan capacity from growth curves, not incidents",
+   "description": "Headroom policies, load-shed tiers defined calmly, and procurement lead times respected.",
    "track": "devops-cloud",
    "trackLabel": "DevOps & Cloud",
-   "domain": "engineering-economics",
-   "level": "foundation",
-   "minutes": 25,
+   "domain": "platform-delivery",
+   "level": "advanced",
+   "minutes": 40,
    "tags": [
-    "runbooks",
-    "operations",
-    "documentation",
+    "capacity",
+    "planning",
+    "scaling",
     "devops-cloud",
-    "engineering-economics"
+    "platform-delivery"
    ]
   },
   {
@@ -2657,20 +2762,37 @@
    ]
   },
   {
-   "slug": "human-layer-security-champions-program",
-   "title": "Launch a security champions program",
-   "description": "Embedded team advocates with training, authority, and recognition multiplying security capacity.",
+   "slug": "detection-operations-detection-as-code-testing",
+   "title": "Test detections like code with unit + integration suites",
+   "description": "Atomic test fixtures, expected-fire assertions, and regression packs keeping detection debt visible.",
    "track": "cybersecurity",
    "trackLabel": "Cybersecurity",
-   "domain": "human-layer",
-   "level": "intermediate",
-   "minutes": 35,
+   "domain": "detection-operations",
+   "level": "advanced",
+   "minutes": 45,
    "tags": [
-    "champions",
-    "culture",
-    "devsecops",
+    "detection-as-code",
+    "testing",
+    "ci",
     "cybersecurity",
-    "human-layer"
+    "detection-operations"
+   ]
+  },
+  {
+   "slug": "detection-operations-threat-intel-operationalization",
+   "title": "Operationalize threat intel instead of hoarding it",
+   "description": "Relevance filtering, indicator decay, and hunt/detection integration converting feeds into actions.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "detection-operations",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "threat-intel",
+    "cti",
+    "workflow",
+    "cybersecurity",
+    "detection-operations"
    ]
   },
   {
@@ -3006,6 +3128,40 @@
     "responsible-ai",
     "ml-research",
     "evaluation-integrity"
+   ]
+  },
+  {
+   "slug": "inference-optimization-speculative-decoding-tuning",
+   "title": "Tune speculative decoding without regressing quality",
+   "description": "Drafter selection, acceptance-rate monitoring, and batch-interaction effects in production serving.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "inference-optimization",
+   "level": "advanced",
+   "minutes": 45,
+   "tags": [
+    "speculative-decoding",
+    "inference",
+    "llm",
+    "ml-research",
+    "inference-optimization"
+   ]
+  },
+  {
+   "slug": "inference-optimization-scaling-law-interpretation",
+   "title": "Read scaling-law claims like a practitioner",
+   "description": "Compute budgets, data-wall caveats, and extrapolation ranges separating signal from slide-ware.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
+   "domain": "inference-optimization",
+   "level": "advanced",
+   "minutes": 35,
+   "tags": [
+    "scaling-laws",
+    "strategy",
+    "analysis",
+    "ml-research",
+    "inference-optimization"
    ]
   },
   {
@@ -3357,37 +3513,37 @@
    ]
   },
   {
-   "slug": "leadership-rhythms-skip-level-meetings",
-   "title": "Run skip-levels that surface truth",
-   "description": "Psychologically safe formats hearing unfiltered reality two layers down without undermining managers.",
+   "slug": "staff-plus-track-staff-eng-operating-model",
+   "title": "Operate as a staff engineer without becoming a bottleneck",
+   "description": "Scope selection, influence-through-artifacts, and force-multiplication rhythms for individual contributors.",
    "track": "engineering-leadership",
    "trackLabel": "Engineering Leadership",
-   "domain": "leadership-rhythms",
-   "level": "intermediate",
-   "minutes": 25,
+   "domain": "staff-plus-track",
+   "level": "advanced",
+   "minutes": 45,
    "tags": [
-    "skip-levels",
-    "management",
-    "communication",
+    "staff-engineer",
+    "career",
+    "influence",
     "engineering-leadership",
-    "leadership-rhythms"
+    "staff-plus-track"
    ]
   },
   {
-   "slug": "leadership-rhythms-incident-comms-leadership",
-   "title": "Communicate during incidents as a leader",
-   "description": "Stakeholder cadence, uncertainty honesty, and blame avoidance setting organizational tone.",
+   "slug": "staff-plus-track-tech-strategy-doc-craft",
+   "title": "Write tech strategy documents that get funded",
+   "description": "Current-state honesty, bets with falsifiable outcomes, and resourcing asks tied to business narratives.",
    "track": "engineering-leadership",
    "trackLabel": "Engineering Leadership",
-   "domain": "leadership-rhythms",
+   "domain": "staff-plus-track",
    "level": "advanced",
-   "minutes": 30,
+   "minutes": 50,
    "tags": [
-    "incidents",
-    "communication",
-    "leadership",
+    "strategy",
+    "writing",
+    "planning",
     "engineering-leadership",
-    "leadership-rhythms"
+    "staff-plus-track"
    ]
   },
   {
@@ -3748,20 +3904,20 @@
    ]
   },
   {
-   "slug": "quality-suppliers-vendor-qualification-gxp",
-   "title": "Qualify GxP vendors before reliance",
-   "description": "Risk-tiered audits, quality agreements, and change-notification clauses protecting product integrity.",
+   "slug": "computational-validation-assay-simulation-validation",
+   "title": "Validate computational biology pipelines against wet-lab truth",
+   "description": "Benchmark design, discordance investigation, and acceptance thresholds bridging silico and bench.",
    "track": "biotech-pharma",
    "trackLabel": "Biotech & Pharma",
-   "domain": "quality-suppliers",
+   "domain": "computational-validation",
    "level": "advanced",
-   "minutes": 40,
+   "minutes": 45,
    "tags": [
-    "suppliers",
-    "gxp",
-    "qualification",
+    "validation",
+    "bioinformatics",
+    "benchmarking",
     "biotech-pharma",
-    "quality-suppliers"
+    "computational-validation"
    ]
   },
   {
@@ -7945,36 +8101,6 @@
    ]
   },
   {
-   "slug": "playbook-ai-engineering-memory-system",
-   "title": "Playbook: Give your agent a working memory",
-   "description": "Tiered memory architecture with promotion, forgetting, and audit hygiene live in production.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "playbooks",
-   "level": "journey",
-   "minutes": 45,
-   "tags": [
-    "playbook",
-    "journey",
-    "ai-engineering"
-   ]
-  },
-  {
-   "slug": "playbook-ai-engineering-voice-launch",
-   "title": "Playbook: Ship a voice agent people enjoy",
-   "description": "Sub-800ms conversational latency with barge-in and multimodal eval coverage.",
-   "track": "ai-engineering",
-   "trackLabel": "AI Engineering",
-   "domain": "playbooks",
-   "level": "journey",
-   "minutes": 85,
-   "tags": [
-    "playbook",
-    "journey",
-    "ai-engineering"
-   ]
-  },
-  {
    "slug": "playbook-devops-cloud-recoverability",
    "title": "Playbook: Prove you can recover",
    "description": "Backups restored on schedule against declared RPO/RTO with evidence.",
@@ -8080,21 +8206,6 @@
    ]
   },
   {
-   "slug": "playbook-biotech-pharma-supplier-control",
-   "title": "Playbook: Control your supplier quality system",
-   "description": "Risk-tiered qualification with quality agreements and change control live.",
-   "track": "biotech-pharma",
-   "trackLabel": "Biotech & Pharma",
-   "domain": "playbooks",
-   "level": "journey",
-   "minutes": 40,
-   "tags": [
-    "playbook",
-    "journey",
-    "biotech-pharma"
-   ]
-  },
-  {
    "slug": "playbook-public-sector-consultation-integrity",
    "title": "Playbook: Run public consultations with integrity",
    "description": "Representative comment analysis with published methodology feeding decisions.",
@@ -8155,18 +8266,153 @@
    ]
   },
   {
-   "slug": "playbook-devops-cloud-cost-and-recovery",
-   "title": "Playbook: Control cloud cost AND recoverability together",
-   "description": "FinOps rhythms plus restore drills making spend explainable and recovery proven.",
+   "slug": "playbook-ai-engineering-inference-economics",
+   "title": "Playbook: Make LLM inference economically survivable",
+   "description": "Quantization, KV-cache strategy, and distillation decisions grounded in measured quality contracts.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 95,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-agent-platform-hardening",
+   "title": "Playbook: Harden an agent platform for production",
+   "description": "Traced, permission-governed agent infrastructure auditors and engineers both trust.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 120,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-backend-engineering-distributed-truth",
+   "title": "Playbook: Design distributed truth carefully",
+   "description": "Consistency models chosen by harm math with multi-region topology that survives evacuation.",
+   "track": "backend-engineering",
+   "trackLabel": "Backend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 95,
+   "tags": [
+    "playbook",
+    "journey",
+    "backend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-devops-cloud-platform-org-leverage",
+   "title": "Playbook: Turn platform work into organizational leverage",
+   "description": "Golden paths adopted voluntarily plus capacity planned from growth curves.",
    "track": "devops-cloud",
    "trackLabel": "DevOps & Cloud",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "devops-cloud"
+   ]
+  },
+  {
+   "slug": "playbook-cybersecurity-detection-maturity",
+   "title": "Playbook: Reach detection engineering maturity",
+   "description": "Detection-as-code suites and threat intel pipelines producing measurable coverage.",
+   "track": "cybersecurity",
+   "trackLabel": "Cybersecurity",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "cybersecurity"
+   ]
+  },
+  {
+   "slug": "playbook-frontend-engineering-rendering-mastery",
+   "title": "Playbook: Master rendering strategy per route",
+   "description": "Mode selection documented, workers offloading measured hot paths at 60fps.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "frontend-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-data-engineering-lakehouse-maturity",
+   "title": "Playbook: Operate a mature lakehouse",
+   "description": "Stream/batch boundaries unified with open table formats governed properly.",
+   "track": "data-engineering",
+   "trackLabel": "Data Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 85,
+   "tags": [
+    "playbook",
+    "journey",
+    "data-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-engineering-leadership-staff-plus-operating",
+   "title": "Playbook: Operate at staff-plus scope",
+   "description": "Force-multiplying rhythms and funded tech strategy documents.",
+   "track": "engineering-leadership",
+   "trackLabel": "Engineering Leadership",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 95,
+   "tags": [
+    "playbook",
+    "journey",
+    "engineering-leadership"
+   ]
+  },
+  {
+   "slug": "playbook-biotech-pharma-silico-bench-bridge",
+   "title": "Playbook: Bridge computational and wet-lab truth",
+   "description": "Validated pipelines with pre-registered acceptance thresholds surviving review.",
+   "track": "biotech-pharma",
+   "trackLabel": "Biotech & Pharma",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 45,
+   "tags": [
+    "playbook",
+    "journey",
+    "biotech-pharma"
+   ]
+  },
+  {
+   "slug": "playbook-ml-research-scaling-decisions",
+   "title": "Playbook: Ground scaling decisions in reality",
+   "description": "Scaling-law claims converted into budget-honest training choices.",
+   "track": "ml-research",
+   "trackLabel": "ML Research Engineering",
    "domain": "playbooks",
    "level": "journey",
    "minutes": 35,
    "tags": [
     "playbook",
     "journey",
-    "devops-cloud"
+    "ml-research"
    ]
   }
  ]

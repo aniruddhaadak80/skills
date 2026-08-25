@@ -6,8 +6,10 @@ import { EXTRA_DOMAINS as EXPANSIONS_C } from "../data/tracks/expansions-c.mjs";
 import { EXTRA_DOMAINS as EXPANSIONS_D } from "../data/tracks/expansions-d.mjs";
 import { EXTRA_DOMAINS as EXPANSIONS_E } from "../data/tracks/expansions-e.mjs";
 import { EXTRA_DOMAINS as EXPANSIONS_F } from "../data/tracks/expansions-f.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_G } from "../data/tracks/expansions-g.mjs";
+import { EXTRA_DOMAINS as EXPANSIONS_H } from "../data/tracks/expansions-h.mjs";
 
-const EXPANSIONS = { ...EXPANSIONS_A, ...EXPANSIONS_B, ...EXPANSIONS_C, ...EXPANSIONS_D, ...EXPANSIONS_E, ...EXPANSIONS_F };
+const EXPANSIONS = { ...EXPANSIONS_A, ...EXPANSIONS_B, ...EXPANSIONS_C, ...EXPANSIONS_D, ...EXPANSIONS_E, ...EXPANSIONS_F, ...EXPANSIONS_G, ...EXPANSIONS_H };
 
 let _cache = null;
 
