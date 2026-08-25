@@ -43,7 +43,7 @@ export const EXTRA_DOMAINS = {
       label: "Agent Memory",
       procedures: [
         {
-          id: "memory-architecture-tiers",
+          id: "agent-memory-tiers",
           title: "Design tiered memory for persistent agents",
           level: "advanced", minutes: 45,
           description: "Working, episodic, and semantic memory tiers with promotion/forgetting policies that stay coherent.",

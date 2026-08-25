@@ -2762,7 +2762,7 @@
    ]
   },
   {
-   "slug": "detection-operations-detection-as-code-testing",
+   "slug": "detection-operations-detcode-testing",
    "title": "Test detections like code with unit + integration suites",
    "description": "Atomic test fixtures, expected-fire assertions, and regression packs keeping detection debt visible.",
    "track": "cybersecurity",

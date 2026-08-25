@@ -290,7 +290,7 @@ export const PLAYBOOKS = [
   {
     trackId: "ai-engineering",
     items: [
-      { id: "memory-system", title: "Give your agent a working memory", goal: "Tiered memory architecture with promotion, forgetting, and audit hygiene live in production.", uses: ["agent-memory-memory-architecture-tiers", "ai-engineering-context-window-budgeting"], guidance: "Memory without forgetting policy becomes noise; budget context before scaling storage." },
+      { id: "memory-system", title: "Give your agent a working memory", goal: "Tiered memory architecture with promotion, forgetting, and audit hygiene live in production.", uses: ["agent-memory-agent-memory-tiers", "ai-engineering-context-window-budgeting"], guidance: "Memory without forgetting policy becomes noise; budget context before scaling storage." },
       { id: "voice-launch", title: "Ship a voice agent people enjoy", goal: "Sub-800ms conversational latency with barge-in and multimodal eval coverage.", uses: ["voice-multimodal-voice-agent-latency", "voice-multimodal-multimodal-eval-design"], guidance: "Latency is the product in voice; evaluate extraction deterministically before judges." }
     ]
   },
@@ -420,7 +420,7 @@ export const PLAYBOOKS = [
   {
     trackId: "cybersecurity",
     items: [
-      { id: "detection-maturity", title: "Reach detection engineering maturity", goal: "Detection-as-code suites and threat intel pipelines producing measurable coverage.", uses: ["detection-operations-detection-as-code-testing", "detection-operations-threat-intel-operationalization"], guidance: "Untested rules are guesses with syntax highlighting." }
+      { id: "detection-maturity", title: "Reach detection engineering maturity", goal: "Detection-as-code suites and threat intel pipelines producing measurable coverage.", uses: ["detection-operations-detcode-testing", "detection-operations-threat-intel-operationalization"], guidance: "Untested rules are guesses with syntax highlighting." }
     ]
   },
   {

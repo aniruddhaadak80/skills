@@ -195,7 +195,7 @@ export const EXTRA_DOMAINS = {
         label: "Detection Operations",
         procedures: [
           {
-            id: "detection-as-code-testing",
+            id: "detcode-testing",
             title: "Test detections like code with unit + integration suites",
             level: "advanced", minutes: 45,
             description: "Atomic test fixtures, expected-fire assertions, and regression packs keeping detection debt visible.",

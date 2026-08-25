@@ -23,14 +23,14 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ### Referenced Skills
 
-- `detection-operations-detection-as-code-testing`
+- `detection-operations-detcode-testing`
 - `detection-operations-threat-intel-operationalization`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill detection-operations-detection-as-code-testing && npx skills add aniruddhaadak80/skills --skill detection-operations-threat-intel-operationalization
+npx skills add aniruddhaadak80/skills --skill detection-operations-detcode-testing && npx skills add aniruddhaadak80/skills --skill detection-operations-threat-intel-operationalization
 ```
 
 ---

@@ -1,5 +1,5 @@
 ---
-name: detection-operations-detection-as-code-testing
+name: detection-operations-detcode-testing
 description: "Atomic test fixtures, expected-fire assertions, and regression packs keeping detection debt visible."
 ---
 # Test detections like code with unit + integration suites
@@ -33,12 +33,12 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 **Install with skills CLI**
 ```bash
-npx skills add aniruddhaadak80/skills --skill detection-operations-detection-as-code-testing
+npx skills add aniruddhaadak80/skills --skill detection-operations-detcode-testing
 ```
 
 **Install globally**
 ```bash
-npx skills add aniruddhaadak80/skills --skill detection-operations-detection-as-code-testing -g
+npx skills add aniruddhaadak80/skills --skill detection-operations-detcode-testing -g
 ```
 
 ---
