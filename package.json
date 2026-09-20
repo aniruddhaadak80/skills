@@ -10,14 +10,17 @@
     "gen": "node scripts/generate.mjs"
   },
   "dependencies": {
-    "next": "14.2.35",
+    "next": "15.5.25",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "sharp": "0.35.3"
+    "sharp": "0.35.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
+    "postcss": "^8.5.28",
     "tailwindcss": "^3.4.13"
+  },
+  "overrides": {
+    "postcss": "^8.5.28"
   }
 }
