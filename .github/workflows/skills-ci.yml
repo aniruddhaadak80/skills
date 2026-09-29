@@ -72,19 +72,32 @@ jobs:
 
   pr-review-checklist:
     name: Post review checklist
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' && github.event.action == 'opened'
     needs: [validate-data]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v7
         with:
           script: |
+            const marker = '<!-- automated-pr-review-checklist -->';
+            const { data: existing } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              per_page: 100
+            });
+            if (existing.some((c) => c.body && c.body.includes(marker))) {
+              core.info('Checklist already posted on this PR - skipping.');
+              return;
+            }
             const body = [
+              marker,
               '## 🤖 Automated PR Review',
               '',
               'Validation jobs are running on this pull request:',
               '',
               '- ✅ Knowledge-base QA (schema, steps, pitfalls, placeholders)',
+              '- ✅ Unit tests (`npm test`)',
               '- ✅ Generated-files sync (`npm run gen` must produce zero diff)',
               '- ✅ Website build + route integrity',
               '- 🏷️ Labels applied automatically by files touched',
@@ -93,7 +106,7 @@ jobs:
               '- [ ] Steps written from real production experience',
               '- [ ] No duplicated existing skill (variants preferred)',
               '- [ ] `description` states what it does AND when to activate',
-              '- [ ] Ran `node scripts/validate-data.mjs` locally — passed',
+              '- [ ] Ran `npm test` and `node scripts/validate-data.mjs` locally — passed',
               '',
               'Full guidelines: [CONTRIBUTING.md](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md)'
             ].join('\n');
