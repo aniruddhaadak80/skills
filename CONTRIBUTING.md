@@ -62,9 +62,10 @@ You never write SKILL.md files by hand — the generator creates them.
 3. Validate locally:
 
 ```bash
-node scripts/validate-data.mjs   # content QA checks
-npm run gen                      # regenerate skills + indexes
-npm run build                    # website build (optional but nice)
+npm test                           # unit tests for catalog invariants
+node scripts/validate-data.mjs     # content QA checks
+npm run gen                        # regenerate skills + indexes
+npm run build                      # website build (optional but nice)
 ```
 
 4. Commit and open a PR. CI validates everything automatically.
