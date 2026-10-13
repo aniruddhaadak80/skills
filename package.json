@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "gen": "node scripts/generate.mjs",
-    "test": "node --test",
+    "test": "node --test test examples/rag-eval-multilingual",
     "validate": "node scripts/validate-data.mjs"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 {
- "count": 521,
+ "count": 524,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -48,6 +48,44 @@
     "evals",
     "quality",
     "ci",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "rag-eval-multilingual",
+   "title": "Evaluate RAG quality across languages",
+   "description": "Evaluate multilingual RAG before changing retrievers, models, or prompts: measure language-specific answer quality, cross-lingual retrieval, and cultural fit with native-reviewed rubrics.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "rag",
+    "multilingual",
+    "evals",
+    "cross-lingual",
+    "localization",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "rag-eval-multilingual-stack-node",
+   "title": "Evaluate RAG quality across languages (Node.js)",
+   "description": "Build a multilingual RAG evaluation report in Node.js when you need reproducible per-language retrieval metrics and release gates; start with the dependency-free fixture and replace synthetic annotations with native-reviewed judgments.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "nodejs",
+    "multilingual",
+    "evals",
+    "rag",
+    "localization",
     "ai-engineering",
     "rag-pipelines"
    ]
@@ -6719,6 +6757,21 @@
    "domain": "playbooks",
    "level": "journey",
    "minutes": 135,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-rag-multilingual-launch",
+   "title": "Playbook: Gate a multilingual RAG launch",
+   "description": "Launch multilingual retrieval-augmented answers with native-reviewed evidence, per-language quality gates, and reproducible evaluation reports.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 140,
    "tags": [
     "playbook",
     "journey",
