@@ -66,6 +66,85 @@ export const track = {
           ],
           pitfalls: ["Judging with the same model that generated the answer, inflating scores", "Evals only run manually, drifting from production reality"],
           kpis: ["Groundedness average 4.3+ of 5", "Eval suite runtime under 10 minutes"]
+        },
+        {
+          id: "rag-eval-multilingual",
+          slug: "rag-eval-multilingual",
+          title: "Evaluate RAG quality across languages",
+          level: "advanced", minutes: 40,
+          description: "Evaluate multilingual RAG before changing retrievers, models, or prompts: measure language-specific answer quality, cross-lingual retrieval, and cultural fit with native-reviewed rubrics.",
+          tags: ["rag", "multilingual", "evals", "cross-lingual", "localization"],
+          steps: [
+            "Map query, document, and answer languages plus locales; cover Spanish questions over English sources, unsegmented Japanese FAQs, and Hindi-English code-switching where these match your users.",
+            "Freeze 30-50 native-written questions per critical query/document language pair outside tuning data; record locale, answer language, graded passage relevance, evidence, accepted answers, and answerability. Include missing and misleading evidence.",
+            "Ask native speakers to review gold answers and local rubrics against source evidence; resolve regional terminology, dates, currencies, units, and honorifics. Include naturally authored questions alongside reviewed translations.",
+            "Pin corpus, chunking, embedding, retriever, generator, prompt, judge, and decoding versions; run baseline and candidate on identical questions. Log retrieved IDs and languages, answers, citations, cost, and latency.",
+            "Measure Recall@5 as relevant passages in the top five divided by all labeled relevant passages; calculate graded nDCG@10 per language pair. Exclude questions without relevant passages from retrieval metrics and assess abstention separately.",
+            "Compare direct multilingual retrieval with query translation on the same corpus; verify compatible query/passage encoders. Have bilingual reviewers inspect translated entities, transliterations, code-switching, and ranking changes.",
+            "Normalize Unicode while preserving meaningful accents and negation; use language-aware token F1. For Chinese, Japanese, or Thai, supplement lexical scores with character-level and multilingual semantic metrics calibrated against native judgments.",
+            "Score groundedness, relevance, completeness, and locale fit separately using native-language rubrics: 1 = incorrect, 3 = partial, 5 = fully correct. Calibrate an independent judge on at least 20 native-reviewed answers per output language and adjudicate disagreements.",
+            "Check answer language and citation entailment, allowing approved loanwords and product names; require abstention without sufficient evidence. Have native reviewers classify retrieval, generation, and judge failures, including regional policy errors and culturally inappropriate phrasing.",
+            "Report sample counts, equal-weight macro averages, worst language pairs, traffic-weighted results, and paired bootstrap confidence intervals. Set per-language pilot gates, block meaningful regressions despite aggregate gains, and add adjudicated failures to the suite."
+          ],
+          pitfalls: [
+            "An English-heavy aggregate hiding a recall collapse for a lower-volume language pair",
+            "Whitespace tokenization penalizing valid Japanese or Thai answers, or accent stripping changing the meaning of an answer",
+            "Translating every question and answer into English before judging, hiding code-switching and culturally incorrect phrasing",
+            "A fluent translation receiving a high score even though its citation supports another region's policy",
+            "An uncalibrated judge scoring languages inconsistently or treating a correct insufficient-evidence abstention as a failure"
+          ],
+          kpis: [
+            "Initial pilot gate: Recall@5 at least 85% for every critical answerable language pair, with sample counts and 95% confidence intervals reported",
+            "Initial pilot gate: native-calibrated groundedness average at least 4.3/5 in every supported answer language, with no meaningful drop from baseline",
+            "Initial pilot gate: at least 95% of answers pass native-reviewed language and locale checks, including appropriate abstention on insufficient-evidence cases"
+          ],
+          commands: [
+            { label: "Install from a local checkout (run at repository root)", cmd: "npx skills add . --skill rag-eval-multilingual --agent codex --yes --copy" }
+          ]
+        },
+        {
+          id: "rag-eval-multilingual-stack",
+          slug: "rag-eval-multilingual-stack",
+          title: "Evaluate RAG quality across languages",
+          level: "advanced", minutes: 40,
+          description: "Build a multilingual RAG evaluation report in Node.js when you need reproducible per-language retrieval metrics and release gates; start with the dependency-free fixture and replace synthetic annotations with native-reviewed judgments.",
+          tags: ["nodejs", "multilingual", "evals", "rag", "localization"],
+          steps: [
+            "Map query, document, and answer languages plus locales; freeze native-written questions with graded passage relevance, accepted answers, and insufficient-evidence cases before tuning.",
+            "Run node examples/rag-eval-multilingual/evaluate.mjs from a checkout with Node.js 20+; inspect the Spanish, Japanese, and Hindi-English cases in cases.json, keeping the synthetic label intact.",
+            "Replace the fixture with held-out cases in the same JSON shape; preserve IDs, evidence spans, locale, and answer language. Record ordered retrieval results, answers, and citations from a pinned pipeline run.",
+            "Ask native reviewers to annotate groundedness (1-5), locale fit, actual answer language, and abstention; leave groundedness unscored for questions without supporting evidence.",
+            "Inspect Recall@5 and graded nDCG@10 per language pair; reject duplicate or unknown IDs and exclude questions without relevant passages from retrieval denominators.",
+            "Check response contract rates for language, locale, relevant citations, and abstention. Have native speakers judge citation entailment and code-switching; deterministic checks alone cannot establish semantic correctness.",
+            "Compare macro averages, sample-weighted averages, and worst pairs; require the configured minimum number of answerable cases in every critical language pair.",
+            "Compare baseline and candidate on identical case IDs; assess regressions with paired bootstrap intervals and archive pinned run versions. Compute intervals and calibrate judges separately from this example."
+          ],
+          pitfalls: [
+            "Treating synthetic fixture annotations as measured model quality or native-speaker review",
+            "Counting repeated retrieval IDs twice and inflating recall",
+            "Scoring correct abstentions as retrieval misses or perfect groundedness answers",
+            "Accepting a high sample-weighted average while a smaller language pair fails its own gates"
+          ],
+          kpis: [
+            "Recall@5 at least 85% per critical language pair with at least 30 answerable cases per pair",
+            "Native-reviewed groundedness average at least 4.3/5 per query/document language pair",
+            "Response contract pass rate at least 95% per language pair, including correct abstention"
+          ],
+          commands: [
+            { label: "Run the synthetic example (repository checkout required)", cmd: "node examples/rag-eval-multilingual/evaluate.mjs" },
+            { label: "Enforce gates on your native-reviewed dataset", cmd: "node examples/rag-eval-multilingual/evaluate.mjs --input ./native-reviewed-cases.json --enforce-gates" },
+            { label: "Install the Node.js variant from this checkout", cmd: "npx skills add . --skill rag-eval-multilingual-stack-node --agent codex --yes --copy" }
+          ],
+          variants: {
+            node: {
+              id: "node",
+              label: "Node.js",
+              adds: [
+                "Save JSON output with node examples/rag-eval-multilingual/evaluate.mjs --input ./native-reviewed-cases.json > multilingual-report.json; review per-case failures and language-pair summaries.",
+                "Run with --enforce-gates in CI after replacing the synthetic fixture and calibrating native annotations; require exit status zero for every critical language pair."
+              ]
+            }
+          }
         }
       ]
     },

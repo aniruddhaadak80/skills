@@ -2,7 +2,7 @@
 
 # ⚡ Agent Skills Directory
 
-### Installable AI agent skills for every profession — 46 tracks, one command
+### Installable AI agent skills for every profession — 47 tracks, one command
 
 **Software · AI/ML · Security · Data · Product · Design · Leadership · HR · Healthcare · Biotech · Science · Finance · Legal · Real Estate · Insurance · Energy · Supply Chain · Hospitality · F&B · Retail · Marketing · Sales · Support · Education · Sports · Media · Government · Nonprofits · Startups · Freelance**
 
@@ -16,7 +16,7 @@
 
 ---
 
-**500 curated skills** and counting. A library of **production-grade [Agent Skills](https://agentskills.io)** (`SKILL.md` procedures) that give coding agents — OpenCode, Claude Code, Cursor, Codex, Copilot, Gemini CLI and **75+ more** — the procedural knowledge of an entire senior team across dozens of professions.
+**524 curated skills** and counting. A library of **production-grade [Agent Skills](https://agentskills.io)** (`SKILL.md` procedures) that give coding agents — OpenCode, Claude Code, Cursor, Codex, Copilot, Gemini CLI and **75+ more** — the procedural knowledge of an entire senior team across dozens of professions.
 
 Every skill contains: concrete numbered steps, common pitfalls, success signals/KPIs, and copy-paste commands. Authored from real workflows — no filler, no near-duplicate stamping, no AI slop.
 
@@ -34,12 +34,14 @@ npx skills add aniruddhaadak80/skills --skill rag-pipelines-chunking-strategy -a
 
 Your agent discovers installed skills automatically and activates them on demand via progressive disclosure — zero context cost until relevant.
 
+For multilingual RAG, start with the [evaluation skill](skills/rag-eval-multilingual/SKILL.md), run the [Node.js example](examples/rag-eval-multilingual/README.md), and follow the [launch playbook](skills/playbook-ai-engineering-rag-multilingual-launch/SKILL.md).
+
 ## 📚 The Library
 
 **Software Engineering**
 | Track | Sample skills |
 |---|---|
-| 🤖 AI Engineering | RAG chunking & hybrid search · agent guardrails · prompt-injection defense · LLM cost controls |
+| 🤖 AI Engineering | RAG chunking & hybrid search · multilingual RAG evaluation · agent guardrails · prompt-injection defense · LLM cost controls |
 | 🎨 Frontend | RSC boundaries · Core Web Vitals rescue · design tokens · animation craft · a11y audits |
 | ⚙️ Backend | REST/gRPC design · idempotency keys · zero-downtime migrations · cache layering |
 | 🛢️ Data Engineering | Pipeline idempotency · schema contracts · warehouse DQ tests (Snowflake/BigQuery/Databricks) |
