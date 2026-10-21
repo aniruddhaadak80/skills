@@ -6,7 +6,7 @@ description: "Story-driven posts and changelogs compounding into audience and tr
 
 > Story-driven posts and changelogs compounding into audience and trust.
 
-**Track:** 🗺️ Technical Writing · **Domain:** Journey Playbooks · **Level:** journey · **~20 min**
+**Track:** 🗺️ Technical Writing · **Domain:** Journey Playbooks · **Level:** journey · **~60 min**
 
 **Who this is for:** Technical Writers, Developer Advocates, Engineers Who Document, Content Leads
 
@@ -17,18 +17,20 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ## Journey Steps
 
-1. Step 1 — Write changelogs users read: start with "Categorize: Added / Changed / Fixed / Breaking / Security only"
-2. How it fits together: Method over drama in stories; outcomes over commits in changelogs.
+1. Step 1 — Turn a debugging war story into a post: start with "Open mid-action: the symptom that ruined your day, concretely"
+2. Step 2 — Write changelogs users read: start with "Categorize: Added / Changed / Fixed / Breaking / Security only"
+3. How it fits together: Method over drama in stories; outcomes over commits in changelogs.
 
 ### Referenced Skills
 
+- `bug-story-post`
 - `dev-content-changelog-users-read`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill dev-content-changelog-users-read
+npx skills add aniruddhaadak80/skills --skill bug-story-post && npx skills add aniruddhaadak80/skills --skill dev-content-changelog-users-read
 ```
 
 ---

@@ -6,7 +6,7 @@ description: "Blameless retro turning each incident into systemic fixes, not sca
 
 > Blameless retro turning each incident into systemic fixes, not scar tissue.
 
-**Track:** 🗺️ Engineering Essentials · **Domain:** Journey Playbooks · **Level:** journey · **~40 min**
+**Track:** 🗺️ Engineering Essentials · **Domain:** Journey Playbooks · **Level:** journey · **~60 min**
 
 **Who this is for:** All Software Engineers
 
@@ -18,17 +18,19 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Debug production without stopping the world (Python): start with "Correlate user report to trace IDs through gateway → service → data layer"
-2. How it fits together: Timeline from evidence, actions with owners, and a follow-up review date.
+2. Step 2 — Communicate asynchronously like a distributed-native: start with "Default to written updates with context links over synchronous asks"
+3. How it fits together: Timeline from evidence, actions with owners, and a follow-up review date.
 
 ### Referenced Skills
 
 - `debug-craft-production-debugging-python`
+- `collab-workflow-async-communication`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill debug-craft-production-debugging-python
+npx skills add aniruddhaadak80/skills --skill debug-craft-production-debugging-python && npx skills add aniruddhaadak80/skills --skill collab-workflow-async-communication
 ```
 
 ---
