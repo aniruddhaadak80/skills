@@ -467,6 +467,23 @@
    ]
   },
   {
+   "slug": "a11y-testing-axe-integration",
+   "title": "Automate accessibility testing with axe in CI",
+   "description": "Wire axe-core into unit, component, and end-to-end suites so accessibility regressions fail the build instead of shipping. Use when adding accessibility gates to CI, triaging scan failures, or auditing pull requests.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "accessibility",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "a11y",
+    "ci",
+    "axe",
+    "frontend-engineering",
+    "accessibility"
+   ]
+  },
+  {
    "slug": "rendering-strategy-rendering-mode-selection",
    "title": "Select rendering modes per route deliberately",
    "description": "Static/ISR/SSR/streaming/client mapped to freshness needs, personalization, and TTFB budgets.",
