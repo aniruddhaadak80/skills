@@ -6,7 +6,7 @@ description: "Visible listening → committed action → closed loops restoring 
 
 > Visible listening → committed action → closed loops restoring survey participation.
 
-**Track:** 🗺️ People & HR · **Domain:** Journey Playbooks · **Level:** journey · **~25 min**
+**Track:** 🗺️ People & HR · **Domain:** Journey Playbooks · **Level:** journey · **~65 min**
 
 **Who this is for:** HR Managers, Recruiters, People Ops, Team Leads
 
@@ -18,17 +18,19 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Run engagement pulse loops that change things: start with "Pulse 5-8 questions max, anonymous with cohort minimums (n≥5)"
-2. How it fits together: One shipped action per cycle outweighs any comms campaign.
+2. Step 2 — Audit an online professional footprint: start with "Enumerate surfaces: code hosts, socials, blogs, portfolios, badge pages"
+3. How it fits together: One shipped action per cycle outweighs any comms campaign.
 
 ### Referenced Skills
 
 - `policy-engagement-engagement-pulse-loops`
+- `footprint-audit`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill policy-engagement-engagement-pulse-loops
+npx skills add aniruddhaadak80/skills --skill policy-engagement-engagement-pulse-loops && npx skills add aniruddhaadak80/skills --skill footprint-audit
 ```
 
 ---
