@@ -1,5 +1,5 @@
 {
- "count": 521,
+ "count": 522,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -3573,6 +3573,23 @@
     "engagement",
     "surveys",
     "culture",
+    "people-hr",
+    "policy-engagement"
+   ]
+  },
+  {
+   "slug": "hr-policy-writing",
+   "title": "Write clear, enforceable HR policies",
+   "description": "HR policies written as numbered rules with a plain-language shadow, a worked scenario, and a scheduled review, so they stay lawful and get used. Use when drafting, rewriting, or auditing a people policy.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "policy-engagement",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "hr",
+    "policy",
+    "compliance",
     "people-hr",
     "policy-engagement"
    ]
