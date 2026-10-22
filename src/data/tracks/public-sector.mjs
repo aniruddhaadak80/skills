@@ -60,6 +60,27 @@ export const track = {
             "Proactively publish high-demand record classes where law allows"
           ],
           pitfalls: ["Shadow messaging systems outside records management", "Requests triggering year-long archaeological digs"]
+        },
+        {
+          slug: "gov-content-govstyle",
+          id: "plain-language-content",
+          title: "Write plain-language government content",
+          level: "intermediate", minutes: 35,
+          description: "Resident-facing forms, letters, and pages rewritten to plain-language conventions and tested with people who have never used the service. Use when publishing or rewriting any government content that residents read.",
+          tags: ["govtech", "plain-language", "content"],
+          steps: [
+            "State what the resident must do in the first sentence and what they need to have ready; front-load the action and the prerequisites",
+            "Cut the reading level to grade 8 with shorter sentences and common words, keeping jargon only where a statute requires the term",
+            "Turn instructions into headings that name the section, so a reader finds the line they need without reading the whole page",
+            "Put eligibility, deadlines, and costs in a table at the top, because buried conditions are where forms get abandoned",
+            "Test with a resident who has never used the service before and watch where they hesitate, then rewrite that spot first",
+            "Keep the legal requirement and the plain-language version in the same file and review them together, so the two cannot drift apart"
+          ],
+          pitfalls: [
+            "Simplifying the wording while quietly changing the legal meaning of the requirement",
+            "Rewriting the web page but leaving the printed form, the letter template, and the SMS reminders in the old jargon"
+          ],
+          kpis: ["Resident-facing pages at grade 8 reading level or below", "Form abandonment measured before and after each rewrite", "Every rewrite signed off by both the content owner and the legal reviewer"]
         }
       ]
     }
