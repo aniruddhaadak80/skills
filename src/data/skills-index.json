@@ -1,5 +1,5 @@
 {
- "count": 585,
+ "count": 586,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -4856,6 +4856,23 @@
     "buyers",
     "ethics",
     "negotiation",
+    "real-estate",
+    "clients-listings"
+   ]
+  },
+  {
+   "slug": "re-closing-management",
+   "title": "Manage closings to completion",
+   "description": "Dated milestone checklists, tracked escrow and documents, and cleared contingencies that get files to the table instead of stalling them. Use from the moment a contract is accepted until the file is closed.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "clients-listings",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "closing",
+    "transactions",
+    "compliance",
     "real-estate",
     "clients-listings"
    ]
