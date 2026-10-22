@@ -6,7 +6,7 @@ description: "A team that has rehearsed breach first-hour steps and communicatio
 
 > A team that has rehearsed breach first-hour steps and communication templates.
 
-**Track:** 🗺️ Cybersecurity · **Domain:** Journey Playbooks · **Level:** journey · **~30 min**
+**Track:** 🗺️ Cybersecurity · **Domain:** Journey Playbooks · **Level:** journey · **~60 min**
 
 **Who this is for:** Security Engineers, AppSec, DevSecOps, Compliance Teams
 
@@ -17,18 +17,20 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ## Journey Steps
 
-1. Step 1 — Stand up phishing defense beyond training videos: start with "Enforce MFA everywhere, preferring phishing-resistant methods (FIDO2)"
-2. How it fits together: Rehearse tabletop quarterly. The first hour is muscle memory, not reading comprehension.
+1. Step 1 — Execute the first hour of a suspected breach (Ransomware scenario): start with "Activate the IR channel; start a timestamped scribe log immediately"
+2. Step 2 — Stand up phishing defense beyond training videos: start with "Enforce MFA everywhere, preferring phishing-resistant methods (FIDO2)"
+3. How it fits together: Rehearse tabletop quarterly. The first hour is muscle memory, not reading comprehension.
 
 ### Referenced Skills
 
+- `incident-response-security-breach-first-hour-ransomware`
 - `incident-response-security-phishing-defense-program`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill incident-response-security-phishing-defense-program
+npx skills add aniruddhaadak80/skills --skill incident-response-security-breach-first-hour-ransomware && npx skills add aniruddhaadak80/skills --skill incident-response-security-phishing-defense-program
 ```
 
 ---
