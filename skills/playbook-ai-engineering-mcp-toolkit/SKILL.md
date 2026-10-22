@@ -6,7 +6,7 @@ description: "A scaffolded, schema-tight MCP server agents integrate without han
 
 > A scaffolded, schema-tight MCP server agents integrate without hand-holding.
 
-**Track:** 🗺️ AI Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~45 min**
+**Track:** 🗺️ AI Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~85 min**
 
 **Who this is for:** AI Engineers, ML Engineers, LLM App Developers, Agent Builders
 
@@ -18,17 +18,19 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Scaffold an MCP server agents can trust: start with "Model each capability as a tool with JSON-Schema'd inputs and typed outputs"
-2. How it fits together: Tool contracts are API contracts; version them from day one.
+2. Step 2 — Standardize agent observability with tracing spans: start with "Define span hierarchy: session → plan → step → tool-call → sub-calls"
+3. How it fits together: Tool contracts are API contracts; version them from day one.
 
 ### Referenced Skills
 
 - `mcp-scaffolding-mcp-server-scaffold`
+- `agent-platform-agent-tracing-standards`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill mcp-scaffolding-mcp-server-scaffold
+npx skills add aniruddhaadak80/skills --skill mcp-scaffolding-mcp-server-scaffold && npx skills add aniruddhaadak80/skills --skill agent-platform-agent-tracing-standards
 ```
 
 ---

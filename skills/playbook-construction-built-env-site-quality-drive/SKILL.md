@@ -6,7 +6,7 @@ description: "ITP hold points, toolbox engagement, and honest recovery planning.
 
 > ITP hold points, toolbox engagement, and honest recovery planning.
 
-**Track:** 🗺️ Construction & Built Environment · **Domain:** Journey Playbooks · **Level:** journey · **~50 min**
+**Track:** 🗺️ Construction & Built Environment · **Domain:** Journey Playbooks · **Level:** journey · **~95 min**
 
 **Who this is for:** Project Engineers, Site Managers, Cost Estimators, Contractors
 
@@ -19,18 +19,20 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 1. Step 1 — Drive quality with inspection test plans: start with "ITP per work package: activities, acceptance criteria, hold/witness points mapped"
 2. Step 2 — Run toolbox talks that change behavior: start with "Topic matches TODAY's actual tasks, not generic monthly themes"
-3. How it fits together: Quality systems discovered late cost triple; hold points are cheap insurance.
+3. Step 3 — Recover a slipping construction schedule: start with "Rebuild true critical path from field reality, not baseline fiction"
+4. How it fits together: Quality systems discovered late cost triple; hold points are cheap insurance.
 
 ### Referenced Skills
 
 - `site-execution-itp-quality-inspections`
 - `site-execution-toolbox-talk-craft`
+- `schedule-recovery-plan`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill site-execution-itp-quality-inspections && npx skills add aniruddhaadak80/skills --skill site-execution-toolbox-talk-craft
+npx skills add aniruddhaadak80/skills --skill site-execution-itp-quality-inspections && npx skills add aniruddhaadak80/skills --skill site-execution-toolbox-talk-craft && npx skills add aniruddhaadak80/skills --skill schedule-recovery-plan
 ```
 
 ---
