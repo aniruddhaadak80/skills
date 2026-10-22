@@ -10,7 +10,29 @@ import { EXTRA_DOMAINS as EXPANSIONS_G } from "../data/tracks/expansions-g.mjs";
 import { EXTRA_DOMAINS as EXPANSIONS_H } from "../data/tracks/expansions-h.mjs";
 import { EXTRA_DOMAINS as EXPANSIONS_I } from "../data/tracks/expansions-i.mjs";
 
-const EXPANSIONS = { ...EXPANSIONS_A, ...EXPANSIONS_B, ...EXPANSIONS_C, ...EXPANSIONS_D, ...EXPANSIONS_E, ...EXPANSIONS_F, ...EXPANSIONS_G, ...EXPANSIONS_H, ...EXPANSIONS_I };
+// Several expansion files carry domains for the same track (for example
+// `ai-engineering` appears in expansions-a, -g and -i). A plain object spread
+// would keep only the last file's domains and silently drop the rest, so the
+// domains are concatenated per track instead.
+export const EXPANSION_FILES = [
+  EXPANSIONS_A,
+  EXPANSIONS_B,
+  EXPANSIONS_C,
+  EXPANSIONS_D,
+  EXPANSIONS_E,
+  EXPANSIONS_F,
+  EXPANSIONS_G,
+  EXPANSIONS_H,
+  EXPANSIONS_I,
+];
+
+export const EXPANSIONS = {};
+for (const file of EXPANSION_FILES) {
+  for (const [trackId, domains] of Object.entries(file)) {
+    if (!EXPANSIONS[trackId]) EXPANSIONS[trackId] = [];
+    EXPANSIONS[trackId].push(...domains);
+  }
+}
 
 let _cache = null;
 

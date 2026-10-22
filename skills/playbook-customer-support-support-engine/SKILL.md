@@ -6,7 +6,7 @@ description: "Diagnostic trees, KB loop, and QA scorecards compounding quality."
 
 > Diagnostic trees, KB loop, and QA scorecards compounding quality.
 
-**Track:** 🗺️ Customer Support · **Domain:** Journey Playbooks · **Level:** journey · **~65 min**
+**Track:** 🗺️ Customer Support · **Domain:** Journey Playbooks · **Level:** journey · **~95 min**
 
 **Who this is for:** Support Engineers, CX Leads, Helpdesk Teams, Technical Account Managers
 
@@ -18,19 +18,21 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Diagnose with question trees, not guesswork: start with "For top-10 issue types, write decision trees with observable checkpoints"
-2. Step 2 — QA support quality without demoralizing agents: start with "Rubric: accuracy, completeness, tone, process adherence — weighted by issue class"
-3. How it fits together: Trees reduce round-trips; the KB loop turns tickets into deflection assets.
+2. Step 2 — Close the loop from tickets to knowledge base: start with "Tag tickets that needed a nonexistent article — queue them for writing"
+3. Step 3 — QA support quality without demoralizing agents: start with "Rubric: accuracy, completeness, tone, process adherence — weighted by issue class"
+4. How it fits together: Trees reduce round-trips; the KB loop turns tickets into deflection assets.
 
 ### Referenced Skills
 
 - `ticket-excellence-diagnostic-question-trees`
+- `kb-article-loop`
 - `support-ops-support-qa-scorecards`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill ticket-excellence-diagnostic-question-trees && npx skills add aniruddhaadak80/skills --skill support-ops-support-qa-scorecards
+npx skills add aniruddhaadak80/skills --skill ticket-excellence-diagnostic-question-trees && npx skills add aniruddhaadak80/skills --skill kb-article-loop && npx skills add aniruddhaadak80/skills --skill support-ops-support-qa-scorecards
 ```
 
 ---
