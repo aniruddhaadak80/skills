@@ -213,6 +213,31 @@ export const track = {
             "Keep interactive targets 24px minimum with adequate spacing"
           ],
           pitfalls: ["aria-label duplicating visible text, read twice", "Skip-links pointing to containers lacking tabindex"]
+        },
+        {
+          slug: "a11y-testing-axe-integration",
+          id: "axe-integration",
+          title: "Automate accessibility testing with axe in CI",
+          level: "intermediate", minutes: 35,
+          description: "Wire axe-core into unit, component, and end-to-end suites so accessibility regressions fail the build instead of shipping. Use when adding accessibility gates to CI, triaging scan failures, or auditing pull requests.",
+          tags: ["a11y", "ci", "axe"],
+          commands: [
+            { label: "Scan a live page with the axe CLI", cmd: "npx @axe-core/cli https://staging.example.com --tags wcag2a,wcag2aa" },
+            { label: "Run the accessibility specs", cmd: "npx playwright test e2e/a11y --reporter=list" }
+          ],
+          steps: [
+            "Add axe to the test layer that already exists — jest-axe for components, @axe-core/playwright for browser flows — instead of standing up a second harness",
+            "Scan the real rendered DOM after layout settles, with animations disabled and fonts loaded; a scan before hydration tests an empty page",
+            "Keep the default rule set and disable rules only with a written reason recorded next to the rule",
+            "Fail the build on serious and critical impacts only; push moderate and minor findings into a tracked backlog or nobody reads the report",
+            "Tag every violation with the owning component and a tracking issue so a failure lands on a team, not on the whole org",
+            "Scan the deployed preview after merge as well — theme, font, and third-party widget failures never appear in local test DOMs"
+          ],
+          pitfalls: [
+            "Scanning a detached DOM fragment that never receives the real stylesheets: zero violations, zero meaning",
+            "Suppressing rules one by one until the scan is green, with no owner and no expiry date on the suppression"
+          ],
+          kpis: ["Zero critical axe violations on every protected route", "Accessibility scan adds under 90s to the pull-request pipeline", "Violations older than 14 days trending to zero"]
         }
       ]
     }
