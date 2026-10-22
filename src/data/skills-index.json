@@ -5655,6 +5655,23 @@
    ]
   },
   {
+   "slug": "freelance-scoping",
+   "title": "Scope projects clearly",
+   "description": "Scopes and statements of work that fix the outcome, the deliverables, the assumptions, and the exclusions before the work starts, so gaps never become arguments. Use when writing an estimate, a scope, or a statement of work.",
+   "track": "freelance-business",
+   "trackLabel": "Freelance & Business",
+   "domain": "winning-clients",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "scope",
+    "contracts",
+    "freelance",
+    "freelance-business",
+    "winning-clients"
+   ]
+  },
+  {
    "slug": "client-delivery-scope-change-control",
    "title": "Control scope creep professionally",
    "description": "Change requests, written confirmations, and tradeoff framing protecting margins and relationships.",
