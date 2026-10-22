@@ -1,5 +1,5 @@
 {
- "count": 521,
+ "count": 522,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -462,6 +462,23 @@
    "tags": [
     "html",
     "a11y",
+    "frontend-engineering",
+    "accessibility"
+   ]
+  },
+  {
+   "slug": "a11y-testing-axe-integration",
+   "title": "Automate accessibility testing with axe in CI",
+   "description": "Wire axe-core into unit, component, and end-to-end suites so accessibility regressions fail the build instead of shipping. Use when adding accessibility gates to CI, triaging scan failures, or auditing pull requests.",
+   "track": "frontend-engineering",
+   "trackLabel": "Frontend Engineering",
+   "domain": "accessibility",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "a11y",
+    "ci",
+    "axe",
     "frontend-engineering",
     "accessibility"
    ]
