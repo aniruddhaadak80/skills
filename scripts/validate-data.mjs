@@ -28,6 +28,20 @@ for (const t of TRACKS) {
 const trackIds = new Set(TRACKS.map((t) => t.id));
 for (const g of PLAYBOOKS) if (!trackIds.has(g.trackId)) errors.push(`playbook group references unknown track: ${g.trackId}`);
 
+// Playbook hygiene: a reference to a skill that does not exist is dropped
+// silently, and a playbook whose references all dangle never reaches the
+// catalogue at all. Both have to be errors.
+const skillSlugs = new Set(skills.map((s) => s.slug));
+for (const g of PLAYBOOKS) {
+  for (const item of g.items || []) {
+    const uses = item.uses || [];
+    if (!uses.length) errors.push(`playbook ${g.trackId}/${item.id}: no skill references`);
+    for (const u of uses) {
+      if (!skillSlugs.has(u)) errors.push(`playbook ${g.trackId}/${item.id}: references unknown skill "${u}"`);
+    }
+  }
+}
+
 if (warnings.length) console.log("Warnings:\n" + warnings.map((w) => ` ⚠ ${w}`).join("\n"));
 if (errors.length) {
   console.error("Errors:\n" + errors.map((e) => ` ✗ ${e}`).join("\n"));
