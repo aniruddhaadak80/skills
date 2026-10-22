@@ -6,7 +6,7 @@ description: "Externalized strings, RTL support, and locale-data correctness ver
 
 > Externalized strings, RTL support, and locale-data correctness verified by smoke suites.
 
-**Track:** 🗺️ Localization & i18n · **Domain:** Journey Playbooks · **Level:** journey · **~65 min**
+**Track:** 🗺️ Localization & i18n · **Domain:** Journey Playbooks · **Level:** journey · **~90 min**
 
 **Who this is for:** Localization Engineers, i18n Developers, Localization Managers, Transcreators
 
@@ -19,18 +19,20 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 1. Step 1 — Externalize strings without breaking the app: start with "Extract all user-visible strings; ban literals in components via lint rule"
 2. Step 2 — Support RTL layouts properly: start with "Convert directional CSS to logical properties (margin-inline-start etc.)"
-3. How it fits together: Pseudo-localization early beats Arabic-layout archaeology later.
+3. Step 3 — Get locale data right: dates, numbers, names: start with "Format dates/numbers/currency through Intl APIs — never hand-roll patterns"
+4. How it fits together: Pseudo-localization early beats Arabic-layout archaeology later.
 
 ### Referenced Skills
 
 - `string-engineering-externalize-strings-audit`
 - `string-engineering-rtl-layout-support`
+- `locale-data-correctness`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill string-engineering-externalize-strings-audit && npx skills add aniruddhaadak80/skills --skill string-engineering-rtl-layout-support
+npx skills add aniruddhaadak80/skills --skill string-engineering-externalize-strings-audit && npx skills add aniruddhaadak80/skills --skill string-engineering-rtl-layout-support && npx skills add aniruddhaadak80/skills --skill locale-data-correctness
 ```
 
 ---

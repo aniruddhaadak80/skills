@@ -6,7 +6,7 @@ description: "A repository strangers can adopt: governance, docs, and triage fro
 
 > A repository strangers can adopt: governance, docs, and triage from day one.
 
-**Track:** 🗺️ Engineering Leadership · **Domain:** Journey Playbooks · **Level:** journey · **~30 min**
+**Track:** 🗺️ Engineering Leadership · **Domain:** Journey Playbooks · **Level:** journey · **~60 min**
 
 **Who this is for:** Engineering Managers, Tech Leads, Staff Engineers, CTOs
 
@@ -18,17 +18,19 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Triage issues like a sustainable maintainer: start with "Install issue templates forcing repro steps and versions"
-2. How it fits together: Triage SLAs and docs types decide whether stars convert into contributors.
+2. Step 2 — Sort docs into types readers recognize: start with "Label every existing page: learning-journey, task-recipe, information-lookup, or theory"
+3. How it fits together: Triage SLAs and docs types decide whether stars convert into contributors.
 
 ### Referenced Skills
 
 - `open-source-stewardship-maintainer-triage`
+- `docs-systems-diataxis-audit`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill open-source-stewardship-maintainer-triage
+npx skills add aniruddhaadak80/skills --skill open-source-stewardship-maintainer-triage && npx skills add aniruddhaadak80/skills --skill docs-systems-diataxis-audit
 ```
 
 ---

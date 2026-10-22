@@ -6,7 +6,7 @@ description: "Validated problem turned into a one-page PRD engineers respect."
 
 > Validated problem turned into a one-page PRD engineers respect.
 
-**Track:** 🗺️ Product Management · **Domain:** Journey Playbooks · **Level:** journey · **~70 min**
+**Track:** 🗺️ Product Management · **Domain:** Journey Playbooks · **Level:** journey · **~100 min**
 
 **Who this is for:** Product Managers, Product Owners, Founders, Product Analysts
 
@@ -18,19 +18,21 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Interview customers without leading them: start with "Recruit for recent relevant experience ('last time you…'), not demographics"
-2. Step 2 — Write a one-page PRD engineers love: start with "Lead with problem statement and target user's current workaround"
-3. How it fits together: Interviews feed sizing feeds the PRD. Skipping discovery makes the PRD fiction.
+2. Step 2 — Size opportunities honestly: start with "Build bottom-up: segments × reach rate × conversion × price"
+3. Step 3 — Write a one-page PRD engineers love: start with "Lead with problem statement and target user's current workaround"
+4. How it fits together: Interviews feed sizing feeds the PRD. Skipping discovery makes the PRD fiction.
 
 ### Referenced Skills
 
 - `discovery-customer-interviews`
+- `discovery-opportunity-sizing`
 - `specs-launch-prd-one-page`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill discovery-customer-interviews && npx skills add aniruddhaadak80/skills --skill specs-launch-prd-one-page
+npx skills add aniruddhaadak80/skills --skill discovery-customer-interviews && npx skills add aniruddhaadak80/skills --skill discovery-opportunity-sizing && npx skills add aniruddhaadak80/skills --skill specs-launch-prd-one-page
 ```
 
 ---

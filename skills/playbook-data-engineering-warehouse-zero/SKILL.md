@@ -6,7 +6,7 @@ description: "Contracted schemas, tested tables, dimensional models analysts rel
 
 > Contracted schemas, tested tables, dimensional models analysts rely on.
 
-**Track:** 🗺️ Data Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~75 min**
+**Track:** 🗺️ Data Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~105 min**
 
 **Who this is for:** Data Engineers, Analytics Engineers, Platform Data Teams
 
@@ -18,19 +18,21 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Evolve schemas without breaking consumers: start with "Publish schema contracts per dataset with owner + compatibility mode (backward default)"
-2. Step 2 — Apply dimensional modeling pragmatically: start with "Declare the grain of every fact table in its documentation header"
-3. How it fits together: Pick the DQ variant matching your platform. Contracts precede consumers.
+2. Step 2 — Test warehouse data like software (Snowflake): start with "Tier 0 volume/freshness: row counts within expected bands per partition"
+3. Step 3 — Apply dimensional modeling pragmatically: start with "Declare the grain of every fact table in its documentation header"
+4. How it fits together: Pick the DQ variant matching your platform. Contracts precede consumers.
 
 ### Referenced Skills
 
 - `pipelines-batch-schema-evolution-contracts`
+- `data-quality-tests-warehouse-snowflake`
 - `streaming-modeling-dimensional-modeling-refresh`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill pipelines-batch-schema-evolution-contracts && npx skills add aniruddhaadak80/skills --skill streaming-modeling-dimensional-modeling-refresh
+npx skills add aniruddhaadak80/skills --skill pipelines-batch-schema-evolution-contracts && npx skills add aniruddhaadak80/skills --skill data-quality-tests-warehouse-snowflake && npx skills add aniruddhaadak80/skills --skill streaming-modeling-dimensional-modeling-refresh
 ```
 
 ---

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { TRACKS } from "@/data/tracks/index.mjs";
-import { getAllSkills } from "@/lib/skills.mjs";
+import { getAllSkills, EXPANSIONS } from "@/lib/skills.mjs";
 import InstallCommand from "@/components/InstallCommand";
 import SkillCard from "@/components/SkillCard";
 import PaletteTrigger from "@/components/PaletteTrigger";
@@ -12,6 +12,13 @@ export default function Home() {
   const totalHours = Math.round(all.reduce((a, s) => a + (s.minutes || 0), 0) / 60);
   const domains = new Set(all.map((s) => s.track + ":" + s.domain)).size;
   const marqueeSkills = [...all.slice(0, 44)];
+  // Tracks carry extra domains in the expansion files; counting only
+  // `t.domains` under-reports the number of procedures a track actually has.
+  const proceduresIn = (track) =>
+    [...track.domains, ...(EXPANSIONS[track.id] || [])].reduce(
+      (total, domain) => total + domain.procedures.length,
+      0
+    );
 
   return (
     <div className="relative">
@@ -120,7 +127,7 @@ export default function Home() {
                 <div className="flex items-start justify-between">
                   <span className="lift-icon text-3xl inline-block">{t.icon}</span>
                   <span className="text-[10px] font-mono text-slate-600 group-hover:text-slate-300 transition-colors">
-                    {t.domains.reduce((a, d) => a + d.procedures.length, 0)} procs
+                    {proceduresIn(t)} procs
                   </span>
                 </div>
                 <h3 className="mt-3.5 font-bold text-[15px] text-slate-100 group-hover:text-white leading-snug">{t.label}</h3>
@@ -196,15 +203,27 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {["cyber-defense-ops", "ml-research", "hospitality-travel", "sports-performance"].map((tid, i) => {
             const t = TRACKS.find((x) => x.id === tid);
-            const first = t.domains[0].procedures[0];
-            const slug = `${t.domains[0].id}-${first.id}`;
+            // Resolve the link from the catalogue: a procedure can carry an
+            // explicit slug or variants, in which case `${domain.id}-${id}` is
+            // not a page that exists.
+            const domain = t.domains[0];
+            const procedure = domain.procedures[0];
+            const base = procedure.slug || `${domain.id}-${procedure.id}`;
+            const first = all.find(
+              (s) =>
+                s.track === tid &&
+                s.domain === domain.id &&
+                (s.slug === base || s.slug.startsWith(`${base}-`))
+            );
+            if (!first) return null;
+            const slug = first.slug;
             return (
               <Reveal key={tid} delay={i * 80}>
                 <Link href={`/skills/${tid}/${slug}`} className={`card-hover group block h-full rounded-2xl border border-white/[0.07] bg-panel/80 p-5 relative overflow-hidden`}>
                   <div className={`absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r ${t.gradient} opacity-60 group-hover:opacity-100`} />
                   <span className="text-[10px] font-bold uppercase tracking-widest text-orange-300">New track</span>
                   <h3 className="mt-1.5 font-bold text-slate-100 leading-snug">{first.title}</h3>
-                  <p className="mt-1 text-xs text-slate-600">{t.icon} {t.label} · {t.domains.reduce((a, d) => a + d.procedures.length, 0)} procedures</p>
+                  <p className="mt-1 text-xs text-slate-600">{t.icon} {t.label} · {proceduresIn(t)} procedures</p>
                   <p className="mt-2.5 text-xs text-slate-500 line-clamp-3">{first.description}</p>
                 </Link>
               </Reveal>
