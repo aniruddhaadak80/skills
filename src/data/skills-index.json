@@ -6823,6 +6823,23 @@
    ]
   },
   {
+   "slug": "gov-content-govstyle",
+   "title": "Write plain-language government content",
+   "description": "Resident-facing forms, letters, and pages rewritten to plain-language conventions and tested with people who have never used the service. Use when publishing or rewriting any government content that residents read.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "digital-services",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "govtech",
+    "plain-language",
+    "content",
+    "public-sector",
+    "digital-services"
+   ]
+  },
+  {
    "slug": "civic-engagement-public-comment-analysis",
    "title": "Analyze public comments without bias amplification",
    "description": "Representative sampling, theme coding with reliability checks, and reporting honoring minority voices.",
