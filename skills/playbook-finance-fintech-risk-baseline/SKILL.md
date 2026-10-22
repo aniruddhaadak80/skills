@@ -6,7 +6,7 @@ description: "Rules for non-negotiables, scored model, review queue, and feedbac
 
 > Rules for non-negotiables, scored model, review queue, and feedback loop running.
 
-**Track:** 🗺️ Finance & Fintech · **Domain:** Journey Playbooks · **Level:** journey · **~40 min**
+**Track:** 🗺️ Finance & Fintech · **Domain:** Journey Playbooks · **Level:** journey · **~70 min**
 
 **Who this is for:** Fintech Engineers, Financial Analysts, Risk Teams, Controllers
 
@@ -18,17 +18,19 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Layer fraud rules under an ML model sensibly: start with "Start with hard rules for non-negotiables (sanctions, velocity caps)"
-2. How it fits together: Measure friction cost alongside fraud loss or you'll optimize into blocking good customers.
+2. Step 2 — Instrument unit economics honestly: start with "Define the unit precisely (order? active user? subscription-month?)"
+3. How it fits together: Measure friction cost alongside fraud loss or you'll optimize into blocking good customers.
 
 ### Referenced Skills
 
 - `risk-modeling-fraud-rules-vs-model`
+- `risk-modeling-unit-economics-tracking`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill risk-modeling-fraud-rules-vs-model
+npx skills add aniruddhaadak80/skills --skill risk-modeling-fraud-rules-vs-model && npx skills add aniruddhaadak80/skills --skill risk-modeling-unit-economics-tracking
 ```
 
 ---
