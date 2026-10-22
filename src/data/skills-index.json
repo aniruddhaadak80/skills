@@ -1,5 +1,5 @@
 {
- "count": 521,
+ "count": 522,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -6026,6 +6026,23 @@
     "records",
     "foia",
     "transparency",
+    "public-sector",
+    "digital-services"
+   ]
+  },
+  {
+   "slug": "gov-content-govstyle",
+   "title": "Write plain-language government content",
+   "description": "Resident-facing forms, letters, and pages rewritten to plain-language conventions and tested with people who have never used the service. Use when publishing or rewriting any government content that residents read.",
+   "track": "public-sector",
+   "trackLabel": "Public Sector & GovTech",
+   "domain": "digital-services",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "govtech",
+    "plain-language",
+    "content",
     "public-sector",
     "digital-services"
    ]
