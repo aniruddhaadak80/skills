@@ -119,6 +119,27 @@ export const track = {
             "Schedule T+1 and T+7 metric reviews before celebrating"
           ],
           pitfalls: ["Analytics broken on day one making results unreadable", "Support discovering features from user tickets"]
+        },
+        {
+          slug: "specs-technical-design-docs",
+          id: "technical-design-docs",
+          title: "Write technical design docs that ship",
+          level: "advanced", minutes: 40,
+          description: "Decision-ready technical design docs with real options, visible trade-off arithmetic, and a dated decision log that teams sign off on instead of re-litigating in chat. Use before multi-team implementation work.",
+          tags: ["design-doc", "architecture", "decision-log"],
+          steps: [
+            "State the problem and the binding constraint in two sentences before proposing any structure; a doc that opens with a diagram sells a solution nobody approved",
+            "Write two or three genuine options against the same evaluation criteria — effort, blast radius, reversibility, operational cost — and state the recommendation",
+            "Show the arithmetic on every number (rows scanned, calls per page, bytes per tenant) so reviewers check the math instead of trusting it",
+            "Name the failure modes per option: what breaks at ten times the volume, what breaks when a dependency is down, what breaks during rollback",
+            "Record the decision, the decider, and the date in a decision log; supersede sections by striking them through so the history survives",
+            "List the open questions with an owner and a deadline, and collect explicit sign-off from each affected team before implementation starts"
+          ],
+          pitfalls: [
+            "The design doc written after the implementation, describing the decision the team already made in a chat thread",
+            "One option presented as inevitable, so reviewers approve instead of thinking and the decision log is theatre"
+          ],
+          kpis: ["Design doc approved by every affected team before implementation starts", "Zero architecture decisions recorded only in chat threads", "Open questions closed within five working days"]
         }
       ]
     }
