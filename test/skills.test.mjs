@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { getAllSkills, getSearchIndex, slugify } from "../src/lib/skills.mjs";
+import { getAllSkills, getSearchIndex, slugify, EXPANSION_FILES } from "../src/lib/skills.mjs";
 import { TRACKS } from "../src/data/tracks/index.mjs";
 import { PLAYBOOKS } from "../src/data/tracks/playbooks.mjs";
 
@@ -159,4 +159,43 @@ test("slugify normalises to lowercase hyphenated form", () => {
   assert.equal(slugify("A/B & C"), "a-b-c");
   assert.equal(slugify("Already-Hyphenated"), "already-hyphenated");
   assert.equal(slugify(""), "");
+});
+
+test("every expansion domain reaches the catalogue", () => {
+  // Several expansion files carry domains for the same track. If those files
+  // are merged with an object spread, all but the last file's domains are
+  // dropped and the skills inside them never reach the catalogue.
+  const catalogueDomains = new Set(skills.map((s) => s.domain));
+  for (const file of EXPANSION_FILES) {
+    for (const [trackId, domains] of Object.entries(file)) {
+      for (const domain of domains) {
+        assert.ok(
+          catalogueDomains.has(domain.id),
+          `domain ${domain.id} (track ${trackId}) never reaches the catalogue`
+        );
+      }
+    }
+  }
+});
+
+test("every playbook skill reference resolves to a real skill", () => {
+  for (const g of PLAYBOOKS) {
+    for (const item of g.items || []) {
+      assert.ok((item.uses || []).length > 0, `${g.trackId}/${item.id}: no skill references`);
+      for (const u of item.uses || []) {
+        assert.ok(bySlug.has(u), `${g.trackId}/${item.id}: unknown skill reference "${u}"`);
+      }
+    }
+  }
+});
+
+test("every declared playbook item produces a catalogue skill", () => {
+  // A playbook whose references do not resolve used to be skipped entirely,
+  // so it never appeared in the catalogue, the search index or the site.
+  for (const g of PLAYBOOKS) {
+    for (const item of g.items || []) {
+      const slug = `playbook-${g.trackId}-${item.id}`;
+      assert.ok(bySlug.has(slug), `playbook ${slug} was dropped from the catalogue`);
+    }
+  }
 });

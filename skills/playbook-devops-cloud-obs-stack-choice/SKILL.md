@@ -6,7 +6,7 @@ description: "Vendor wired via OpenTelemetry with cardinality budgets and routin
 
 > Vendor wired via OpenTelemetry with cardinality budgets and routing discipline.
 
-**Track:** 🗺️ DevOps & Cloud · **Domain:** Journey Playbooks · **Level:** journey · **~25 min**
+**Track:** 🗺️ DevOps & Cloud · **Domain:** Journey Playbooks · **Level:** journey · **~65 min**
 
 **Who this is for:** DevOps Engineers, SREs, Cloud Architects, Platform Engineers
 
@@ -17,18 +17,20 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ## Journey Steps
 
-1. Step 1 — Adopt structured logging that answers questions: start with "Log JSON with timestamp, level, service, route, request_id, user_id"
-2. How it fits together: Pick one variant per reality; exit paths matter more than features.
+1. Step 1 — Stand up an observability stack that fits (Grafana LGTM): start with "Inventory must-have signals: traces? logs? RUM? profiles?"
+2. Step 2 — Adopt structured logging that answers questions: start with "Log JSON with timestamp, level, service, route, request_id, user_id"
+3. How it fits together: Pick one variant per reality; exit paths matter more than features.
 
 ### Referenced Skills
 
+- `platform-tooling-observability-stack-setup-grafana`
 - `observability-structured-logging`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill observability-structured-logging
+npx skills add aniruddhaadak80/skills --skill platform-tooling-observability-stack-setup-grafana && npx skills add aniruddhaadak80/skills --skill observability-structured-logging
 ```
 
 ---
