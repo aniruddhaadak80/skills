@@ -43,6 +43,27 @@ export const track = {
             "Review annually; niches mature and shift"
           ],
           pitfalls: ["Generalist positioning competing on price alone", "Niche picked where YOU like work but buyers don't pay"]
+        },
+        {
+          slug: "freelance-scoping",
+          id: "project-scoping",
+          title: "Scope projects clearly",
+          level: "intermediate", minutes: 35,
+          description: "Scopes and statements of work that fix the outcome, the deliverables, the assumptions, and the exclusions before the work starts, so gaps never become arguments. Use when writing an estimate, a scope, or a statement of work.",
+          tags: ["scope", "contracts", "freelance"],
+          steps: [
+            "Define the outcome the client is buying in one sentence, then list only the deliverables that prove that outcome was delivered",
+            "Write the assumptions as explicit statements — the client provides the data by day three — so a miss becomes a known trigger instead of an argument",
+            "List the exclusions explicitly, because what is not included settles more disputes than what is",
+            "Attach a delivery calendar with dates, review windows, and what a client delay does to each downstream date",
+            "Name the change process in the document: how a request gets priced, who approves it, and how the timeline moves",
+            "Get the client to restate the scope in their own words in writing before you start, because silence here becomes a dispute later"
+          ],
+          pitfalls: [
+            "Scoping by listing tasks when the client is buying an outcome, then getting held to the task list",
+            "Leaving client responsibilities out, so their delay surfaces later as your missed deadline"
+          ],
+          kpis: ["Every engagement starts with a written scope the client restated in their own words", "Zero projects started without documented exclusions", "Change requests priced and approved before work starts, not invoiced after"]
         }
       ]
     },
