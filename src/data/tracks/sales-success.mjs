@@ -59,6 +59,27 @@ export const track = {
             "Log objections verbatim weekly — they're roadmap gold"
           ],
           pitfalls: ["Instant discounting as reflex response to price pushback", "Arguing the objection away instead of exploring it"]
+        },
+        {
+          slug: "sales-technical-presentations",
+          id: "technical-presentations",
+          title: "Deliver winning technical presentations",
+          level: "advanced", minutes: 40,
+          description: "Technical presentations to engineering and IT evaluators that land architecture, proof of value, and Q&A credibility. Use when a deal needs a technical pitch, an architecture review, or a formal technical evaluation.",
+          tags: ["sales", "technical-evaluation", "presentations"],
+          steps: [
+            "Ask what the technical audience must believe to say yes, then build the deck backwards from that list instead of from the feature map",
+            "Open with their current architecture and the constraint it imposes, then show only the delta; engineers reject solutions that ignore what they already run",
+            "Put the hardest technical objection on a slide with the answer attached, so it is never a surprise in the room",
+            "Carry one proof artifact per claim: a benchmark with its environment named, a reference customer at comparable scale, a security answer with the document behind it",
+            "Rehearse the Q&A out loud with someone who interrupts on purpose; the objection that lands in the room is the one you have not answered yet",
+            "Close with a named next step, an owner, and a date, because a technical evaluation without a scheduled follow-up decays into silence"
+          ],
+          pitfalls: [
+            "Replaying a sales deck to a security review whose real agenda is data handling and lock-in",
+            "Claiming performance numbers with no environment, no workload, and no way for the evaluator to reproduce them"
+          ],
+          kpis: ["Technical evaluation advances within five working days of the presentation", "Every slide claim traceable to a proof artifact", "Zero unanswered technical questions left in the follow-up thread"]
         }
       ]
     },
