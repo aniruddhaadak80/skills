@@ -6,7 +6,7 @@ description: "Scaling-law claims converted into budget-honest training choices."
 
 > Scaling-law claims converted into budget-honest training choices.
 
-**Track:** 🗺️ ML Research Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~35 min**
+**Track:** 🗺️ ML Research Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~70 min**
 
 **Who this is for:** Research Engineers, ML Scientists, PhD Researchers, Applied Scientists
 
@@ -17,18 +17,20 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ## Journey Steps
 
-1. Step 1 — Design ablations that isolate contributions: start with "List claimed components; rank by novelty and implementation cost"
-2. How it fits together: Extrapolation beyond fitted compute ranges is strategy-by-vibes.
+1. Step 1 — Read scaling-law claims like a practitioner: start with "Check the compute range fitted — extrapolation beyond it is faith, not math"
+2. Step 2 — Design ablations that isolate contributions: start with "List claimed components; rank by novelty and implementation cost"
+3. How it fits together: Extrapolation beyond fitted compute ranges is strategy-by-vibes.
 
 ### Referenced Skills
 
+- `inference-optimization-scaling-law-interpretation`
 - `experimentation-rigor-ablation-design`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill experimentation-rigor-ablation-design
+npx skills add aniruddhaadak80/skills --skill inference-optimization-scaling-law-interpretation && npx skills add aniruddhaadak80/skills --skill experimentation-rigor-ablation-design
 ```
 
 ---

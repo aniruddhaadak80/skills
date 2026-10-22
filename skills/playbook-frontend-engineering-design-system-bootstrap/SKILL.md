@@ -6,7 +6,7 @@ description: "Stand up tokens, primitives, and docs a team actually adopts."
 
 > Stand up tokens, primitives, and docs a team actually adopts.
 
-**Track:** 🗺️ Frontend Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~60 min**
+**Track:** 🗺️ Frontend Engineering · **Domain:** Journey Playbooks · **Level:** journey · **~130 min**
 
 **Who this is for:** Frontend Engineers, Full-Stack Developers, Design Engineers, UI Developers
 
@@ -17,12 +17,16 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 ## Journey Steps
 
-1. Step 1 — Build layouts that survive real content: start with "Design mobile-first with min-width queries only"
-2. Step 2 — Add motion that guides attention: start with "Define durations: 150ms feedback, 250ms transitions, 400ms entrances max"
-3. How it fits together: Tokens before components. A system nobody consumes is decoration.
+1. Step 1 — Set up design tokens for color, space, type (Tailwind setup): start with "Define scales: one neutral ramp plus accent ramps, 8px spacing ladder, modular type scale"
+2. Step 2 — Set up design tokens for color, space, type (Vanilla CSS): start with "Define scales: one neutral ramp plus accent ramps, 8px spacing ladder, modular type scale"
+3. Step 3 — Build layouts that survive real content: start with "Design mobile-first with min-width queries only"
+4. Step 4 — Add motion that guides attention: start with "Define durations: 150ms feedback, 250ms transitions, 400ms entrances max"
+5. How it fits together: Tokens before components. A system nobody consumes is decoration.
 
 ### Referenced Skills
 
+- `css-design-systems-design-tokens-tailwind`
+- `css-design-systems-design-tokens-vanilla`
 - `css-design-systems-responsive-layout-system`
 - `css-design-systems-animation-craft`
 
@@ -30,7 +34,7 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill css-design-systems-responsive-layout-system && npx skills add aniruddhaadak80/skills --skill css-design-systems-animation-craft
+npx skills add aniruddhaadak80/skills --skill css-design-systems-design-tokens-tailwind && npx skills add aniruddhaadak80/skills --skill css-design-systems-design-tokens-vanilla && npx skills add aniruddhaadak80/skills --skill css-design-systems-responsive-layout-system && npx skills add aniruddhaadak80/skills --skill css-design-systems-animation-craft
 ```
 
 ---

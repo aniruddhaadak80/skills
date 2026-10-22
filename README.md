@@ -2,7 +2,7 @@
 
 # ⚡ Agent Skills Directory
 
-### Installable AI agent skills for every profession — 46 tracks, one command
+### Installable AI agent skills for every profession — 47 tracks, one command
 
 **Software · AI/ML · Security · Data · Product · Design · Leadership · HR · Healthcare · Biotech · Science · Finance · Legal · Real Estate · Insurance · Energy · Supply Chain · Hospitality · F&B · Retail · Marketing · Sales · Support · Education · Sports · Media · Government · Nonprofits · Startups · Freelance**
 
@@ -16,7 +16,7 @@
 
 ---
 
-**500 curated skills** and counting. A library of **production-grade [Agent Skills](https://agentskills.io)** (`SKILL.md` procedures) that give coding agents — OpenCode, Claude Code, Cursor, Codex, Copilot, Gemini CLI and **75+ more** — the procedural knowledge of an entire senior team across dozens of professions.
+**580 curated skills** and counting. A library of **production-grade [Agent Skills](https://agentskills.io)** (`SKILL.md` procedures) that give coding agents — OpenCode, Claude Code, Cursor, Codex, Copilot, Gemini CLI and **75+ more** — the procedural knowledge of an entire senior team across dozens of professions.
 
 Every skill contains: concrete numbered steps, common pitfalls, success signals/KPIs, and copy-paste commands. Authored from real workflows — no filler, no near-duplicate stamping, no AI slop.
 
