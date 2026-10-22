@@ -1,5 +1,5 @@
 {
- "count": 581,
+ "count": 582,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -5548,6 +5548,23 @@
     "objections",
     "negotiation",
     "communication",
+    "sales-success",
+    "discovery-deal"
+   ]
+  },
+  {
+   "slug": "sales-technical-presentations",
+   "title": "Deliver winning technical presentations",
+   "description": "Technical presentations to engineering and IT evaluators that land architecture, proof of value, and Q&A credibility. Use when a deal needs a technical pitch, an architecture review, or a formal technical evaluation.",
+   "track": "sales-success",
+   "trackLabel": "Sales & Customer Success",
+   "domain": "discovery-deal",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "sales",
+    "technical-evaluation",
+    "presentations",
     "sales-success",
     "discovery-deal"
    ]
