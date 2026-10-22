@@ -1,5 +1,5 @@
 {
- "count": 521,
+ "count": 522,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -3190,6 +3190,23 @@
     "launch",
     "go-to-market",
     "coordination",
+    "product-management",
+    "specs-launch"
+   ]
+  },
+  {
+   "slug": "specs-technical-design-docs",
+   "title": "Write technical design docs that ship",
+   "description": "Decision-ready technical design docs with real options, visible trade-off arithmetic, and a dated decision log that teams sign off on instead of re-litigating in chat. Use before multi-team implementation work.",
+   "track": "product-management",
+   "trackLabel": "Product Management",
+   "domain": "specs-launch",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "design-doc",
+    "architecture",
+    "decision-log",
     "product-management",
     "specs-launch"
    ]
