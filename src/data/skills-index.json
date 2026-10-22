@@ -1,5 +1,5 @@
 {
- "count": 585,
+ "count": 586,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -6139,6 +6139,23 @@
     "donors",
     "stewardship",
     "fundraising",
+    "nonprofit-impact",
+    "fundraising-governance"
+   ]
+  },
+  {
+   "slug": "nonprofit-grant-writing",
+   "title": "Write winning grant proposals",
+   "description": "Grant proposals that answer a funder's actual question, tie every budget line to an outcome, and survive the reviewer's budget screen. Use when responding to a foundation, corporate, or government funding opportunity.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "fundraising-governance",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "grants",
+    "fundraising",
+    "proposals",
     "nonprofit-impact",
     "fundraising-governance"
    ]
