@@ -59,6 +59,27 @@ export const track = {
             "Track rating trend against response latency"
           ],
           pitfalls: ["Copy-paste replies visible from space", "Defensiveness on legitimate complaints going screenshot-viral"]
+        },
+        {
+          slug: "hospitality-experience-mapping",
+          id: "guest-journey-mapping",
+          title: "Map and improve guest journeys",
+          level: "advanced", minutes: 40,
+          description: "Guest journey maps across booking, arrival, stay, and departure that expose handoff gaps and put an owner on every moment of truth. Use when guest scores drop or complaints cluster in one phase of the stay.",
+          tags: ["guest-experience", "journey-mapping", "operations"],
+          steps: [
+            "Split the journey into the guest's own phases — booking, arrival, stay, departure, return — rather than the departments that happen to own them",
+            "List every touchpoint inside each phase, including the ones nobody owns: confirmations, parking, lifts, signage, housekeeping, the invoice",
+            "Mark the moments of truth where one bad moment defines the whole memory, and score each for how likely it is to fail",
+            "Draw the handoffs between teams and the gaps in cover, because most broken moments live in the space between departments rather than inside one",
+            "Attach a named owner and a recovery action to every moment of truth; an unowned moment is an orphan waiting to fail",
+            "Tie each gap to a measure you already receive — review themes, complaint categories, wait times — and re-map quarterly rather than once"
+          ],
+          pitfalls: [
+            "Mapping what should happen instead of what guests actually experience on the night",
+            "Stopping the map at checkout and missing the departure, the invoice, and the review that follows it"
+          ],
+          kpis: ["Every moment of truth has a named owner and a recovery action", "Complaint themes tracked per journey phase each month", "Guest scores improving on the phases with the largest mapped gaps"]
         }
       ]
     },
