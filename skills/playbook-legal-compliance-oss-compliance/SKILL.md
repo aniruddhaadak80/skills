@@ -6,7 +6,7 @@ description: "License inventory and CI gates preventing copyleft surprises in pr
 
 > License inventory and CI gates preventing copyleft surprises in proprietary code.
 
-**Track:** 🗺️ Legal & Compliance · **Domain:** Journey Playbooks · **Level:** journey · **~25 min**
+**Track:** 🗺️ Legal & Compliance · **Domain:** Journey Playbooks · **Level:** journey · **~55 min**
 
 **Who this is for:** Legal Ops, Privacy Officers, Compliance Teams, Founders, Engineers
 
@@ -18,17 +18,19 @@ Use it whenever a matching task appears in conversation — the agent loads thes
 ## Journey Steps
 
 1. Step 1 — Keep IP assignment clean across contributors: start with "Every contributor signs IP assignment or proper license grant pre-work"
-2. How it fits together: Automate license scanning at dependency-add time, not release time.
+2. Step 2 — Triage issues like a sustainable maintainer: start with "Install issue templates forcing repro steps and versions"
+3. How it fits together: Automate license scanning at dependency-add time, not release time.
 
 ### Referenced Skills
 
 - `contracts-ip-ip-assignment-hygiene`
+- `open-source-stewardship-maintainer-triage`
 
 ## Commands
 
 **Install all referenced skills**
 ```bash
-npx skills add aniruddhaadak80/skills --skill contracts-ip-ip-assignment-hygiene
+npx skills add aniruddhaadak80/skills --skill contracts-ip-ip-assignment-hygiene && npx skills add aniruddhaadak80/skills --skill open-source-stewardship-maintainer-triage
 ```
 
 ---
