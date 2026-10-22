@@ -81,6 +81,27 @@ export const track = {
             "Post-mortem each event: participation, revenue, bug classes, config errors"
           ],
           pitfalls: ["'Small' hotfix patches required per event, defeating live-ops", "Timezones ignored, events ending at wrong local hour"]
+        },
+        {
+          slug: "game-community-moderation",
+          id: "community-moderation",
+          title: "Moderate game communities",
+          level: "advanced", minutes: 40,
+          description: "Published rules, a graduated enforcement ladder, and appeals that protect the game economy without alienating the players who fund it. Use when running player forums, in-game chat, or a live report queue.",
+          tags: ["moderation", "community", "live-ops"],
+          steps: [
+            "Publish the rules as the behaviours you will enforce, written in the player's language, before you need to cite them",
+            "Define the enforcement ladder in advance — warning, restriction, removal, ban — with the threshold for each rung written down",
+            "Give moderators one-action tooling: pick the user, see the surrounding context, apply a rung, and have it land in that player's history automatically",
+            "Escalate the ambiguous middle to a second reviewer instead of guessing, because consistency beats speed on the hard calls",
+            "Offer an appeal path with a stated turnaround on every enforcement; decisions nobody can question read as arbitrary",
+            "Track enforcement volume and topic mix weekly, since a spike in one category is a design or economy problem before it is a player problem"
+          ],
+          pitfalls: [
+            "Silent removals with no stated reason, so players escalate straight to the platform's own reporting tools",
+            "Moderation duty resting on one volunteer whose judgement becomes the policy nobody wrote down"
+          ],
+          kpis: ["Median enforcement-to-appeal-resolution under 48 hours", "Under 5% of decisions overturned on appeal", "Repeat-offender rate under 3% of the moderated base"]
         }
       ]
     }
