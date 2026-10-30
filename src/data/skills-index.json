@@ -1,5 +1,5 @@
 {
- "count": 587,
+ "count": 588,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -5989,6 +5989,22 @@
     "communication",
     "hospitality-travel",
     "guest-experience"
+   ]
+  },
+  {
+   "slug": "hospitality-experience-mapping",
+   "title": "Map and improve guest journeys",
+   "description": "Guest journey maps across booking, arrival, stay, and departure that expose handoff gaps and put an owner on every moment of truth. Use when guest scores drop or complaints cluster in one phase of the stay.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "guest-experience",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "guest-experience",
+    "journey-mapping",
+    "operations",
+    "hospitality-travel"
    ]
   },
   {
