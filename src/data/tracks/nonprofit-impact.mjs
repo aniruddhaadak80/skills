@@ -67,6 +67,27 @@ export const track = {
           pitfalls: ["Silence between asks read as indifference", "Major donor treated identically to email-list donor"]
         },
         {
+          slug: "nonprofit-grant-writing",
+          id: "grant-writing",
+          title: "Write winning grant proposals",
+          level: "advanced", minutes: 40,
+          description: "Grant proposals that answer a funder's actual question, tie every budget line to an outcome, and survive the reviewer's budget screen. Use when responding to a foundation, corporate, or government funding opportunity.",
+          tags: ["grants", "fundraising", "proposals"],
+          steps: [
+            "Read the guidelines as a scoring sheet and map every requirement to a section before drafting a single sentence",
+            "Open with the problem in the funder's priority language, then your organisation's own evidence that you can solve it",
+            "Write outcomes as measurable change for the people served rather than activities delivered, because reviewers fund results",
+            "Build the budget line by line from the program design so every cost traces to a stated activity and the overhead rate matches your policy",
+            "Show the evaluation plan and the evidence you already hold, and state the gaps honestly, because reviewers find them anyway",
+            "Match the request to the funding guidance exactly and check every required attachment before submission, not after"
+          ],
+          pitfalls: [
+            "Reusing a generic proposal body that answers none of the requirements in the guidelines",
+            "Padding the budget with unrequested line items until it gets cut and the whole request is scored down"
+          ],
+          kpis: ["Every funder requirement traced to a section before submission", "Budget lines reconciling to the narrative and to the overhead policy", "Zero missing attachments and a submission date hit with hours to spare"]
+        },
+        {
           id: "board-effectiveness-audit",
           title: "Audit board effectiveness honestly",
           level: "foundation", minutes: 30,
