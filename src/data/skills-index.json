@@ -1,5 +1,5 @@
 {
- "count": 586,
+ "count": 587,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -5077,6 +5077,23 @@
     "process",
     "qa-testing",
     "exploratory-release"
+   ]
+  },
+  {
+   "slug": "performance-testing-load-testing",
+   "title": "Design and run load tests that reflect reality",
+   "description": "Load scenarios rebuilt from production traffic shape — ramp, think time, real payloads — so capacity findings transfer to production. Use when sizing capacity, validating an SLO, or preparing for a traffic event.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "performance-testing",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "load-testing",
+    "performance",
+    "capacity",
+    "qa-testing",
+    "performance-testing"
    ]
   },
   {
