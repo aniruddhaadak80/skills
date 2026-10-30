@@ -9,7 +9,9 @@
     "start": "next start",
     "gen": "node scripts/generate.mjs",
     "test": "node --test",
-    "validate": "node scripts/validate-data.mjs"
+    "validate": "node scripts/validate-data.mjs",
+    "sign": "node scripts/sign-skills.mjs",
+    "verify": "node scripts/verify-skills.mjs"
   },
   "dependencies": {
     "next": "^16.4.3",
