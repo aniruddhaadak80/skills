@@ -1,5 +1,5 @@
 {
- "count": 586,
+ "count": 588,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -5097,6 +5097,23 @@
    ]
   },
   {
+   "slug": "performance-testing-load-testing",
+   "title": "Design and run load tests that reflect reality",
+   "description": "Load scenarios rebuilt from production traffic shape — ramp, think time, real payloads — so capacity findings transfer to production. Use when sizing capacity, validating an SLO, or preparing for a traffic event.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "performance-testing",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "load-testing",
+    "performance",
+    "capacity",
+    "qa-testing",
+    "performance-testing"
+   ]
+  },
+  {
    "slug": "test-foundations-test-data-management",
    "title": "Manage test data without production leaks",
    "description": "Synthetic generation, masked subsets, and refresh pipelines keeping tests realistic and legal.",
@@ -5919,6 +5936,23 @@
     "live-ops",
     "remote-config",
     "operations",
+    "game-interactive",
+    "performance-liveops"
+   ]
+  },
+  {
+   "slug": "game-community-moderation",
+   "title": "Moderate game communities",
+   "description": "Published rules, a graduated enforcement ladder, and appeals that protect the game economy without alienating the players who fund it. Use when running player forums, in-game chat, or a live report queue.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "performance-liveops",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "moderation",
+    "community",
+    "live-ops",
     "game-interactive",
     "performance-liveops"
    ]
