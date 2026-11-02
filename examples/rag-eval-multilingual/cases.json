@@ -1,0 +1,127 @@
+{
+  "synthetic": true,
+  "run": {
+    "corpus": "fictional-store-v1",
+    "retriever": "fixture-rankings-v1",
+    "generator": "fixture-answers-v1",
+    "judge": "illustrative-annotations-v1"
+  },
+  "gates": {
+    "min_answerable_per_pair": 30,
+    "recall_at_5": 0.85,
+    "groundedness": 4.3,
+    "response_contract_pass_rate": 0.95
+  },
+  "passages": [
+    { "id": "returns-spain-en", "language": "en", "locale": "es-ES", "text": "For orders shipped to Spain, unused products can be returned within 30 days of delivery." },
+    { "id": "returns-us-en", "language": "en", "locale": "en-US", "text": "For orders shipped to the United States, unused products can be returned within 14 days of delivery." },
+    { "id": "pickup-ja", "language": "ja", "locale": "ja-JP", "text": "注文した商品は新宿店の受取カウンターで受け取れます。" },
+    { "id": "reset-en", "language": "en", "locale": "hi-IN", "text": "Password reset links expire after 15 minutes." }
+  ],
+  "cases": [
+    {
+      "id": "es-en-supported",
+      "scenario": "Spanish question over English evidence",
+      "query": "¿Cuántos días tengo para devolver un pedido enviado a España?",
+      "query_language": "es", "document_language": "en", "required_answer_language": "es", "locale": "es-ES",
+      "answerable": true, "relevance": { "returns-spain-en": 2 },
+      "evidence_spans": ["within 30 days of delivery"], "accepted_answers": ["Tienes 30 días desde la entrega."],
+      "result": {
+        "retrieved_ids": ["returns-spain-en", "returns-us-en"],
+        "answer": "Tienes 30 días desde la entrega.", "answer_language": "es", "citation_ids": ["returns-spain-en"],
+        "annotations": { "groundedness": 5, "locale_fit": true, "abstained": false }
+      }
+    },
+    {
+      "id": "es-en-regional-mix-up",
+      "scenario": "Correct retrieval but the answer cites another region's policy",
+      "query": "Mi pedido llegó a Madrid. ¿Cuál es el plazo de devolución?",
+      "query_language": "es", "document_language": "en", "required_answer_language": "es", "locale": "es-ES",
+      "answerable": true, "relevance": { "returns-spain-en": 2 },
+      "evidence_spans": ["within 30 days of delivery"], "accepted_answers": ["El plazo es de 30 días desde la entrega."],
+      "result": {
+        "retrieved_ids": ["returns-spain-en", "returns-us-en"],
+        "answer": "El plazo es de 14 días.", "answer_language": "es", "citation_ids": ["returns-us-en"],
+        "annotations": { "groundedness": 1, "locale_fit": false, "abstained": false }
+      }
+    },
+    {
+      "id": "es-en-retrieval-miss",
+      "scenario": "Retrieval returns only an irrelevant regional passage",
+      "query": "¿Se aplica un plazo de 30 días a los envíos a España?",
+      "query_language": "es", "document_language": "en", "required_answer_language": "es", "locale": "es-ES",
+      "answerable": true, "relevance": { "returns-spain-en": 2 },
+      "evidence_spans": ["within 30 days of delivery"], "accepted_answers": ["Sí, son 30 días desde la entrega."],
+      "result": {
+        "retrieved_ids": ["returns-us-en"],
+        "answer": "No, son 14 días.", "answer_language": "es", "citation_ids": ["returns-us-en"],
+        "annotations": { "groundedness": 1, "locale_fit": false, "abstained": false }
+      }
+    },
+    {
+      "id": "ja-ja-unsegmented",
+      "scenario": "Japanese question and answer without whitespace token boundaries",
+      "query": "注文した商品はどこで受け取れますか？",
+      "query_language": "ja", "document_language": "ja", "required_answer_language": "ja", "locale": "ja-JP",
+      "answerable": true, "relevance": { "pickup-ja": 2 },
+      "evidence_spans": ["新宿店の受取カウンター"], "accepted_answers": ["新宿店の受取カウンターで受け取れます。"],
+      "result": {
+        "retrieved_ids": ["pickup-ja"],
+        "answer": "新宿店の受取カウンターで受け取れます。", "answer_language": "ja", "citation_ids": ["pickup-ja"],
+        "annotations": { "groundedness": 5, "locale_fit": true, "abstained": false }
+      }
+    },
+    {
+      "id": "hi-en-code-switched",
+      "scenario": "Hindi-English query with approved technical loanwords",
+      "query": "Password reset का link कितनी देर तक valid रहता है?",
+      "query_language": "hi", "document_language": "en", "required_answer_language": "hi", "locale": "hi-IN",
+      "answerable": true, "relevance": { "reset-en": 2 },
+      "evidence_spans": ["expire after 15 minutes"], "accepted_answers": ["Password reset link 15 मिनट तक valid रहता है।"],
+      "result": {
+        "retrieved_ids": ["reset-en"],
+        "answer": "Password reset link 15 मिनट तक valid रहता है।", "answer_language": "hi", "citation_ids": ["reset-en"],
+        "annotations": { "groundedness": 5, "locale_fit": true, "abstained": false }
+      }
+    },
+    {
+      "id": "hi-en-wrong-answer-language",
+      "scenario": "Correct fact returned in the wrong language",
+      "query": "हिंदी में बताइए: पासवर्ड रीसेट लिंक कितनी देर तक मान्य है?",
+      "query_language": "hi", "document_language": "en", "required_answer_language": "hi", "locale": "hi-IN",
+      "answerable": true, "relevance": { "reset-en": 2 },
+      "evidence_spans": ["expire after 15 minutes"], "accepted_answers": ["पासवर्ड रीसेट लिंक 15 मिनट तक मान्य रहता है।"],
+      "result": {
+        "retrieved_ids": ["reset-en"],
+        "answer": "The password reset link is valid for 15 minutes.", "answer_language": "en", "citation_ids": ["reset-en"],
+        "annotations": { "groundedness": 5, "locale_fit": true, "abstained": false }
+      }
+    },
+    {
+      "id": "es-en-correct-abstention",
+      "scenario": "No evidence for overnight phone support",
+      "query": "¿Tenéis un teléfono de atención las 24 horas?",
+      "query_language": "es", "document_language": "en", "required_answer_language": "es", "locale": "es-ES",
+      "answerable": false, "relevance": {},
+      "evidence_spans": [], "accepted_answers": ["No tengo información suficiente para confirmarlo."],
+      "result": {
+        "retrieved_ids": ["returns-spain-en"],
+        "answer": "No tengo información suficiente para confirmarlo.", "answer_language": "es", "citation_ids": [],
+        "annotations": { "groundedness": null, "locale_fit": true, "abstained": true }
+      }
+    },
+    {
+      "id": "es-en-unsupported-answer",
+      "scenario": "An answer invents support availability without evidence",
+      "query": "¿Puedo llamar al servicio de atención durante la madrugada?",
+      "query_language": "es", "document_language": "en", "required_answer_language": "es", "locale": "es-ES",
+      "answerable": false, "relevance": {},
+      "evidence_spans": [], "accepted_answers": ["No tengo información suficiente para confirmarlo."],
+      "result": {
+        "retrieved_ids": ["returns-spain-en"],
+        "answer": "Sí, el servicio telefónico está disponible toda la noche.", "answer_language": "es", "citation_ids": [],
+        "annotations": { "groundedness": null, "locale_fit": true, "abstained": false }
+      }
+    }
+  ]
+}

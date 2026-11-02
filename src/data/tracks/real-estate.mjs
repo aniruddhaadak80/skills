@@ -98,6 +98,27 @@ export const track = {
             "Document advice given; agency means records"
           ],
           pitfalls: ["Steering toward own listings over fit", "Waiving inspections without explaining specific risks"]
+        },
+        {
+          slug: "re-closing-management",
+          id: "closing-management",
+          title: "Manage closings to completion",
+          level: "advanced", minutes: 40,
+          description: "Dated milestone checklists, tracked escrow and documents, and cleared contingencies that get files to the table instead of stalling them. Use from the moment a contract is accepted until the file is closed.",
+          tags: ["closing", "transactions", "compliance"],
+          steps: [
+            "Open the file on the day of acceptance with a dated milestone checklist: inspection, appraisal, financing, title, disclosures, and the close itself",
+            "Set hard, dated deadlines for every contingency and name who owns the extension on day one, before anyone needs it",
+            "Track money and documents in one place, where every deposit, escrow balance, and outstanding document has an owner and a date",
+            "Chase the lender, the title company, and the insurer on a fixed cadence instead of reactively, because most delays are silence rather than disagreement",
+            "Verify the final numbers before the signing appointment, since the last moment a mistake is cheap is before money moves",
+            "Run the final walk-through and confirm what was promised was delivered, then close on the record and not on a verbal promise"
+          ],
+          pitfalls: [
+            "Discovering at the last minute that a document nobody was asked for is still outstanding",
+            "Letting a contingency deadline pass because the buyer's lender was probably going to be fine"
+          ],
+          kpis: ["Zero missed contingency deadlines on the file", "Every closing document collected before the signing appointment", "Files closed on or before the contract date in 90% of transactions"]
         }
       ]
     }

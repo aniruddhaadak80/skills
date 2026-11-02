@@ -127,6 +127,37 @@ export const track = {
           pitfalls: ["Go/no-go theater after decision already made upstream", "Severity-3 backlog blocking honest signal reading"]
         }
       ]
+    },
+    {
+      id: "performance-testing",
+      label: "Performance Testing",
+      procedures: [
+        {
+          slug: "performance-testing-load-testing",
+          id: "load-testing",
+          title: "Design and run load tests that reflect reality",
+          level: "intermediate", minutes: 35,
+          description: "Load scenarios rebuilt from production traffic shape — ramp, think time, real payloads — so capacity findings transfer to production. Use when sizing capacity, validating an SLO, or preparing for a traffic event.",
+          tags: ["load-testing", "performance", "capacity"],
+          commands: [
+            { label: "Run the peak-traffic scenario", cmd: "k6 run --summary-export=summary.json scenarios/peak-traffic.js" },
+            { label: "Point the scenario at a staging base URL", cmd: "k6 run -e BASE_URL=https://staging.example.com scenarios/peak-traffic.js" }
+          ],
+          steps: [
+            "Reconstruct the traffic shape from real analytics instead of a round number of users; peak concurrency comes from the actual funnel and session length",
+            "Model think time and its distribution, because a load test with zero think time measures your server and not your users",
+            "Use real payload shapes and data cardinalities, since empty bodies and single-row tables hide every database bottleneck",
+            "Ramp gradually, then hold a steady state long enough to catch cache warm-up, connection pools, and leaks rather than only the first spike",
+            "Instrument the whole stack during the run — p95 and p99 latency, error rate, and saturation per dependency — so you can attribute the slow part",
+            "Write the pass/fail thresholds down before the run, otherwise the report becomes an argument instead of a result"
+          ],
+          pitfalls: [
+            "Every user arriving at once with no think time, a synthetic stampede that no real traffic produces",
+            "Load testing a staging environment with production-sized data and calling the result a capacity plan"
+          ],
+          kpis: ["p95 latency within the agreed SLO at peak concurrency", "Error rate under 0.1% across the whole steady-state window", "Every bottleneck identified with a saturation metric rather than a guess"]
+        }
+      ]
     }
   ]
 };

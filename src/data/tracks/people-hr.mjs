@@ -121,6 +121,27 @@ export const track = {
             "Retire questions answered by shipped actions"
           ],
           pitfalls: ["Annual surveys whose results vanish into decks", "Anonymous channels used for blame archaeology"]
+        },
+        {
+          slug: "hr-policy-writing",
+          id: "policy-writing",
+          title: "Write clear, enforceable HR policies",
+          level: "intermediate", minutes: 35,
+          description: "HR policies written as numbered rules with a plain-language shadow, a worked scenario, and a scheduled review, so they stay lawful and get used. Use when drafting, rewriting, or auditing a people policy.",
+          tags: ["hr", "policy", "compliance"],
+          steps: [
+            "Start from the decision the policy has to settle; a manager reading it at 4pm on a Friday needs one clear answer, not a preamble",
+            "Write numbered rules and put a plain-language summary under each, because a legal clause nobody can apply is not a control",
+            "Attach a worked scenario to every rule: the situation, the correct action, and who makes the call",
+            "State the boundary explicitly, including what the policy does not cover and where escalation starts",
+            "Name the policy owner, the legal reviewer, and the date of the next review before publishing, not after someone asks",
+            "Publish where a manager can find it in one search and brief the team briefly, since an unread policy is a liability rather than a safeguard"
+          ],
+          pitfalls: [
+            "Drafting as a legal defence document: defensible in a tribunal, unreadable at a desk",
+            "Publishing with no review date, so the policy quietly contradicts newer law and newer practice"
+          ],
+          kpis: ["Every policy carries a named owner and a review date", "Manager policy questions answered from the document without escalation", "Zero policies past their scheduled review date"]
         }
       ]
     }

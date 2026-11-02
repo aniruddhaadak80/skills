@@ -1,5 +1,5 @@
 {
- "count": 585,
+ "count": 594,
  "skills": [
   {
    "slug": "rag-pipelines-chunking-strategy",
@@ -48,6 +48,44 @@
     "evals",
     "quality",
     "ci",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "rag-eval-multilingual",
+   "title": "Evaluate RAG quality across languages",
+   "description": "Evaluate multilingual RAG before changing retrievers, models, or prompts: measure language-specific answer quality, cross-lingual retrieval, and cultural fit with native-reviewed rubrics.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "rag",
+    "multilingual",
+    "evals",
+    "cross-lingual",
+    "localization",
+    "ai-engineering",
+    "rag-pipelines"
+   ]
+  },
+  {
+   "slug": "rag-eval-multilingual-stack-node",
+   "title": "Evaluate RAG quality across languages (Node.js)",
+   "description": "Build a multilingual RAG evaluation report in Node.js when you need reproducible per-language retrieval metrics and release gates; start with the dependency-free fixture and replace synthetic annotations with native-reviewed judgments.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "rag-pipelines",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "nodejs",
+    "multilingual",
+    "evals",
+    "rag",
+    "localization",
     "ai-engineering",
     "rag-pipelines"
    ]
@@ -4200,6 +4238,23 @@
    ]
   },
   {
+   "slug": "hr-policy-writing",
+   "title": "Write clear, enforceable HR policies",
+   "description": "HR policies written as numbered rules with a plain-language shadow, a worked scenario, and a scheduled review, so they stay lawful and get used. Use when drafting, rewriting, or auditing a people policy.",
+   "track": "people-hr",
+   "trackLabel": "People & HR",
+   "domain": "policy-engagement",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "hr",
+    "policy",
+    "compliance",
+    "people-hr",
+    "policy-engagement"
+   ]
+  },
+  {
    "slug": "performance-growth-pip-conducted-fairly",
    "title": "Conduct performance improvement plans fairly",
    "description": "Clear criteria, genuine support, documented checkpoints protecting everyone's dignity and legal position.",
@@ -4861,6 +4916,23 @@
    ]
   },
   {
+   "slug": "re-closing-management",
+   "title": "Manage closings to completion",
+   "description": "Dated milestone checklists, tracked escrow and documents, and cleared contingencies that get files to the table instead of stalling them. Use from the moment a contract is accepted until the file is closed.",
+   "track": "real-estate",
+   "trackLabel": "Real Estate",
+   "domain": "clients-listings",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "closing",
+    "transactions",
+    "compliance",
+    "real-estate",
+    "clients-listings"
+   ]
+  },
+  {
    "slug": "privacy-data-data-mapping-gdpr",
    "title": "Map personal data flows for GDPR readiness",
    "description": "Inventory of what personal data exists, where it flows, on what basis — the foundation of every privacy program.",
@@ -5077,6 +5149,23 @@
     "process",
     "qa-testing",
     "exploratory-release"
+   ]
+  },
+  {
+   "slug": "performance-testing-load-testing",
+   "title": "Design and run load tests that reflect reality",
+   "description": "Load scenarios rebuilt from production traffic shape — ramp, think time, real payloads — so capacity findings transfer to production. Use when sizing capacity, validating an SLO, or preparing for a traffic event.",
+   "track": "qa-testing",
+   "trackLabel": "QA & Testing",
+   "domain": "performance-testing",
+   "level": "intermediate",
+   "minutes": 35,
+   "tags": [
+    "load-testing",
+    "performance",
+    "capacity",
+    "qa-testing",
+    "performance-testing"
    ]
   },
   {
@@ -5907,6 +5996,23 @@
    ]
   },
   {
+   "slug": "game-community-moderation",
+   "title": "Moderate game communities",
+   "description": "Published rules, a graduated enforcement ladder, and appeals that protect the game economy without alienating the players who fund it. Use when running player forums, in-game chat, or a live report queue.",
+   "track": "game-interactive",
+   "trackLabel": "Game & Interactive Dev",
+   "domain": "performance-liveops",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "moderation",
+    "community",
+    "live-ops",
+    "game-interactive",
+    "performance-liveops"
+   ]
+  },
+  {
    "slug": "guest-experience-service-recovery-flow",
    "title": "Turn service failures into loyalty",
    "description": "Fast acknowledgment, empowered staff, proportionate recovery, and follow-up converting complaints.",
@@ -5955,6 +6061,22 @@
     "communication",
     "hospitality-travel",
     "guest-experience"
+   ]
+  },
+  {
+   "slug": "hospitality-experience-mapping",
+   "title": "Map and improve guest journeys",
+   "description": "Guest journey maps across booking, arrival, stay, and departure that expose handoff gaps and put an owner on every moment of truth. Use when guest scores drop or complaints cluster in one phase of the stay.",
+   "track": "hospitality-travel",
+   "trackLabel": "Hospitality & Travel",
+   "domain": "guest-experience",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "guest-experience",
+    "journey-mapping",
+    "operations",
+    "hospitality-travel"
    ]
   },
   {
@@ -6139,6 +6261,23 @@
     "donors",
     "stewardship",
     "fundraising",
+    "nonprofit-impact",
+    "fundraising-governance"
+   ]
+  },
+  {
+   "slug": "nonprofit-grant-writing",
+   "title": "Write winning grant proposals",
+   "description": "Grant proposals that answer a funder's actual question, tie every budget line to an outcome, and survive the reviewer's budget screen. Use when responding to a foundation, corporate, or government funding opportunity.",
+   "track": "nonprofit-impact",
+   "trackLabel": "Nonprofit & Impact",
+   "domain": "fundraising-governance",
+   "level": "advanced",
+   "minutes": 40,
+   "tags": [
+    "grants",
+    "fundraising",
+    "proposals",
     "nonprofit-impact",
     "fundraising-governance"
    ]
@@ -7562,6 +7701,21 @@
    "domain": "playbooks",
    "level": "journey",
    "minutes": 135,
+   "tags": [
+    "playbook",
+    "journey",
+    "ai-engineering"
+   ]
+  },
+  {
+   "slug": "playbook-ai-engineering-rag-multilingual-launch",
+   "title": "Playbook: Gate a multilingual RAG launch",
+   "description": "Launch multilingual retrieval-augmented answers with native-reviewed evidence, per-language quality gates, and reproducible evaluation reports.",
+   "track": "ai-engineering",
+   "trackLabel": "AI Engineering",
+   "domain": "playbooks",
+   "level": "journey",
+   "minutes": 140,
    "tags": [
     "playbook",
     "journey",
