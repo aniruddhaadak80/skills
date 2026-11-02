@@ -3,6 +3,18 @@ export const PLAYBOOKS = [
     trackId: "ai-engineering",
     items: [
       { id: "rag-launch", title: "Launch a RAG feature end to end", goal: "Take retrieval-augmented answers from empty repo to evaluated production feature.", uses: ["rag-pipelines-chunking-strategy", "rag-pipelines-hybrid-search", "rag-pipelines-eval-rag-quality", "inference-mlops-latency-budgeting"], guidance: "Sequence matters: chunking decisions gate retrieval quality; evals gate launch. Do not skip golden-set creation even under deadline." },
+      {
+        id: "rag-multilingual-launch",
+        title: "Gate a multilingual RAG launch",
+        goal: "Launch multilingual retrieval-augmented answers with native-reviewed evidence, per-language quality gates, and reproducible evaluation reports.",
+        uses: [
+          "rag-pipelines-chunking-strategy",
+          "rag-pipelines-hybrid-search",
+          "rag-eval-multilingual",
+          "rag-eval-multilingual-stack-node"
+        ],
+        guidance: "Freeze passage IDs and language metadata, compare hybrid retrieval per language pair, then calibrate native answer rubrics. Replace the Node.js fixture's synthetic cases before enforcing gates. Block launch when any critical pair regresses despite aggregate gains."
+      },
       { id: "agent-safety", title: "Harden an agent before giving it tools", goal: "Ship an autonomous agent whose failure modes are cheap, visible, and reversible.", uses: ["agents-tool-design", "agents-agent-loop-guardrails", "inference-mlops-prompt-injection-defense"], guidance: "Design tools and guardrails together; retrofitting safety after autonomy is how headlines happen." },
       { id: "cost-rescue", title: "Cut LLM costs without quality collapse", goal: "Reduce monthly inference spend measurably while keeping answer quality within tolerance.", uses: ["inference-mlops-llm-cost-controls", "prompt-engineering-structured-output", "inference-mlops-latency-budgeting"], guidance: "Instrument first. Every routing/caching decision needs per-unit cost visibility or you're flying blind." }
     ]
