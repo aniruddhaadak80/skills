@@ -9,3 +9,11 @@ out/
 .env*
 
 .next-fresh/
+
+# Skill signing private key — NEVER commit
+.skills-signing-key
+
+# Skill manifest + public key are produced by `npm run sign`.
+# Maintainers regenerate them in CI using SKILLS_SIGNING_KEY.
+skills-manifest.json
+skills-public-key.pem
